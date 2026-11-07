@@ -1,6 +1,6 @@
 PY ?= .venv/bin/python
 
-.PHONY: setup fonts synthetic analysis figures paper web arxiv assets test all clean
+.PHONY: setup fonts synthetic analysis figures paper web arxiv assets poster test all clean
 
 setup:          ## create venv and install the package (needs uv)
 	uv venv .venv --python 3.12
@@ -30,6 +30,9 @@ arxiv: paper    ## arXiv source bundle -> paper/arxiv.tar.gz
 
 assets:         ## README banner and preview -> docs/assets/
 	$(PY) scripts/make_assets.py
+
+poster:         ## LinkedIn poster (4:5, 2160 x 2700) -> docs/assets/linkedin_poster.png; post text in docs/linkedin_post.md
+	$(PY) scripts/make_linkedin_poster.py
 
 test:
 	$(PY) -m pytest -q

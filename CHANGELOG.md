@@ -9,6 +9,8 @@ All notable changes to this project are documented here. The format follows
 ### Added
 - Zenodo concept DOI [10.5281/zenodo.24035604](https://doi.org/10.5281/zenodo.24035604) in `CITATION.cff`, the README badge, the web
   reader and the Hugging Face dataset card.
+- LinkedIn launch poster `docs/assets/linkedin_poster.png` (4:5, 2160 x 2700, `make poster`), built from the
+  paper's figures and `data/processed/metrics.json`, and the post text in English and Thai in `docs/linkedin_post.md`.
 
 ## [0.1.0] - 2026-11-07
 
