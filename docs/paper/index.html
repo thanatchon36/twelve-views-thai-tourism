@@ -1,0 +1,1090 @@
+<!doctype html>
+<html lang="en" data-theme="auto">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Twelve Views of Thai Tourism</title>
+<meta name="description" content="Working paper: a data-shape-driven framework of twelve coordinated views for analysing inbound tourism to Thailand, evaluated by planted-structure recovery on synthetic data.">
+<meta name="author" content="Thanatchon Chongmankhong">
+<style>
+/* Web reader for paper/paper.tex, in the format of the thainowcast reader: one reading column
+   (~46rem) with a results strip up top. System font stacks only: the page is a single self-contained
+   file with no third-party requests. Colour tokens on :root, redefined for dark. */
+:root {
+  --paper: #fbfbf9; --ink: #17191c; --ink-2: #4c5058; --rule: #dcdcd6;
+  --accent: #1f5fae; --accent-soft: #e6eef8;
+  --pos: #1d6b52; --pos-soft: #e3f1ea; --null: #6b6f78; --null-soft: #eeeeea;
+  --find: #8a5a12; --find-soft: #f6eedd; --plate: #ffffff; --quote: #f3f3ef;
+  --font-display: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  --font-body: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  --font-mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #15171a; --ink: #e8e9ec; --ink-2: #a6abb4; --rule: #30343a;
+    --accent: #7fb0ec; --accent-soft: #1b2a3d; --pos: #7dcfac; --pos-soft: #16302a;
+    --null: #a6abb4; --null-soft: #23262b; --find: #e7bd73; --find-soft: #33291a;
+    --plate: #f4f4f2; --quote: #1d2024; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #15171a; --ink: #e8e9ec; --ink-2: #a6abb4; --rule: #30343a;
+  --accent: #7fb0ec; --accent-soft: #1b2a3d; --pos: #7dcfac; --pos-soft: #16302a;
+  --null: #a6abb4; --null-soft: #23262b; --find: #e7bd73; --find-soft: #33291a;
+  --plate: #f4f4f2; --quote: #1d2024; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: var(--paper); color: var(--ink); font: 400 17px/1.62 var(--font-body); }
+.page { max-width: 46rem; margin: 0 auto; padding-inline: 16px; padding-block: 48px 72px;
+  display: flex; flex-direction: column; gap: 40px; }
+h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 650; text-wrap: balance; line-height: 1.2; }
+h1 { font-size: clamp(1.7rem, 4.2vw, 2.35rem); margin: 0; letter-spacing: -0.01em; }
+h2 { font-size: 1.4rem; margin: 2.2em 0 0.5em; }
+h3 { font-size: 1.12rem; margin: 1.8em 0 0.4em; }
+a { color: var(--accent); text-underline-offset: 2px; }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 2px; }
+code { font: 500 0.84em var(--font-mono); overflow-wrap: anywhere; }
+pre { background: var(--quote); border: 1px solid var(--rule); border-radius: 6px; padding: 12px 14px;
+  overflow-x: auto; font-size: 0.84rem; line-height: 1.5; }
+pre code { font-weight: 400; font-size: inherit; overflow-wrap: normal; }
+.masthead { display: flex; flex-direction: column; gap: 12px; border-bottom: 1px solid var(--rule); padding-bottom: 28px; }
+.kicker { margin: 0; font: 500 0.78rem var(--font-mono); text-transform: uppercase; letter-spacing: 0.09em; color: var(--accent); }
+.subtitle { margin: 0; font-style: italic; color: var(--ink-2); font-size: 1.05rem; }
+.byline { margin: 0; color: var(--ink-2); }
+.meta { margin: 0; font: 400 0.8rem/1.6 var(--font-mono); color: var(--ink-2); }
+.meta b { font-weight: 500; color: var(--ink); }
+.actions { display: flex; flex-wrap: wrap; gap: 8px; margin: 4px 0 0; padding: 0; list-style: none; }
+.actions a { display: inline-block; padding: 6px 12px; border: 1px solid var(--rule); border-radius: 999px;
+  font: 500 0.78rem var(--font-mono); text-decoration: none; color: var(--ink); }
+.actions a:hover { border-color: var(--accent); color: var(--accent); }
+.abstract h2, .results h2, .toc h2, .cite h2 { margin: 0 0 10px; font-size: 0.82rem; font-family: var(--font-mono);
+  font-weight: 500; text-transform: uppercase; letter-spacing: 0.09em; color: var(--ink-2); }
+.abstract-body p { margin: 0 0 0.8em; font-size: 1.04rem; }
+.abstract-body p:last-child { margin-bottom: 0; }
+.results .note { margin: 0 0 14px; color: var(--ink-2); font-size: 0.95rem; }
+.result-list { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr)); gap: 8px; }
+.r { display: grid; grid-template-columns: auto 1fr; grid-template-areas: "id tag" "text text"; gap: 2px 10px;
+  align-content: start; padding: 10px 12px; border-radius: 6px; border-left: 3px solid; font-size: 0.9rem; line-height: 1.4; }
+.r-pos { background: var(--pos-soft); border-color: var(--pos); }
+.r-ref { background: var(--find-soft); border-color: var(--find); }
+.r-null, .r-nf { background: var(--null-soft); border-color: var(--null); }
+.r-id { grid-area: id; font: 500 0.85rem var(--font-mono); }
+.r-text { grid-area: text; }
+.r-text small { display: block; color: var(--ink-2); font-size: 0.8rem; margin-top: 2px; }
+.toc ul { margin: 0; padding-left: 1.2em; columns: 2 14rem; column-gap: 32px; }
+.toc li { break-inside: avoid; }
+.toc ul ul { columns: 1; padding-left: 1em; font-size: 0.92em; color: var(--ink-2); }
+.toc a { text-decoration: none; }
+.toc a:hover { text-decoration: underline; }
+.paper h1 { font-size: 1.55rem; margin: 2em 0 0.5em; padding-top: 0.6em; border-top: 1px solid var(--rule); }
+.paper p, .paper li { hyphens: auto; }
+.paper p { margin: 0 0 1em; }
+.paper math[display="block"] { overflow-x: auto; max-width: 100%; }
+/* MathML does not line-break: a long inline formula scrolls on its own instead of widening the page */
+.paper p > math { display: inline-block; max-width: 100%; overflow-x: auto; overflow-y: hidden; }
+.paper .header-section-number { color: var(--accent); margin-right: 0.5em; font-family: var(--font-mono); font-size: 0.85em; font-weight: 500; }
+.paper blockquote { margin: 1.2em 0; padding: 10px 16px; border-left: 3px solid var(--rule); background: var(--quote);
+  border-radius: 0 6px 6px 0; font-size: 0.93rem; color: var(--ink-2); }
+.paper blockquote p:last-child { margin-bottom: 0; }
+figure { margin: 1.6em 0; display: flex; flex-direction: column; gap: 10px; }
+figure img { background: var(--plate); padding: 12px; border-radius: 6px; border: 1px solid var(--rule); max-width: 100%; height: auto; }
+figcaption, caption, .tcap { font-size: 0.88rem; color: var(--ink-2); line-height: 1.45; text-align: left; }
+caption { caption-side: top; padding-bottom: 8px; }
+.tbl { margin: 1.6em 0; }
+.paper .tcap { margin: 0 0 8px; hyphens: auto; }
+.tscroll { overflow-x: auto; }
+/* Tables keep their natural width (scrolling sideways when wider than the column); only long text cells wrap. */
+.paper table { border-collapse: collapse; width: max-content; min-width: 100%;
+  font: 400 0.78rem/1.45 var(--font-mono); font-variant-numeric: tabular-nums; }
+.paper td { max-width: 17em; }
+/* Code in table cells must not break per letter on phones; the table scrolls sideways instead. */
+.paper table code { overflow-wrap: normal; word-break: normal; white-space: nowrap; }
+th, td { padding: 6px 10px; border-bottom: 1px solid var(--rule); text-align: left; vertical-align: top; }
+th { font-weight: 500; color: var(--ink-2); border-bottom-color: var(--ink-2); }
+.paper strong { font-weight: 650; }
+.paper dl { margin: 0 0 1em; display: grid; grid-template-columns: max-content 1fr; gap: 6px 14px; }
+.paper dt { font: 500 0.85rem/1.9 var(--font-mono); color: var(--accent); }
+.paper dd { margin: 0; }
+.paper dd p { margin: 0; }
+.paper .references { font-size: 0.9rem; }
+.paper .csl-entry { margin: 0 0 0.6em; padding-left: 1.5em; text-indent: -1.5em; }
+.cite { min-width: 0; }
+/* BibTeX keeps its lines intact (no mid-URL breaks); the block scrolls sideways on narrow screens. */
+.cite pre { overflow-x: auto; }
+.cite pre, .cite pre code { white-space: pre; overflow-wrap: normal; word-break: normal; }
+.colophon { border-top: 1px solid var(--rule); padding-top: 20px; color: var(--ink-2); font-size: 0.85rem; }
+.colophon p { margin: 0 0 0.7em; }
+@media (max-width: 480px) { body { font-size: 16px; } .page { padding-block: 28px 48px; gap: 28px; } }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+</style>
+</head>
+<body>
+<div class="page">
+<header class="masthead">
+  <p class="kicker">Working paper · twelve-views-thai-tourism</p>
+  <h1>Twelve Views of Thai Tourism</h1>
+  <p class="subtitle">A Data-Shape-Driven Framework for Visual Analysis, Evaluated by Planted-Structure Recovery</p>
+  <p class="byline">Thanatchon Chongmankhong · <a href="https://github.com/thanatchon36/twelve-views-thai-tourism">github.com/thanatchon36/twelve-views-thai-tourism</a></p>
+  <p class="meta"><b>November 2026</b> · visual analytics, data visualisation, tourism analytics, simulation study, synthetic data, reproducible research</p>
+  <ul class="actions"><li><a href="paper.pdf">Download PDF</a></li><li><a href="https://github.com/thanatchon36/twelve-views-thai-tourism">Code and replication</a></li><li><a href="https://huggingface.co/datasets/thanatchon36/twelve-views-thai-tourism">Data (Hugging Face)</a></li></ul>
+</header>
+<section class="abstract" aria-label="Abstract">
+  <h2>Abstract</h2>
+  <div class="abstract-body"><p>Tourism data are rarely of a single shape. A single research programme may require seasonal time series, origin–destination flows, hierarchical expenditure accounts, co-visitation networks and multivariate traveller profiles, yet empirical reporting in tourism continues to rely predominantly on bar and line charts. We propose a data-shape-driven framework that derives visual idioms from research questions through an explicit abstraction of the data, and instantiate it as twelve coordinated views organised around four questions: who visits and when, where visitors go, where the money goes, and what kinds of travellers there are. To evaluate the framework independently of the availability and quality of administrative data, we design a simulation study following the ADEMP structure, in which known structure—seasonality, a pandemic shock, the diversification of source markets, destination preferences, a hub-and-spoke pattern of onward travel, revenue concentration and six latent traveller personas—is planted in ten synthetic datasets spanning 2010–2025. Each view is paired with a companion statistic, and recovery of the planted structure is measured. The views recover the seasonal profile (<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>r</mi><mo>=</mo><mn>0.998</mn></mrow><annotation encoding="application/x-tex">r = 0.998</annotation></semantics></math>), median length of stay (mean absolute error 0.32 nights), destination preferences (0.37 percentage points) and persona membership (adjusted Rand index 0.85), while making visible features that tabular summaries obscure, including the near-total collapse of arrivals in 2021 and a double concentration of revenue in a handful of provinces. An open, single-command pipeline regenerates every number, table and figure. All results derive from synthetic data and illustrate the method; they are not empirical findings about Thai tourism.</p></div>
+</section>
+<section class="results" aria-label="Results at a glance">
+  <h2>Results at a glance</h2>
+  <p class="note">Recovery of the structure planted in the synthetic data, generated from the result files. They validate the method, not Thai tourism. Amber: results on synthetic data; grey: pending.</p>
+  <ul class="result-list"><li class="r r-ref"><span class="r-id">E1 · seasonality</span><span class="r-text">Seasonal profile recovered at r = 0.998<small>radial spiral; 12 monthly indices, MAE 0.006; peak in December</small></span></li>
+<li class="r r-ref"><span class="r-id">E2 · pandemic shock</span><span class="r-text">Arrivals fell 99.0% from 2019 to 2021<small>planted drop 99.0%, recovered 99.0%; 2025 back to 81.6% of the peak</small></span></li>
+<li class="r r-ref"><span class="r-id">E4 · length of stay</span><span class="r-text">Median stay recovered within 0.32 nights<small>ridgeline plot; nine markets, largest error 0.5 nights</small></span></li>
+<li class="r r-ref"><span class="r-id">E5 · destinations</span><span class="r-text">Destination preferences recovered within 0.37 pp<small>Sankey diagram; 36 shares, largest error 1.77 pp</small></span></li>
+<li class="r r-ref"><span class="r-id">E6 · hub</span><span class="r-text">Bangkok&#x27;s share of onward trips: 81.4% (planted 81.8%)<small>chord diagram of onward travel between destination clusters</small></span></li>
+<li class="r r-ref"><span class="r-id">E8 · personas</span><span class="r-text">Six personas recovered with ARI 0.85<small>t-SNE embedding map and k-means on 1,200 synthetic respondents</small></span></li>
+<li class="r r-ref"><span class="r-id">Revenue</span><span class="r-text">Bangkok alone takes 35.2% of provincial revenue<small>circle packing and sunburst; top five provinces 84.1%</small></span></li>
+<li class="r r-null"><span class="r-id">Thai data</span><span class="r-text">Real-data results pending<small>every number here comes from planted synthetic data; drop real files into data/raw/ and run make all</small></span></li></ul>
+</section>
+<nav class="toc" aria-label="Contents"><h2>Contents</h2>
+<ul>
+<li><a href="#sec:intro" id="toc-sec:intro"><span class="toc-section-number">1</span> Introduction</a></li>
+<li><a href="#sec:related" id="toc-sec:related"><span class="toc-section-number">2</span> Background and related work</a></li>
+<li><a href="#sec:framework" id="toc-sec:framework"><span class="toc-section-number">3</span> A data-shape-driven framework</a></li>
+<li><a href="#sec:study" id="toc-sec:study"><span class="toc-section-number">4</span> Simulation study design</a></li>
+<li><a href="#sec:results" id="toc-sec:results"><span class="toc-section-number">5</span> Results</a></li>
+<li><a href="#sec:discussion" id="toc-sec:discussion"><span class="toc-section-number">6</span> Discussion</a></li>
+<li><a href="#sec:conclusion" id="toc-sec:conclusion"><span class="toc-section-number">7</span> Conclusion</a></li>
+<li><a href="#code-and-data-availability" id="toc-code-and-data-availability">Code and data availability</a></li>
+<li><a href="#use-of-generative-ai" id="toc-use-of-generative-ai">Use of generative AI</a></li>
+<li><a href="#references" id="toc-references">References</a></li>
+<li><a href="#app:params" id="toc-app:params"><span class="toc-section-number">A</span> Data-generating parameters</a></li>
+</ul>
+</nav>
+<article class="paper">
+<blockquote>
+<p><strong>Status of this draft.</strong> This is a SYNTHETIC-DATA RUN. Every table, figure and number was generated by the code in the accompanying repository from synthetic data in which known structure was planted; the text describes what those results show so that the method can be checked. They are not findings about Thai tourism.</p>
+</blockquote>
+<h1 data-number="1" id="sec:intro"><span class="header-section-number">1</span> Introduction</h1>
+<p>Tourism is among the most data-rich sectors of the Thai economy. Statistical agencies publish monthly arrivals by nationality; expenditure surveys disaggregate visitor spending by category; and passively collected mobility, card-payment and booking data increasingly trace where visitors travel within the country. These sources differ not only in provenance and quality but in <em>shape</em>. A monthly arrivals series is a cyclical time series; the movement of visitors from source markets to destinations is a multi-stage flow; an expenditure account is a hierarchy; co-visitation between provinces is a network; and a visitor survey is a high-dimensional table of individuals. A research programme on inbound tourism will typically encounter all of these shapes at once.</p>
+<p>Visual reporting has not kept pace with this heterogeneity. Policy reports and empirical studies continue to rely predominantly on bar, line and pie charts—idioms designed for low-dimensional tables. When cyclical series, multi-stage flows or hierarchies are compressed into such charts, the structure of analytical interest—periodicity, pathways, concentration, latent groups—becomes difficult to perceive and must instead be recovered from tables or narrative. The visualisation literature offers a mature repertoire of idioms matched to particular data abstractions <span class="citation" data-cites="heer2010zoo munzner2014">(Heer et al. 2010; Munzner 2014)</span>, but two gaps remain. First, there is little guidance on how such idioms should be <em>composed</em> within a single, domain-specific research programme, so that each view answers a distinct question and the views together cover the problem. Second, claims that a given idiom “reveals” a structure are seldom tested against known ground truth; in empirical work the true structure is, by definition, unknown.</p>
+<p>This paper addresses both gaps. We propose a data-shape-driven framework that derives visual idioms from research questions through an explicit abstraction of the data, and we instantiate it as twelve coordinated views organised around four research questions for inbound tourism:</p>
+<dl>
+<dt>RQ1</dt>
+<dd>
+<p>Who visits, and when?</p>
+</dd>
+<dt>RQ2</dt>
+<dd>
+<p>Where do visitors go, and how do they move between destinations?</p>
+</dd>
+<dt>RQ3</dt>
+<dd>
+<p>Where does tourism revenue accrue, and on what is it spent?</p>
+</dd>
+<dt>RQ4</dt>
+<dd>
+<p>What kinds of travellers are there, and how do they differ?</p>
+</dd>
+</dl>
+<p>To evaluate the framework independently of the availability and quality of administrative data, we embed it in a simulation study <span class="citation" data-cites="morris2019">(Morris et al. 2019)</span>. Known structure is planted in ten synthetic datasets; each view is paired with a companion statistic; and the accuracy with which the planted structure is recovered is measured.</p>
+<p>The paper makes four contributions:</p>
+<dl>
+<dt>(C1)</dt>
+<dd>
+<p>A framework that maps four tourism research questions to twelve visual idioms through explicit data abstractions, together with five design principles shared by all views (Section 3).</p>
+</dd>
+<dt>(C2)</dt>
+<dd>
+<p>A planted-structure evaluation protocol, organised by the ADEMP structure for simulation studies, which pairs each idiom with a companion statistic and quantifies recovery of known structure (Sections 4 and 5).</p>
+</dd>
+<dt>(C3)</dt>
+<dd>
+<p>An open, reproducible implementation in which every number, table and figure in this paper is regenerated from source by a single command (Section 4.6).</p>
+</dd>
+<dt>(C4)</dt>
+<dd>
+<p>Practical guidance on the trade-off between expressiveness and perceptual accuracy, and on replacing the synthetic inputs with official data (Section 6).</p>
+</dd>
+</dl>
+<p>We use synthetic data deliberately. Doing so separates the evaluation of the method from questions of data access and quality and, crucially, supplies the ground truth against which recovery can be measured. The corollary is that none of the numerical results reported here are empirical findings about Thai tourism; they show what the framework reveals when the structure is known. Section 2 reviews related work, Section 3 presents the framework, Section 4 describes the simulation study, Section 5 reports the results, Section 6 discusses implications, threats to validity and limitations, and Section 7 concludes.</p>
+<h1 data-number="2" id="sec:related"><span class="header-section-number">2</span> Background and related work</h1>
+<h2 data-number="2.1" id="from-data-abstraction-to-visual-idiom"><span class="header-section-number">2.1</span> From data abstraction to visual idiom</h2>
+<p>Contemporary visualisation theory frames design as a mapping from a data abstraction and a task abstraction to a visual encoding <span class="citation" data-cites="munzner2014">(Munzner 2014)</span>. Perceptual experiments establish a ranking of encoding channels: position along a common scale is judged more accurately than length, angle, area or colour saturation <span class="citation" data-cites="cleveland1984">(Cleveland and McGill 1984)</span>. The ranking bears directly on idioms that rely on angle, such as sunbursts and chord diagrams, or on area, such as circle packing, and it motivates the fifth of our design principles. <span class="citation" data-cites="heer2010zoo">Heer et al. (2010)</span> catalogue idioms by the shape of the data—time series, statistical distributions, maps, hierarchies and networks—which is the organising idea of the present framework. <span class="citation" data-cites="segel2010">Segel and Heer (2010)</span> show that ordering multiple views into a narrative sequence helps readers to follow an argument, which informs the sequencing of views within each research question.</p>
+<h2 data-number="2.2" id="flows-networks-and-hierarchies"><span class="header-section-number">2.2</span> Flows, networks and hierarchies</h2>
+<p>Sankey diagrams encode flow magnitude as band width and suit multi-stage flows <span class="citation" data-cites="riehmann2005">(Riehmann et al. 2005)</span>. Chord diagrams, popularised by Circos <span class="citation" data-cites="krzywinski2009">(Krzywinski et al. 2009)</span>, arrange groups around a circle and show flows between pairs in both directions, which makes asymmetry visible. Dense networks quickly become illegible in node–link form; hierarchical edge bundling <span class="citation" data-cites="holten2006">(Holten 2006)</span> routes edges along a hierarchy so that they aggregate into bundles, trading the legibility of individual edges for the visibility of group-level structure. For hierarchies, sunbursts encode proportion as angle on concentric rings <span class="citation" data-cites="stasko2000">(Stasko and Zhang 2000)</span>, whereas circle packing encodes size as area within nested circles <span class="citation" data-cites="wang2006">(Wang et al. 2006)</span>, sacrificing space efficiency for clearly delineated groups. Unit charts descend from Neurath’s Isotype <span class="citation" data-cites="neurath1936">(Neurath 1936)</span>, in which one symbol represents a fixed quantity; they communicate proportions to audiences with little training in reading charts.</p>
+<h2 data-number="2.3" id="temporal-and-distributional-views"><span class="header-section-number">2.3</span> Temporal and distributional views</h2>
+<p>ThemeRiver <span class="citation" data-cites="havre2000">(Havre et al. 2000)</span> and streamgraphs <span class="citation" data-cites="byron2008">(Byron and Wattenberg 2008)</span> depict changing composition as a continuous flow; <span class="citation" data-cites="byron2008">Byron and Wattenberg (2008)</span> derive the “wiggle” baseline that minimises the slope of the layers. For periodic data, spiral layouts <span class="citation" data-cites="weber2001">(Weber et al. 2001)</span> align equivalent phases of successive cycles and so expose recurrent patterns that a long linear series obscures. Ridgeline plots stack partially overlapping distributions to compare their shapes across groups <span class="citation" data-cites="wilke2019">(Wilke 2019)</span>, and beeswarm plots extend the dot plot <span class="citation" data-cites="wilkinson1999">(Wilkinson 1999)</span> by displacing points to avoid overlap, so that every unit remains visible.</p>
+<h2 data-number="2.4" id="multivariate-structure"><span class="header-section-number">2.4</span> Multivariate structure</h2>
+<p>Parallel coordinates <span class="citation" data-cites="inselberg1985">(Inselberg 1985)</span> map each variable to a vertical axis and each item to a polyline, revealing correlation and clusters as bundles of lines. Non-linear dimensionality reduction methods such as t-SNE <span class="citation" data-cites="vandermaaten2008">(Maaten and Hinton 2008)</span> and UMAP <span class="citation" data-cites="mcinnes2018">(McInnes et al. 2018)</span> project high-dimensional data into two dimensions while preserving local neighbourhoods. Their output is easily over-interpreted: cluster sizes and distances between clusters in a t-SNE map are not, in general, meaningful <span class="citation" data-cites="wattenberg2016">(Wattenberg et al. 2016)</span>. We therefore pair the embedding with an independent clustering in the original feature space.</p>
+<h2 data-number="2.5" id="visualisation-in-tourism-research"><span class="header-section-number">2.5</span> Visualisation in tourism research</h2>
+<p>Tourism research has long-standing conceptual frameworks with temporal and spatial content, notably the tourism area life cycle <span class="citation" data-cites="butler1980">(Butler 1980)</span>, and the COVID-19 pandemic prompted extensive assessment of the sector’s exposure to shocks <span class="citation" data-cites="gossling2021">(Gössling et al. 2021)</span>. The visual presentation of such analyses nonetheless relies largely on basic charts. Our contribution is not a new idiom but a principled way of selecting and composing existing idioms so that, together, they cover the questions a tourism research programme asks.</p>
+<h2 data-number="2.6" id="simulation-studies-and-planted-structure"><span class="header-section-number">2.6</span> Simulation studies and planted structure</h2>
+<p>Simulation studies are the standard means of evaluating statistical methods when ground truth is required. <span class="citation" data-cites="morris2019">Morris et al. (2019)</span> propose the ADEMP structure—aims, data-generating mechanisms, estimands, methods and performance measures—for their design and reporting. Visualisation research more often relies on user studies or case studies. We adapt ADEMP to visual analysis by treating each planted structure as an estimand and each view, paired with a companion statistic, as a method whose ability to recover the estimand can be quantified.</p>
+<h1 data-number="3" id="sec:framework"><span class="header-section-number">3</span> A data-shape-driven framework</h1>
+<h2 data-number="3.1" id="from-questions-to-data-shapes"><span class="header-section-number">3.1</span> From questions to data shapes</h2>
+<p>The framework proceeds in three steps (Figure 1). First, a research question is stated in domain terms. Second, the data required to answer it are abstracted into a shape: a composition, a cyclical or compositional time series, a set of distributions, a multi-stage or pairwise flow, a hierarchy, a network or a multivariate table. Third, an idiom is chosen whose encoding matches that shape, preferring the most accurate channel that can still express the structure of interest. Table 1 lists the resulting twelve pairings with the principal encoding and the feature a reader should look for. Cartographic views are excluded deliberately: choropleth and flow maps are well established in tourism reporting, and the purpose here is to examine idioms that remain under-used.</p>
+<figure id="fig:framework" data-latex-placement="!htbp">
+<img loading="lazy" src="figures/fig01_framework.png" />
+<figcaption><strong>Figure 1.</strong> The framework. Four research questions (top row) are mapped to twelve idioms through the shape of the data each question requires (boxes below). All views are produced by a single reproducible pipeline (bottom).</figcaption>
+</figure>
+<div id="tab:framework">
+<div class="tbl"><p class="tcap"><strong>Table 1.</strong> Research questions, data shapes and idioms.</p><div class="tscroll"><table>
+<thead>
+<tr>
+<th style="text-align: left;">RQ</th>
+<th style="text-align: left;">Data shape</th>
+<th style="text-align: left;">Idiom</th>
+<th style="text-align: left;">Principal encoding</th>
+<th style="text-align: left;">Look for</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">RQ1</td>
+<td style="text-align: left;">Composition</td>
+<td style="text-align: left;">Unit chart</td>
+<td style="text-align: left;">One square per visitor; colour by region</td>
+<td style="text-align: left;">Dominant origin regions</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Cyclical time series</td>
+<td style="text-align: left;">Radial spiral</td>
+<td style="text-align: left;">Angle = month; radius = arrivals; colour = year</td>
+<td style="text-align: left;">Recurrent seasonality; contraction and recovery</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Composition over time</td>
+<td style="text-align: left;">Streamgraph</td>
+<td style="text-align: left;">Layer thickness = arrivals</td>
+<td style="text-align: left;">Growing and shrinking markets</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Distributions by group</td>
+<td style="text-align: left;">Ridgeline plot</td>
+<td style="text-align: left;">Height = share of trips</td>
+<td style="text-align: left;">Centre and spread of stays</td>
+</tr>
+<tr>
+<td style="text-align: left;">RQ2</td>
+<td style="text-align: left;">Multi-stage flow</td>
+<td style="text-align: left;">Sankey diagram</td>
+<td style="text-align: left;">Band width = travellers</td>
+<td style="text-align: left;">Market-specific pathways</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Pairwise flow</td>
+<td style="text-align: left;">Chord diagram</td>
+<td style="text-align: left;">Ribbon-end width = directional flow</td>
+<td style="text-align: left;">Hubs and asymmetry</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Network in a hierarchy</td>
+<td style="text-align: left;">Edge bundling</td>
+<td style="text-align: left;">Edges routed through the hierarchy; width = trips</td>
+<td style="text-align: left;">Regional circuits and bridges</td>
+</tr>
+<tr>
+<td style="text-align: left;">RQ3</td>
+<td style="text-align: left;">Hierarchy with size</td>
+<td style="text-align: left;">Circle packing</td>
+<td style="text-align: left;">Area = revenue</td>
+<td style="text-align: left;">Concentration of revenue</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Hierarchy with proportion</td>
+<td style="text-align: left;">Sunburst</td>
+<td style="text-align: left;">Angle = share of spending</td>
+<td style="text-align: left;">Dominant categories and items</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">All units on one axis</td>
+<td style="text-align: left;">Beeswarm</td>
+<td style="text-align: left;">Position = spend per visitor; area = visitors</td>
+<td style="text-align: left;">Inequality between provinces</td>
+</tr>
+<tr>
+<td style="text-align: left;">RQ4</td>
+<td style="text-align: left;">Multivariate profiles</td>
+<td style="text-align: left;">Parallel coordinates</td>
+<td style="text-align: left;">Position on parallel axes</td>
+<td style="text-align: left;">Co-moving markets and trade-offs</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Similarity in many dimensions</td>
+<td style="text-align: left;">Embedding map</td>
+<td style="text-align: left;">Proximity = similarity</td>
+<td style="text-align: left;">Traveller segments and overlaps</td>
+</tr>
+</tbody>
+</table></div></div>
+</div>
+<h2 data-number="3.2" id="design-principles"><span class="header-section-number">3.2</span> Design principles</h2>
+<p>Five principles apply to every view.</p>
+<dl>
+<dt>D1</dt>
+<dd>
+<p><em>One view, one question.</em> Each view is assigned to exactly one research question, and its caption states what the reader should see before describing how it is encoded.</p>
+</dd>
+<dt>D2</dt>
+<dd>
+<p><em>Colour follows identity, not rank.</em> Each family of categories—origin regions, Thai regions, destination clusters, spending categories and personas—has its own palette, and a category keeps its colour wherever it appears.</p>
+</dd>
+<dt>D3</dt>
+<dd>
+<p><em>Stable order.</em> Categories appear in the same order in every view.</p>
+</dd>
+<dt>D4</dt>
+<dd>
+<p><em>Direct labelling.</em> Labels sit on the marks wherever space permits; legends are used only where direct labels would occlude data.</p>
+</dd>
+<dt>D5</dt>
+<dd>
+<p><em>Pair angle and area with numbers.</em> Views that rely on angle or area, channels judged less accurately than position <span class="citation" data-cites="cleveland1984">(Cleveland and McGill 1984)</span>, are accompanied by printed values or a companion table.</p>
+</dd>
+</dl>
+<h1 data-number="4" id="sec:study"><span class="header-section-number">4</span> Simulation study design</h1>
+<p>We report the study following the ADEMP structure <span class="citation" data-cites="morris2019">(Morris et al. 2019)</span>.</p>
+<h2 data-number="4.1" id="aims"><span class="header-section-number">4.1</span> Aims</h2>
+<p>The study has two aims: (i) to demonstrate that each of the twelve views answers its research question on data of realistic shape; and (ii) to quantify, for every view whose structure has a ground-truth parameter, how accurately the view’s companion statistic recovers the planted structure.</p>
+<h2 data-number="4.2" id="sec:dgm"><span class="header-section-number">4.2</span> Data-generating mechanisms</h2>
+<p>All ten datasets (Table 2) are generated from a single seed (2026), with an independent random stream for each dataset, so that every table is reproducible exactly. The mechanisms are deliberately simple and transparent; their parameters are listed in Appendix A.</p>
+<h4 class="unnumbered" id="arrivals-by-market">Arrivals by market</h4>
+<p>For each of ten named markets <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>k</mi><annotation encoding="application/x-tex">k</annotation></semantics></math> and year <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>t</mi><mo>∈</mo><mo stretchy="false" form="prefix">{</mo><mn>2010</mn><mo>,</mo><mi>…</mi><mo>,</mo><mn>2025</mn><mo stretchy="false" form="postfix">}</mo></mrow><annotation encoding="application/x-tex">t \in \{2010,\dots,2025\}</annotation></semantics></math>, arrivals follow a prescribed trajectory <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>a</mi><mrow><mi>k</mi><mi>t</mi></mrow></msub><annotation encoding="application/x-tex">a_{kt}</annotation></semantics></math> with small multiplicative noise, <math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>A</mi><mrow><mi>k</mi><mi>t</mi></mrow></msub><mo>=</mo><msub><mi>a</mi><mrow><mi>k</mi><mi>t</mi></mrow></msub><mspace width="0.167em"></mspace><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo>+</mo><msub><mi>ε</mi><mrow><mi>k</mi><mi>t</mi></mrow></msub><mo stretchy="false" form="postfix">)</mo><mo>,</mo><mspace width="2.0em"></mspace><msub><mi>ε</mi><mrow><mi>k</mi><mi>t</mi></mrow></msub><mo>∼</mo><mi>𝒩</mi><mo stretchy="false" form="prefix">(</mo><mn>0</mn><mo>,</mo><msup><mn>0.004</mn><mn>2</mn></msup><mo stretchy="false" form="postfix">)</mo><mi>.</mi></mrow><annotation encoding="application/x-tex">\begin{equation}
+A_{kt} = a_{kt}\,(1 + \varepsilon_{kt}), \qquad \varepsilon_{kt} \sim \mathcal{N}(0, 0.004^2).
+\end{equation}</annotation></semantics></math> For seven residual groups <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>g</mi><annotation encoding="application/x-tex">g</annotation></semantics></math>, pre-pandemic arrivals interpolate linearly between prescribed 2010 and 2019 levels with <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>𝒩</mi><mo stretchy="false" form="prefix">(</mo><mn>0</mn><mo>,</mo><msup><mn>0.02</mn><mn>2</mn></msup><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">\mathcal{N}(0, 0.02^2)</annotation></semantics></math> noise and a 5% dip in 2014. From 2020 onwards, <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>A</mi><mrow><mi>g</mi><mi>t</mi></mrow></msub><mo>=</mo><msub><mi>π</mi><mi>t</mi></msub><msub><mi>A</mi><mrow><mi>g</mi><mo>,</mo><mn>2019</mn></mrow></msub><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo>+</mo><msub><mi>ε</mi><mrow><mi>g</mi><mi>t</mi></mrow></msub><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">A_{gt} = \pi_t A_{g,2019}(1+\varepsilon_{gt})</annotation></semantics></math>, with pandemic multipliers <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>π</mi><mo>=</mo><mo stretchy="false" form="prefix">(</mo><mn>0.17</mn><mo>,</mo><mn>0.02</mn><mo>,</mo><mn>0.33</mn><mo>,</mo><mn>0.74</mn><mo>,</mo><mn>0.92</mn><mo>,</mo><mn>0.93</mn><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">\pi = (0.17, 0.02, 0.33, 0.74, 0.92, 0.93)</annotation></semantics></math> for 2020–2025.</p>
+<h4 class="unnumbered" id="monthly-arrivals">Monthly arrivals</h4>
+<p>Annual totals <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>A</mi><mi>t</mi></msub><mo>=</mo><msub><mo>∑</mo><mi>k</mi></msub><msub><mi>A</mi><mrow><mi>k</mi><mi>t</mi></mrow></msub></mrow><annotation encoding="application/x-tex">A_t = \sum_k A_{kt}</annotation></semantics></math> are allocated to months by <math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>A</mi><mrow><mi>t</mi><mi>m</mi></mrow></msub><mo>=</mo><mo stretchy="false" form="prefix">⌊</mo><msub><mi>A</mi><mi>t</mi></msub><mspace width="0.167em"></mspace><msub><mi>w</mi><mrow><mi>t</mi><mi>m</mi></mrow></msub><mo stretchy="false" form="postfix">⌋</mo><mo>,</mo><mspace width="2.0em"></mspace><msub><mi>w</mi><mrow><mi>t</mi><mi>m</mi></mrow></msub><mo>=</mo><mfrac><mrow><msub><mi>ω</mi><mrow><mi>t</mi><mi>m</mi></mrow></msub><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo>+</mo><msub><mi>η</mi><mrow><mi>t</mi><mi>m</mi></mrow></msub><mo stretchy="false" form="postfix">)</mo></mrow><mrow><munder><mo>∑</mo><msup><mi>m</mi><mo>′</mo></msup></munder><msub><mi>ω</mi><mrow><mi>t</mi><msup><mi>m</mi><mo>′</mo></msup></mrow></msub><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo>+</mo><msub><mi>η</mi><mrow><mi>t</mi><msup><mi>m</mi><mo>′</mo></msup></mrow></msub><mo stretchy="false" form="postfix">)</mo></mrow></mfrac><mo>,</mo><mspace width="2.0em"></mspace><msub><mi>η</mi><mrow><mi>t</mi><mi>m</mi></mrow></msub><mo>∼</mo><mi>𝒩</mi><mo stretchy="false" form="prefix">(</mo><mn>0</mn><mo>,</mo><msup><mn>0.025</mn><mn>2</mn></msup><mo stretchy="false" form="postfix">)</mo><mo>,</mo></mrow><annotation encoding="application/x-tex">\begin{equation}
+A_{tm} = \lfloor A_t\, w_{tm} \rfloor, \qquad
+w_{tm} = \frac{\omega_{tm}(1+\eta_{tm})}{\sum_{m&#39;} \omega_{tm&#39;}(1+\eta_{tm&#39;})}, \qquad
+\eta_{tm} \sim \mathcal{N}(0, 0.025^2),
+\end{equation}</annotation></semantics></math> with the rounding residual added to December so that months sum exactly to the annual total. The profile <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>ω</mi><mrow><mi>t</mi><mi>m</mi></mrow></msub><annotation encoding="application/x-tex">\omega_{tm}</annotation></semantics></math> equals a common seasonal profile <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>ω</mi><mi>m</mi></msub><annotation encoding="application/x-tex">\omega_m</annotation></semantics></math> in ordinary years, with year-specific profiles for 2014 (a mid-year dip), 2020–2023 (pandemic collapse and recovery) and 2025.</p>
+<h4 class="unnumbered" id="length-of-stay">Length of stay</h4>
+<p>Nights per trip for market <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>k</mi><annotation encoding="application/x-tex">k</annotation></semantics></math> follow a log-normal distribution with median <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>μ</mi><mi>k</mi></msub><annotation encoding="application/x-tex">\mu_k</annotation></semantics></math> and log-scale <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>σ</mi><mi>k</mi></msub><annotation encoding="application/x-tex">\sigma_k</annotation></semantics></math>, discretised to <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false" form="prefix">{</mo><mn>1</mn><mo>,</mo><mi>…</mi><mo>,</mo><mn>30</mn><mo stretchy="false" form="postfix">}</mo></mrow><annotation encoding="application/x-tex">\{1,\dots,30\}</annotation></semantics></math> and renormalised.</p>
+<h4 class="unnumbered" id="trip-flows">Trip flows</h4>
+<p>For origin region <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>o</mi><annotation encoding="application/x-tex">o</annotation></semantics></math> with latest-year arrivals <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>T</mi><mi>o</mi></msub><annotation encoding="application/x-tex">T_o</annotation></semantics></math>, destination shares are <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>p</mi><mrow><mi>d</mi><mo>∣</mo><mi>o</mi></mrow></msub><mo>∝</mo><msub><mi>P</mi><mrow><mi>o</mi><mi>d</mi></mrow></msub><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo>+</mo><msub><mi>ξ</mi><mrow><mi>o</mi><mi>d</mi></mrow></msub><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">p_{d\mid o} \propto P_{od}(1+\xi_{od})</annotation></semantics></math> with <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>ξ</mi><mrow><mi>o</mi><mi>d</mi></mrow></msub><mo>∼</mo><mi>𝒩</mi><mo stretchy="false" form="prefix">(</mo><mn>0</mn><mo>,</mo><msup><mn>0.04</mn><mn>2</mn></msup><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">\xi_{od} \sim \mathcal{N}(0, 0.04^2)</annotation></semantics></math>, and trip-style shares are <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>q</mi><mrow><mi>s</mi><mo>∣</mo><mi>d</mi><mo>,</mo><mi>o</mi></mrow></msub><mo>∝</mo><msub><mi>Q</mi><mrow><mi>d</mi><mi>s</mi></mrow></msub><mspace width="0.167em"></mspace><msub><mi>τ</mi><mrow><mi>o</mi><mi>s</mi></mrow></msub></mrow><annotation encoding="application/x-tex">q_{s\mid d,o} \propto Q_{ds}\,\tau_{os}</annotation></semantics></math>, where <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>τ</mi><annotation encoding="application/x-tex">\tau</annotation></semantics></math> tilts the style mix by origin. Flows are <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>F</mi><mrow><mi>o</mi><mi>d</mi><mi>s</mi></mrow></msub><mo>=</mo><msub><mi>T</mi><mi>o</mi></msub><mspace width="0.167em"></mspace><msub><mi>p</mi><mrow><mi>d</mi><mo>∣</mo><mi>o</mi></mrow></msub><mspace width="0.167em"></mspace><msub><mi>q</mi><mrow><mi>s</mi><mo>∣</mo><mi>d</mi><mo>,</mo><mi>o</mi></mrow></msub></mrow><annotation encoding="application/x-tex">F_{ods} = T_o\, p_{d\mid o}\, q_{s\mid d,o}</annotation></semantics></math>, rounded to the nearest hundred.</p>
+<h4 class="unnumbered" id="onward-travel-provinces-and-co-visits">Onward travel, provinces and co-visits</h4>
+<p>Onward trips between six destination clusters scale a prescribed matrix <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>R</mi><annotation encoding="application/x-tex">R</annotation></semantics></math> by <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo>+</mo><mi>𝒩</mi><mo stretchy="false" form="prefix">(</mo><mn>0</mn><mo>,</mo><msup><mn>0.05</mn><mn>2</mn></msup><mo stretchy="false" form="postfix">)</mo><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">(1+\mathcal{N}(0, 0.05^2))</annotation></semantics></math>. For the 77 provinces, 44 have prescribed visitor volumes and spend per visitor; the remainder draw volumes from <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>𝒰</mi><mo stretchy="false" form="prefix">(</mo><mn>15</mn><mo>,</mo><mn>90</mn><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">\mathcal{U}(15, 90)</annotation></semantics></math> thousand and spend from <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>𝒰</mi><mo stretchy="false" form="prefix">(</mo><mn>2</mn><mo>,</mo><mn>800</mn><mo>,</mo><mn>8</mn><mo>,</mo><mn>500</mn><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">\mathcal{U}(2{,}800, 8{,}500)</annotation></semantics></math> THB. Revenue is the product of visitors and spend. Co-visitation among 35 provinces is defined by 76 plausible pairs with multiplicative <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>𝒩</mi><mo stretchy="false" form="prefix">(</mo><mn>0</mn><mo>,</mo><msup><mn>0.05</mn><mn>2</mn></msup><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">\mathcal{N}(0, 0.05^2)</annotation></semantics></math> noise.</p>
+<h4 class="unnumbered" id="spending-structure">Spending structure</h4>
+<p>A fixed three-level hierarchy with 21 leaves allocates shares of total visitor spending to categories, sub-categories and items.</p>
+<h4 class="unnumbered" id="traveller-personas">Traveller personas</h4>
+<p>A survey of <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>n</mi><mo>=</mo><mn>1</mn><mo>,</mo><mn>200</mn></mrow><annotation encoding="application/x-tex">n = 1,200</annotation></semantics></math> respondents is drawn from a mixture of six personas <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>z</mi><annotation encoding="application/x-tex">z</annotation></semantics></math> with prior weights <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>π</mi><mi>z</mi></msub><annotation encoding="application/x-tex">\pi_z</annotation></semantics></math>. Each respondent has eight features: log spend per day, nights, age, group size and four activity intensities (beach, shopping, culture and nightlife). Features equal persona means plus noise (log spend, <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>σ</mi><mo>=</mo><mn>0.32</mn></mrow><annotation encoding="application/x-tex">\sigma = 0.32</annotation></semantics></math>; log nights, <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>σ</mi><mo>=</mo><mn>0.42</mn></mrow><annotation encoding="application/x-tex">\sigma = 0.42</annotation></semantics></math>; age, <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>σ</mi><mo>=</mo><mn>9</mn></mrow><annotation encoding="application/x-tex">\sigma = 9</annotation></semantics></math> years; group size, <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>σ</mi><mo>=</mo><mn>1.0</mn></mrow><annotation encoding="application/x-tex">\sigma = 1.0</annotation></semantics></math>; activities, <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>σ</mi><mo>=</mo><mn>0.2</mn></mrow><annotation encoding="application/x-tex">\sigma = 0.2</annotation></semantics></math>, clipped to <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false" form="prefix">[</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo stretchy="false" form="postfix">]</mo></mrow><annotation encoding="application/x-tex">[0,1]</annotation></semantics></math>); the origin region is drawn from a persona-specific categorical distribution.</p>
+<div id="tab:datasets">
+<div class="tbl"><p class="tcap"><strong>Table 2.</strong> The ten synthetic datasets.</p><div class="tscroll"><table>
+<thead>
+<tr>
+<th style="text-align: left;">Dataset</th>
+<th style="text-align: left;">Content</th>
+<th style="text-align: right;">Rows</th>
+<th style="text-align: right;">Columns</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><code>arrivals_by_nationality</code></td>
+<td style="text-align: left;">Annual international arrivals by market</td>
+<td style="text-align: right;">272</td>
+<td style="text-align: right;">6</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>arrivals_monthly</code></td>
+<td style="text-align: left;">Monthly international arrivals, all markets</td>
+<td style="text-align: right;">192</td>
+<td style="text-align: right;">2</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>stay_length</code></td>
+<td style="text-align: left;">Distribution of nights per trip by market</td>
+<td style="text-align: right;">270</td>
+<td style="text-align: right;">5</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>nationality_profiles</code></td>
+<td style="text-align: left;">Behavioural profiles of fifteen markets</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">9</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>trip_flows</code></td>
+<td style="text-align: left;">Origin region, main destination and trip style, latest year</td>
+<td style="text-align: right;">144</td>
+<td style="text-align: right;">7</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>region_flows</code></td>
+<td style="text-align: left;">Onward trips between destination clusters</td>
+<td style="text-align: right;">30</td>
+<td style="text-align: right;">5</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>provinces</code></td>
+<td style="text-align: left;">Foreign visitors, spend per visitor and revenue by province</td>
+<td style="text-align: right;">77</td>
+<td style="text-align: right;">6</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>province_covisits</code></td>
+<td style="text-align: left;">Pairs of provinces visited on the same trip</td>
+<td style="text-align: right;">76</td>
+<td style="text-align: right;">3</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>spending_breakdown</code></td>
+<td style="text-align: left;">Three-level structure of visitor spending</td>
+<td style="text-align: right;">21</td>
+<td style="text-align: right;">5</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>traveler_segments</code></td>
+<td style="text-align: left;">Individual survey responses with t-SNE coordinates</td>
+<td style="text-align: right;">1,200</td>
+<td style="text-align: right;">10</td>
+</tr>
+</tbody>
+</table></div></div>
+</div>
+<h2 data-number="4.3" id="estimands"><span class="header-section-number">4.3</span> Estimands</h2>
+<p>The planted structures, or estimands, are: (E1) the seasonal profile of twelve monthly indices; (E2) the depth of the pandemic shock, measured as the proportional fall in arrivals from 2019 to 2021; (E3) the diversification of source markets between 2019 and 2025; (E4) the median length of stay in nine markets; (E5) destination preferences <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>p</mi><mrow><mi>d</mi><mo>∣</mo><mi>o</mi></mrow></msub><annotation encoding="application/x-tex">p_{d\mid o}</annotation></semantics></math>, comprising 36 shares; (E6) the hub share of onward travel, defined as the share of onward trips that involve Bangkok; (E7) the concentration of revenue across provinces; and (E8) the membership of 1,200 respondents in six personas. For E1, E2, E4, E5, E6 and E8 the data-generating mechanism defines a ground-truth value. E3 and E7 are emergent properties of prescribed inputs, for which we report observed values only.</p>
+<h2 data-number="4.4" id="methods"><span class="header-section-number">4.4</span> Methods</h2>
+<p>Each view is paired with a companion statistic that summarises what the view shows. The seasonal index of month <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>m</mi><annotation encoding="application/x-tex">m</annotation></semantics></math> is the mean ratio of that month to its year’s monthly mean over the pre-pandemic years <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>Y</mi><mo>=</mo><mo stretchy="false" form="prefix">{</mo><mn>2010</mn><mo>,</mo><mi>…</mi><mo>,</mo><mn>2019</mn><mo stretchy="false" form="postfix">}</mo></mrow><annotation encoding="application/x-tex">Y = \{2010, \dots, 2019\}</annotation></semantics></math>, <math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>S</mi><mi>m</mi></msub><mo>=</mo><mfrac><mn>1</mn><mrow><mo stretchy="false" form="prefix">|</mo><mi>Y</mi><mo stretchy="false" form="prefix">|</mo></mrow></mfrac><munder><mo>∑</mo><mrow><mi>y</mi><mo>∈</mo><mi>Y</mi></mrow></munder><mfrac><msub><mi>A</mi><mrow><mi>y</mi><mi>m</mi></mrow></msub><msub><mover><mi>A</mi><mo accent="true">‾</mo></mover><mi>y</mi></msub></mfrac><mi>.</mi></mrow><annotation encoding="application/x-tex">\begin{equation}
+S_m = \frac{1}{|Y|} \sum_{y \in Y} \frac{A_{ym}}{\bar{A}_y}.
+\end{equation}</annotation></semantics></math> Concentration is measured by the Herfindahl–Hirschman index and the Gini coefficient, <math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mrow><mi mathvariant="normal">H</mi><mi mathvariant="normal">H</mi><mi mathvariant="normal">I</mi></mrow><mo>=</mo><munderover><mo>∑</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></munderover><mo stretchy="false" form="prefix">(</mo><mn>100</mn><mspace width="0.167em"></mspace><msub><mi>s</mi><mi>i</mi></msub><msup><mo stretchy="false" form="postfix">)</mo><mn>2</mn></msup><mo>,</mo><mspace width="2.0em"></mspace><mi>G</mi><mo>=</mo><mfrac><mrow><munderover><mo>∑</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></munderover><mo stretchy="false" form="prefix">(</mo><mn>2</mn><mi>i</mi><mo>−</mo><mi>n</mi><mo>−</mo><mn>1</mn><mo stretchy="false" form="postfix">)</mo><mspace width="0.167em"></mspace><msub><mi>x</mi><mrow><mo stretchy="false" form="prefix">(</mo><mi>i</mi><mo stretchy="false" form="postfix">)</mo></mrow></msub></mrow><mrow><mi>n</mi><munderover><mo>∑</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></munderover><msub><mi>x</mi><mi>i</mi></msub></mrow></mfrac><mo>,</mo></mrow><annotation encoding="application/x-tex">\begin{equation}
+\mathrm{HHI} = \sum_{i=1}^{n} (100\, s_i)^2, \qquad
+G = \frac{\sum_{i=1}^{n} (2i - n - 1)\, x_{(i)}}{n \sum_{i=1}^{n} x_i},
+\end{equation}</annotation></semantics></math> where <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>s</mi><mi>i</mi></msub><annotation encoding="application/x-tex">s_i</annotation></semantics></math> is the share of unit <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>i</mi><annotation encoding="application/x-tex">i</annotation></semantics></math> and <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>x</mi><mrow><mo stretchy="false" form="prefix">(</mo><mi>i</mi><mo stretchy="false" form="postfix">)</mo></mrow></msub><annotation encoding="application/x-tex">x_{(i)}</annotation></semantics></math> are the values in ascending order; HHI ranges from 0 to 10<span>,</span>000. Monotone association is measured by Spearman’s <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>ρ</mi><annotation encoding="application/x-tex">\rho</annotation></semantics></math>. For personas, respondents are embedded with t-SNE (perplexity 40, PCA initialisation); separation is summarised by the silhouette coefficient <span class="citation" data-cites="rousseeuw1987">(Rousseeuw 1987)</span> in the embedding and in feature space; and <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>k</mi><annotation encoding="application/x-tex">k</annotation></semantics></math>-means (<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>k</mi><mo>=</mo><mn>6</mn></mrow><annotation encoding="application/x-tex">k = 6</annotation></semantics></math>, 20 initialisations) on the standardised features is compared with true membership by the adjusted Rand index (ARI) <span class="citation" data-cites="hubert1985">(Hubert and Arabie 1985)</span>.</p>
+<h2 data-number="4.5" id="performance-measures"><span class="header-section-number">4.5</span> Performance measures</h2>
+<p>For the profile estimand E1 we report Pearson’s <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>r</mi><annotation encoding="application/x-tex">r</annotation></semantics></math> and the mean absolute error (MAE) between recovered and planted values. For E4 and E5 we report the MAE and the maximum absolute error in natural units (nights and percentage points). For the scalar estimands E2 and E6 we report planted and recovered values, and for E8 the ARI.</p>
+<h2 data-number="4.6" id="sec:implementation"><span class="header-section-number">4.6</span> Implementation and reproducibility</h2>
+<p>The pipeline is written in Python using NumPy, pandas, SciPy, scikit-learn <span class="citation" data-cites="pedregosa2011">(Pedregosa et al. 2011)</span> and Matplotlib <span class="citation" data-cites="hunter2007">(Hunter 2007)</span>. Every figure is drawn directly in Matplotlib. Idioms absent from standard libraries were implemented for this study: a chord layout following the algorithm of D3 <span class="citation" data-cites="bostock2011">(Bostock et al. 2011)</span>, hierarchical edge bundling with cubic B-splines and bundling strength <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>β</mi><annotation encoding="application/x-tex">\beta</annotation></semantics></math> <span class="citation" data-cites="holten2006">(Holten 2006)</span>, and a variable-radius beeswarm placement. Circle packing uses the <code>circlify</code> library. Smoothed curves in the streamgraph and ridgeline plot use monotone piecewise cubic interpolation <span class="citation" data-cites="fritsch1980">(Fritsch and Carlson 1980)</span>, which passes through every data point without overshoot. The analysis script writes every reported number as a LaTeX macro and every table body as a file, so that the manuscript is regenerated from the data; a test suite checks internal consistency, for example that monthly arrivals sum to annual totals. The complete pipeline runs in about a minute on a laptop.</p>
+<h1 data-number="5" id="sec:results"><span class="header-section-number">5</span> Results</h1>
+<h2 data-number="5.1" id="rq1-who-visits-and-when"><span class="header-section-number">5.1</span> RQ1: who visits, and when?</h2>
+<figure id="fig:unit">
+<img loading="lazy" src="figures/fig02_unit_chart.png" />
+<figcaption><strong>Figure 2.</strong> Unit chart. International arrivals in 2025 reduced to one hundred visitors; one square per visitor, coloured by origin region and apportioned by largest remainder.</figcaption>
+</figure>
+<figure id="fig:spiral">
+<img loading="lazy" src="figures/fig03_radial_spiral.png" />
+<figcaption><strong>Figure 3.</strong> Radial spiral. Monthly arrivals, 2010–2025; one revolution per year, radius proportional to arrivals. Thick lines mark the peak and the latest year.</figcaption>
+</figure>
+<p>Figure 2 reduces the latest year’s arrivals to one hundred visitors. In the synthetic data, ASEAN is the largest origin region (33 of 100), and the three Asian regions together account for 69 of every 100 visitors. The unit chart conveys composition at a glance, which makes it a suitable opening view for non-specialist audiences.</p>
+<p>Figure 3 shows monthly arrivals on a radial spiral. Successive loops expand during the pre-pandemic period, with compound annual growth of 10.2%, until the peak year, 2019 (39.7 million). They then collapse towards the centre in 2021 (0.39 million, a fall of 99.0%) before expanding again to 81.6% of the peak in 2025. The shape of each loop conveys seasonality: the seasonal index peaks in December (1.23) and reaches its minimum in May (0.81), a ratio of 1.52. On a linear time axis the same 192 observations make the recurrent annual pattern considerably harder to discern.</p>
+<figure id="fig:stream" data-latex-placement="!htbp">
+<img loading="lazy" src="figures/fig04_streamgraph.png" />
+<figcaption><strong>Figure 4.</strong> Streamgraph. Annual arrivals by market; layer thickness is proportional to arrivals, drawn on the wiggle baseline of <span class="citation" data-cites="byron2008">Byron and Wattenberg (2008)</span>. Markets from the same origin region share a colour family; the grey band marks the pandemic. Curves are smoothed by monotone cubic interpolation for display.</figcaption>
+</figure>
+<p>Figure 4 shows how the composition of source markets changed. The largest single market (China) accounted for 27.7% of arrivals in 2019 but 14.4% in 2025, while ASEAN and South Asian markets recovered faster. The HHI of source markets accordingly fell from 1,273 to 943, indicating a more diversified market base. The change is visible directly in the thickness of the layers, without pairwise comparison of annual bar charts.</p>
+<figure id="fig:ridge" data-latex-placement="!htbp">
+<img loading="lazy" src="figures/fig05_ridgeline.png" />
+<figcaption><strong>Figure 5.</strong> Ridgeline plot. Distribution of nights per trip by market, ordered by median; dashed white lines mark medians, colours follow origin region.</figcaption>
+</figure>
+<p>Figure 5 shows that the length of stay differs markedly by market. The median ranges from 3 nights (Malaysia) to 16 nights (Germany), a 5.3-fold difference. Beyond central tendency, the shapes of the distributions are informative: short-haul markets have narrow, right-skewed distributions, whereas European markets have broad distributions with long tails. A single mean per market would conceal the difference.</p>
+<h2 data-number="5.2" id="rq2-where-do-visitors-go"><span class="header-section-number">5.2</span> RQ2: where do visitors go?</h2>
+<figure id="fig:sankey" data-latex-placement="!htbp">
+<img loading="lazy" src="figures/fig06_sankey.png" />
+<figcaption><strong>Figure 6.</strong> Three-stage Sankey diagram: origin region, main destination and trip style, 2025. Band width is proportional to travellers. Second-stage bands are split by origin, so that each region’s colour runs through the whole diagram.</figcaption>
+</figure>
+<p>Figure 6 traces each origin region through its main destination to its trip style. Bangkok is the main destination for 38.9% of visitors; city-and-shopping trips account for 38.2% and beach-and-island trips for 31.0%. Because second-stage bands are split by origin, colours run continuously through the diagram and expose market-specific pathways: 29.8% of European visitors head primarily for the Andaman coast, and 44.3% of ASEAN visitors for border towns. The same information in a three-way cross-tabulation is close to illegible.</p>
+<figure id="fig:chord" data-latex-placement="!htbp">
+<img loading="lazy" src="figures/fig07_chord.png" />
+<figcaption><strong>Figure 7.</strong> Chord diagram of onward trips between six destination clusters. The width of each end of a ribbon is proportional to the flow in that direction; arc length is proportional to outgoing trips. Ribbons take the colour of the smaller cluster in each pair.</figcaption>
+</figure>
+<p>Figure 7 examines movement between destination clusters. Onward trips total 18.3 million, and Bangkok is involved in 81.4% of them. The largest flow runs from Bangkok to Pattaya &amp; East (2.68 million), and the diagram makes its asymmetry visible: the reverse flow is only 1.87 million. The difference in width between the two ends of a single ribbon is the chord diagram’s distinctive advantage over a matrix of numbers.</p>
+<figure id="fig:bundle" data-latex-placement="!htbp">
+<img loading="lazy" src="figures/fig08_edge_bundling.png" />
+<figcaption><strong>Figure 8.</strong> Hierarchical edge bundling of provinces visited on the same trip. Provinces are arranged by region; edges are cubic B-splines routed through regional control points and the root (<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>β</mi><mo>=</mo><mn>0.85</mn></mrow><annotation encoding="application/x-tex">\beta = 0.85</annotation></semantics></math>), with width proportional to trips and colour taken from the less-connected province of each pair.</figcaption>
+</figure>
+<p>Figure 8 descends to the level of provinces. The co-visitation network has 35 provinces and 76 pairs; Bangkok participates in 29 pairs and accounts for 25.9% of the total weighted degree. Yet 49.1% of the network’s weight lies within regions—in the Andaman triangle and the northern circuit, for example—and the strongest pair not involving Bangkok is Phuket–Krabi (870 thousand trips). Read together, the three views of RQ2 operate at three scales: the market, the destination cluster and the province.</p>
+<h2 data-number="5.3" id="rq3-where-does-the-money-go"><span class="header-section-number">5.3</span> RQ3: where does the money go?</h2>
+<figure id="fig:pack" data-latex-placement="!htbp">
+<img loading="lazy" src="figures/fig09_circle_packing.png" />
+<figcaption><strong>Figure 9.</strong> Circle packing of revenue from foreign visitors by province, grouped by region; circle area is proportional to revenue.</figcaption>
+</figure>
+<div id="tab:provinces">
+<div class="tbl"><p class="tcap"><strong>Table 3.</strong> The eight provinces with the highest revenue from foreign visitors.</p><div class="tscroll"><table>
+<thead>
+<tr>
+<th style="text-align: left;">Province</th>
+<th style="text-align: left;">Region</th>
+<th style="text-align: right;">Visitors (m)</th>
+<th style="text-align: right;">Spend per visitor (THB)</th>
+<th style="text-align: right;">Revenue (THB bn)</th>
+<th style="text-align: right;">Share (%)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Bangkok</td>
+<td style="text-align: left;">Central</td>
+<td style="text-align: right;">21.99</td>
+<td style="text-align: right;">34,090</td>
+<td style="text-align: right;">749.6</td>
+<td style="text-align: right;">35.2</td>
+</tr>
+<tr>
+<td style="text-align: left;">Phuket</td>
+<td style="text-align: left;">South</td>
+<td style="text-align: right;">10.12</td>
+<td style="text-align: right;">51,650</td>
+<td style="text-align: right;">522.7</td>
+<td style="text-align: right;">24.6</td>
+</tr>
+<tr>
+<td style="text-align: left;">Chonburi</td>
+<td style="text-align: left;">East</td>
+<td style="text-align: right;">7.75</td>
+<td style="text-align: right;">30,380</td>
+<td style="text-align: right;">235.5</td>
+<td style="text-align: right;">11.1</td>
+</tr>
+<tr>
+<td style="text-align: left;">Surat Thani</td>
+<td style="text-align: left;">South</td>
+<td style="text-align: right;">3.20</td>
+<td style="text-align: right;">44,930</td>
+<td style="text-align: right;">144.0</td>
+<td style="text-align: right;">6.8</td>
+</tr>
+<tr>
+<td style="text-align: left;">Krabi</td>
+<td style="text-align: left;">South</td>
+<td style="text-align: right;">3.54</td>
+<td style="text-align: right;">38,840</td>
+<td style="text-align: right;">137.5</td>
+<td style="text-align: right;">6.5</td>
+</tr>
+<tr>
+<td style="text-align: left;">Phang Nga</td>
+<td style="text-align: left;">South</td>
+<td style="text-align: right;">2.03</td>
+<td style="text-align: right;">38,990</td>
+<td style="text-align: right;">79.2</td>
+<td style="text-align: right;">3.7</td>
+</tr>
+<tr>
+<td style="text-align: left;">Chiang Mai</td>
+<td style="text-align: left;">North</td>
+<td style="text-align: right;">2.82</td>
+<td style="text-align: right;">26,950</td>
+<td style="text-align: right;">76.0</td>
+<td style="text-align: right;">3.6</td>
+</tr>
+<tr>
+<td style="text-align: left;">Prachuap Khiri Khan</td>
+<td style="text-align: left;">West</td>
+<td style="text-align: right;">1.17</td>
+<td style="text-align: right;">28,640</td>
+<td style="text-align: right;">33.4</td>
+<td style="text-align: right;">1.6</td>
+</tr>
+</tbody>
+</table></div></div>
+</div>
+<p>Revenue across all provinces totals THB 2,127 billion. Figure 9 and Table 3 show extreme concentration: Bangkok alone accounts for 35.2% and the five leading provinces for 84.1%; the Gini coefficient is 0.92 and the HHI 2,087. The packed circles convey the inequality immediately, but comparisons of area are coarse, hence the companion table (principle D5).</p>
+<figure id="fig:sunburst" data-latex-placement="!htbp">
+<img loading="lazy" src="figures/fig10_sunburst.png" />
+<figcaption><strong>Figure 10.</strong> Sunburst of visitor spending: categories (inner ring), sub-categories (middle) and items (outer); angle is proportional to the share of total spending.</figcaption>
+</figure>
+<p>Figure 10 shows that three categories—Accommodation (28.5%), Shopping (24.0%) and Food &amp; drink (21.0%)—account for 73.5% of spending. The outer rings reveal structure hidden within categories: the largest single item is Three- and four-star hotels (12.5%), so that accommodation spending is concentrated in the mid-to-upper segment of the hotel market—information relevant to the design of policies that aim to distribute tourism income more widely.</p>
+<figure id="fig:swarm" data-latex-placement="!htbp">
+<img loading="lazy" src="figures/fig11_beeswarm.png" />
+<figcaption><strong>Figure 11.</strong> Beeswarm of the 77 provinces. Horizontal position is the average spend per foreign visitor per trip (log scale); circle area is proportional to the number of foreign visitors; colour denotes region.</figcaption>
+</figure>
+<p>Figure 11 places every province on a single axis. Spend per visitor ranges from THB 2,700 (Sa Kaeo) to THB 51,650 (Phuket), a factor of about 19. Border provinces that receive short visits from neighbouring countries cluster on the left, coastal resort provinces on the right. The Spearman correlation between visitor volume and spend per visitor is 0.49: provinces that attract more visitors also earn more from each visitor, so that concentration operates at two levels at once.</p>
+<h2 data-number="5.4" id="rq4-what-kinds-of-travellers-are-there"><span class="header-section-number">5.4</span> RQ4: what kinds of travellers are there?</h2>
+<figure id="fig:parallel" data-latex-placement="!htbp">
+<img loading="lazy" src="figures/fig12_parallel_coordinates.png" />
+<figcaption><strong>Figure 12.</strong> Parallel coordinates of 15 market profiles on six variables. Each axis is scaled to its own range; colours follow origin region.</figcaption>
+</figure>
+<p>Figure 12 compares 15 markets on six variables simultaneously. Singapore has the highest spend per day (THB 6,500), Laos the lowest (THB 3,000), and Laos also has the highest share of repeat visitors (82%). Across markets, the correlation between nights per trip and spend per day is only <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>r</mi><mo>=</mo><mn>0.06</mn></mrow><annotation encoding="application/x-tex">r = 0.06</annotation></semantics></math>: in these data, longer stays do not imply lower daily spending. Crossing polylines make such trade-offs visible in a way a table does not; European markets, for instance, sit high on nights and on the share of beach trips but mid-range or low on daily spend.</p>
+<figure id="fig:embed" data-latex-placement="!htbp">
+<img loading="lazy" src="figures/fig13_embedding.png" />
+<figcaption><strong>Figure 13.</strong> Embedding map. t-SNE projection of 1,200 synthetic survey respondents from eight features, coloured by the persona used to generate them. Distances between clusters should not be interpreted literally.</figcaption>
+</figure>
+<div id="tab:segments">
+<div class="tbl"><p class="tcap"><strong>Table 4.</strong> Median profiles of the six traveller segments.</p><div class="tscroll"><table>
+<thead>
+<tr>
+<th style="text-align: left;">Segment</th>
+<th style="text-align: right;"><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>n</mi><annotation encoding="application/x-tex">n</annotation></semantics></math></th>
+<th style="text-align: right;">Share (%)</th>
+<th style="text-align: right;">Spend/day (THB)</th>
+<th style="text-align: right;">Nights</th>
+<th style="text-align: right;">Age</th>
+<th style="text-align: left;">Most common origin</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Long-stay beach</td>
+<td style="text-align: right;">254</td>
+<td style="text-align: right;">21.2</td>
+<td style="text-align: right;">4,875</td>
+<td style="text-align: right;">12.8</td>
+<td style="text-align: right;">41</td>
+<td style="text-align: left;">Europe</td>
+</tr>
+<tr>
+<td style="text-align: left;">City shoppers</td>
+<td style="text-align: right;">274</td>
+<td style="text-align: right;">22.8</td>
+<td style="text-align: right;">6,375</td>
+<td style="text-align: right;">4.4</td>
+<td style="text-align: right;">34</td>
+<td style="text-align: left;">East Asia</td>
+</tr>
+<tr>
+<td style="text-align: left;">Culture seekers</td>
+<td style="text-align: right;">200</td>
+<td style="text-align: right;">16.7</td>
+<td style="text-align: right;">3,840</td>
+<td style="text-align: right;">7.8</td>
+<td style="text-align: right;">37</td>
+<td style="text-align: left;">Europe</td>
+</tr>
+<tr>
+<td style="text-align: left;">Backpackers</td>
+<td style="text-align: right;">129</td>
+<td style="text-align: right;">10.8</td>
+<td style="text-align: right;">1,880</td>
+<td style="text-align: right;">21.8</td>
+<td style="text-align: right;">26</td>
+<td style="text-align: left;">Europe</td>
+</tr>
+<tr>
+<td style="text-align: left;">Business travellers</td>
+<td style="text-align: right;">140</td>
+<td style="text-align: right;">11.7</td>
+<td style="text-align: right;">9,660</td>
+<td style="text-align: right;">3.2</td>
+<td style="text-align: right;">42</td>
+<td style="text-align: left;">East Asia</td>
+</tr>
+<tr>
+<td style="text-align: left;">Family holidaymakers</td>
+<td style="text-align: right;">203</td>
+<td style="text-align: right;">16.9</td>
+<td style="text-align: right;">5,220</td>
+<td style="text-align: right;">6.4</td>
+<td style="text-align: right;">38</td>
+<td style="text-align: left;">East Asia</td>
+</tr>
+</tbody>
+</table></div></div>
+</div>
+<p>Figure 13 projects the 1,200 respondents into two dimensions; Table 4 gives the median profile of each segment. The largest segment is City shoppers (22.8%). The silhouette coefficient is 0.48 in the embedding but only 0.23 in the original feature space, a reminder that t-SNE accentuates separation <span class="citation" data-cites="wattenberg2016">(Wattenberg et al. 2016)</span>. <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>k</mi><annotation encoding="application/x-tex">k</annotation></semantics></math>-means clustering in the original space nevertheless recovers the personas with an ARI of 0.85, which confirms that the clusters exist in the data rather than being an artefact of the projection.</p>
+<h2 data-number="5.5" id="recovery-of-planted-structure"><span class="header-section-number">5.5</span> Recovery of planted structure</h2>
+<div id="tab:recovery">
+<div class="tbl"><p class="tcap"><strong>Table 5.</strong> Recovery of planted structure. MAE: mean absolute error; pp: percentage points; ARI: adjusted Rand index.</p><div class="tscroll"><table>
+<thead>
+<tr>
+<th style="text-align: left;"></th>
+<th style="text-align: left;">Estimand</th>
+<th style="text-align: left;">View</th>
+<th style="text-align: left;">Recovery</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">E1</td>
+<td style="text-align: left;">Seasonal profile (12 monthly indices)</td>
+<td style="text-align: left;">Radial spiral</td>
+<td style="text-align: left;"><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>r</mi><mo>=</mo><mn>0.998</mn></mrow><annotation encoding="application/x-tex">r = 0.998</annotation></semantics></math>; MAE <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>=</mo><mn>0.006</mn></mrow><annotation encoding="application/x-tex">= 0.006</annotation></semantics></math></td>
+</tr>
+<tr>
+<td style="text-align: left;">E2</td>
+<td style="text-align: left;">Depth of the pandemic shock, 2019–2021</td>
+<td style="text-align: left;">Radial spiral; streamgraph</td>
+<td style="text-align: left;">planted 99.0%; recovered 99.0%</td>
+</tr>
+<tr>
+<td style="text-align: left;">E4</td>
+<td style="text-align: left;">Length-of-stay medians (9 markets)</td>
+<td style="text-align: left;">Ridgeline plot</td>
+<td style="text-align: left;">MAE <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>=</mo><mn>0.32</mn></mrow><annotation encoding="application/x-tex">= 0.32</annotation></semantics></math> nights (max. 0.5)</td>
+</tr>
+<tr>
+<td style="text-align: left;">E5</td>
+<td style="text-align: left;">Destination preferences (36 shares)</td>
+<td style="text-align: left;">Sankey diagram</td>
+<td style="text-align: left;">MAE <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>=</mo><mn>0.37</mn></mrow><annotation encoding="application/x-tex">= 0.37</annotation></semantics></math> pp (max. 1.77)</td>
+</tr>
+<tr>
+<td style="text-align: left;">E6</td>
+<td style="text-align: left;">Hub share of onward trips</td>
+<td style="text-align: left;">Chord diagram</td>
+<td style="text-align: left;">planted 81.8%; recovered 81.4%</td>
+</tr>
+<tr>
+<td style="text-align: left;">E8</td>
+<td style="text-align: left;">Persona membership (1,200 respondents)</td>
+<td style="text-align: left;">Embedding map + <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>k</mi><annotation encoding="application/x-tex">k</annotation></semantics></math>-means</td>
+<td style="text-align: left;">ARI <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>=</mo><mn>0.85</mn></mrow><annotation encoding="application/x-tex">= 0.85</annotation></semantics></math></td>
+</tr>
+</tbody>
+</table></div></div>
+</div>
+<p>Table 5 summarises recovery. The seasonal index reproduces the planted profile almost exactly (<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>r</mi><mo>=</mo><mn>0.998</mn></mrow><annotation encoding="application/x-tex">r = 0.998</annotation></semantics></math>, MAE <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>=</mo><mn>0.006</mn></mrow><annotation encoding="application/x-tex">= 0.006</annotation></semantics></math>), and the recovered depth of the pandemic shock (99.0%) matches its noise-free planted value (99.0%). Median lengths of stay are recovered with an MAE of 0.32 nights, the residual being entirely attributable to the discretisation of stays to whole nights. Destination preferences read from the Sankey diagram deviate from the planted shares by 0.37 percentage points on average, reflecting the noise injected into the flow mechanism. The hub share of onward travel is recovered as 81.4% against a planted 81.8%, and persona membership with an ARI of 0.85. In every case the residual error is attributable to a known source—injected noise, discretisation or rounding—rather than to the view itself. Recovery here is, however, statistical: it establishes that the information needed to see each structure is present in what the view encodes, not that readers will perceive it (Section 6.4).</p>
+<h1 data-number="6" id="sec:discussion"><span class="header-section-number">6</span> Discussion</h1>
+<h2 data-number="6.1" id="complementary-views-across-scales"><span class="header-section-number">6.1</span> Complementary views across scales</h2>
+<p>The framework does not prescribe that all twelve views be used in every study. It shows, rather, that a single research question frequently requires more than one scale of analysis. RQ2 is the clearest case: the Sankey diagram answers where each market goes, the chord diagram which destinations feed one another, and edge bundling which provinces are visited together. Each reveals structure that the other two cannot. Likewise, RQ3 requires size (circle packing), proportion (sunburst) and distribution (beeswarm) to distinguish inequality that arises from visitor volumes from inequality that arises from spending per visitor.</p>
+<h2 data-number="6.2" id="expressiveness-and-perceptual-accuracy"><span class="header-section-number">6.2</span> Expressiveness and perceptual accuracy</h2>
+<p>Elaborate idioms repay their cost when the shape of the data matches the shape of the view—a cycle and a spiral, a flow and a band—but they trade away accuracy in reading individual values. Angles in sunbursts and areas in circle packing are judged less accurately than positions <span class="citation" data-cites="cleveland1984">(Cleveland and McGill 1984)</span>; distances in a t-SNE map are not distances in the data <span class="citation" data-cites="wattenberg2016">(Wattenberg et al. 2016)</span>; and parallel coordinates become hard to read beyond a few dozen items. The practical implication is to use expressive views to reveal patterns and to confirm the values that matter with tables or position-based charts (principle D5), and to sequence views as a narrative that follows the research questions <span class="citation" data-cites="segel2010">(Segel and Heer 2010)</span> rather than presenting them all at once.</p>
+<h2 data-number="6.3" id="from-synthetic-to-empirical-data"><span class="header-section-number">6.3</span> From synthetic to empirical data</h2>
+<p>The pipeline is designed so that real data with the same columns can replace the synthetic inputs without changes to the plotting code. Table 6 lists the kinds of sources that could substitute for each dataset. Flows and co-visitation are typically the hardest to obtain because they require individual-level mobility data, which must be aggregated before use to protect privacy.</p>
+<div id="tab:realdata">
+<div class="tbl"><p class="tcap"><strong>Table 6.</strong> Candidate empirical sources for each synthetic dataset.</p><div class="tscroll"><table>
+<thead>
+<tr>
+<th style="text-align: left;">Synthetic dataset</th>
+<th style="text-align: left;">Candidate source</th>
+<th style="text-align: left;">Caveats</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><code>arrivals_by_nationality</code>, <code>arrivals_monthly</code></td>
+<td style="text-align: left;">Official monthly statistics of international arrivals by nationality</td>
+<td style="text-align: left;">Definitions of arrivals versus tourists differ</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>stay_length</code>, <code>nationality_profiles</code>, <code>spending_breakdown</code></td>
+<td style="text-align: left;">Surveys of visitor behaviour and expenditure</td>
+<td style="text-align: left;">Sampling weights and survey error must be reported</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>trip_flows</code>, <code>region_flows</code>, <code>province_covisits</code></td>
+<td style="text-align: left;">Mobile positioning, card-payment or booking data</td>
+<td style="text-align: left;">Privacy; aggregation required before use</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>provinces</code></td>
+<td style="text-align: left;">Provincial statistics on visitors and tourism receipts</td>
+<td style="text-align: left;">Definitions of revenue vary by source</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>traveler_segments</code></td>
+<td style="text-align: left;">Individual-level visitor surveys</td>
+<td style="text-align: left;">Ethical review required</td>
+</tr>
+</tbody>
+</table></div></div>
+</div>
+<h2 data-number="6.4" id="sec:validity"><span class="header-section-number">6.4</span> Threats to validity</h2>
+<p><em>Construct validity.</em> Recovery is measured on companion statistics, not on human readers. That a view encodes the information required to see a structure does not establish that readers perceive it, perceive it quickly or perceive it correctly; establishing this requires controlled user studies. <em>Internal validity.</em> The planted structures were designed by the author, which creates a risk of designing data that flatter the views. Noise is injected at every stage to mitigate the risk, but the planted signals remain strong relative to the noise. <em>External validity.</em> Real data are messier than synthetic data: they contain missing values, changes of definition, small cells and reporting artefacts. The recovery accuracies reported here should therefore be read as upper bounds on what the views can achieve with empirical data.</p>
+<h2 data-number="6.5" id="limitations-and-future-work"><span class="header-section-number">6.5</span> Limitations and future work</h2>
+<p>Four limitations qualify the contribution. First, all data are synthetic, so the results in Section 5 demonstrate the method and say nothing about Thai tourism itself. Second, the views are static, whereas several idioms—parallel coordinates and circle packing in particular—benefit substantially from interaction such as brushing and zooming. Third, the views do not yet display uncertainty in the underlying estimates. Fourth, t-SNE depends on its hyperparameters and random initialisation. Future work should apply the framework to official data, add uncertainty and interaction, and evaluate the framework with its intended readers.</p>
+<h1 data-number="7" id="sec:conclusion"><span class="header-section-number">7</span> Conclusion</h1>
+<p>This paper has proposed a framework that selects visual idioms by working from research questions through the shape of the data, and has instantiated it as twelve coordinated views for the analysis of inbound tourism, together with a pipeline that reproduces every result with a single command. A simulation study with planted structure showed that each view’s companion statistic recovers the structure it is meant to reveal, with residual errors attributable to known sources, and that views applied to the same question complement one another at different scales. The principal next steps are application to empirical data, the display of uncertainty, interactive versions of the views, and evaluation with the readers for whom they are intended.</p>
+<h1 class="unnumbered" id="code-and-data-availability">Code and data availability</h1>
+<p>All data analysed in this study are synthetic and are generated by the accompanying code; no empirical data were used. The code, synthetic data, figures and manuscript sources are available at <a href="https://github.com/thanatchon36/twelve-views-thai-tourism" class="uri">https://github.com/thanatchon36/twelve-views-thai-tourism</a>.</p>
+<h1 class="unnumbered" id="use-of-generative-ai">Use of generative AI</h1>
+<p>A generative AI assistant (Claude, Anthropic) was used to draft the manuscript and the code. The author reviewed, edited and verified all content, including every reference, and takes full responsibility for the work.</p>
+<h1 class="unnumbered" id="references">References</h1>
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-bostock2011" class="csl-entry" role="listitem">
+Bostock, Michael, Vadim Ogievetsky, and Jeffrey Heer. 2011. <span>“<span>D3</span>: Data-Driven Documents.”</span> <em>IEEE Transactions on Visualization and Computer Graphics</em> 17 (12): 2301–9.
+</div>
+<div id="ref-butler1980" class="csl-entry" role="listitem">
+Butler, Richard W. 1980. <span>“The Concept of a Tourist Area Cycle of Evolution: Implications for Management of Resources.”</span> <em>Canadian Geographer</em> 24 (1): 5–12.
+</div>
+<div id="ref-byron2008" class="csl-entry" role="listitem">
+Byron, Lee, and Martin Wattenberg. 2008. <span>“Stacked Graphs – Geometry &amp; Aesthetics.”</span> <em>IEEE Transactions on Visualization and Computer Graphics</em> 14 (6): 1245–52.
+</div>
+<div id="ref-cleveland1984" class="csl-entry" role="listitem">
+Cleveland, William S., and Robert McGill. 1984. <span>“Graphical Perception: Theory, Experimentation, and Application to the Development of Graphical Methods.”</span> <em>Journal of the American Statistical Association</em> 79 (387): 531–54.
+</div>
+<div id="ref-fritsch1980" class="csl-entry" role="listitem">
+Fritsch, Frederick N., and Ralph E. Carlson. 1980. <span>“Monotone Piecewise Cubic Interpolation.”</span> <em>SIAM Journal on Numerical Analysis</em> 17 (2): 238–46.
+</div>
+<div id="ref-gossling2021" class="csl-entry" role="listitem">
+Gössling, Stefan, Daniel Scott, and C. Michael Hall. 2021. <span>“Pandemics, Tourism and Global Change: A Rapid Assessment of <span>COVID</span>-19.”</span> <em>Journal of Sustainable Tourism</em> 29 (1): 1–20.
+</div>
+<div id="ref-havre2000" class="csl-entry" role="listitem">
+Havre, Susan, Beth Hetzler, and Lucy Nowell. 2000. <span>“<span>ThemeRiver</span>: Visualizing Theme Changes over Time.”</span> <em>Proceedings of the IEEE Symposium on Information Visualization</em>, 115–23.
+</div>
+<div id="ref-heer2010zoo" class="csl-entry" role="listitem">
+Heer, Jeffrey, Michael Bostock, and Vadim Ogievetsky. 2010. <span>“A Tour Through the Visualization Zoo.”</span> <em>Communications of the ACM</em> 53 (6): 59–67.
+</div>
+<div id="ref-holten2006" class="csl-entry" role="listitem">
+Holten, Danny. 2006. <span>“Hierarchical Edge Bundles: Visualization of Adjacency Relations in Hierarchical Data.”</span> <em>IEEE Transactions on Visualization and Computer Graphics</em> 12 (5): 741–48.
+</div>
+<div id="ref-hubert1985" class="csl-entry" role="listitem">
+Hubert, Lawrence, and Phipps Arabie. 1985. <span>“Comparing Partitions.”</span> <em>Journal of Classification</em> 2 (1): 193–218.
+</div>
+<div id="ref-hunter2007" class="csl-entry" role="listitem">
+Hunter, John D. 2007. <span>“Matplotlib: A <span>2D</span> Graphics Environment.”</span> <em>Computing in Science &amp; Engineering</em> 9 (3): 90–95.
+</div>
+<div id="ref-inselberg1985" class="csl-entry" role="listitem">
+Inselberg, Alfred. 1985. <span>“The Plane with Parallel Coordinates.”</span> <em>The Visual Computer</em> 1 (2): 69–91.
+</div>
+<div id="ref-krzywinski2009" class="csl-entry" role="listitem">
+Krzywinski, Martin, Jacqueline Schein, Inanç Birol, et al. 2009. <span>“Circos: An Information Aesthetic for Comparative Genomics.”</span> <em>Genome Research</em> 19 (9): 1639–45.
+</div>
+<div id="ref-vandermaaten2008" class="csl-entry" role="listitem">
+Maaten, Laurens van der, and Geoffrey Hinton. 2008. <span>“Visualizing Data Using t-<span>SNE</span>.”</span> <em>Journal of Machine Learning Research</em> 9: 2579–605.
+</div>
+<div id="ref-mcinnes2018" class="csl-entry" role="listitem">
+McInnes, Leland, John Healy, and James Melville. 2018. <em><span>UMAP</span>: Uniform Manifold Approximation and Projection for Dimension Reduction</em>. arXiv preprint arXiv:1802.03426.
+</div>
+<div id="ref-morris2019" class="csl-entry" role="listitem">
+Morris, Tim P., Ian R. White, and Michael J. Crowther. 2019. <span>“Using Simulation Studies to Evaluate Statistical Methods.”</span> <em>Statistics in Medicine</em> 38 (11): 2074–102.
+</div>
+<div id="ref-munzner2014" class="csl-entry" role="listitem">
+Munzner, Tamara. 2014. <em>Visualization Analysis and Design</em>. CRC Press.
+</div>
+<div id="ref-neurath1936" class="csl-entry" role="listitem">
+Neurath, Otto. 1936. <em>International Picture Language: The First Rules of <span>I</span>sotype</em>. Kegan Paul.
+</div>
+<div id="ref-pedregosa2011" class="csl-entry" role="listitem">
+Pedregosa, Fabian, Gaël Varoquaux, Alexandre Gramfort, et al. 2011. <span>“Scikit-Learn: Machine Learning in <span>P</span>ython.”</span> <em>Journal of Machine Learning Research</em> 12: 2825–30.
+</div>
+<div id="ref-riehmann2005" class="csl-entry" role="listitem">
+Riehmann, Patrick, Manfred Hanfler, and Bernd Froehlich. 2005. <span>“Interactive <span>S</span>ankey Diagrams.”</span> <em>Proceedings of the IEEE Symposium on Information Visualization</em>, 233–40.
+</div>
+<div id="ref-rousseeuw1987" class="csl-entry" role="listitem">
+Rousseeuw, Peter J. 1987. <span>“Silhouettes: A Graphical Aid to the Interpretation and Validation of Cluster Analysis.”</span> <em>Journal of Computational and Applied Mathematics</em> 20: 53–65.
+</div>
+<div id="ref-segel2010" class="csl-entry" role="listitem">
+Segel, Edward, and Jeffrey Heer. 2010. <span>“Narrative Visualization: Telling Stories with Data.”</span> <em>IEEE Transactions on Visualization and Computer Graphics</em> 16 (6): 1139–48.
+</div>
+<div id="ref-stasko2000" class="csl-entry" role="listitem">
+Stasko, John, and Eugene Zhang. 2000. <span>“Focus+context Display and Navigation Techniques for Enhancing Radial, Space-Filling Hierarchy Visualizations.”</span> <em>Proceedings of the IEEE Symposium on Information Visualization</em>, 57–65.
+</div>
+<div id="ref-wang2006" class="csl-entry" role="listitem">
+Wang, Weixin, Hui Wang, Guozhong Dai, and Hongan Wang. 2006. <span>“Visualization of Large Hierarchical Data by Circle Packing.”</span> <em>Proceedings of the SIGCHI Conference on Human Factors in Computing Systems</em>, 517–20.
+</div>
+<div id="ref-wattenberg2016" class="csl-entry" role="listitem">
+Wattenberg, Martin, Fernanda Viégas, and Ian Johnson. 2016. <span>“How to Use t-<span>SNE</span> Effectively.”</span> <em>Distill</em>.
+</div>
+<div id="ref-weber2001" class="csl-entry" role="listitem">
+Weber, Marc, Marc Alexa, and Wolfgang Müller. 2001. <span>“Visualizing Time-Series on Spirals.”</span> <em>Proceedings of the IEEE Symposium on Information Visualization</em>, 7–13.
+</div>
+<div id="ref-wilke2019" class="csl-entry" role="listitem">
+Wilke, Claus O. 2019. <em>Fundamentals of Data Visualization</em>. O’Reilly Media.
+</div>
+<div id="ref-wilkinson1999" class="csl-entry" role="listitem">
+Wilkinson, Leland. 1999. <span>“Dot Plots.”</span> <em>The American Statistician</em> 53 (3): 276–81.
+</div>
+</div>
+
+<h1 data-number="8" id="app:params"><span class="header-section-number">A</span> Data-generating parameters</h1>
+<p>This appendix lists the parameters of the data-generating mechanisms described in Section 4.2. All remaining inputs, including the market trajectories <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>a</mi><mrow><mi>k</mi><mi>t</mi></mrow></msub><annotation encoding="application/x-tex">a_{kt}</annotation></semantics></math>, the flow matrices <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>P</mi><annotation encoding="application/x-tex">P</annotation></semantics></math>, <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>Q</mi><annotation encoding="application/x-tex">Q</annotation></semantics></math> and <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>R</mi><annotation encoding="application/x-tex">R</annotation></semantics></math>, and the province and co-visitation inputs, are defined in the accompanying code.</p>
+<div id="tab:params-season">
+<div class="tbl"><p class="tcap"><strong>Table A1.</strong> Planted seasonal profile <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>ω</mi><mi>m</mi></msub><annotation encoding="application/x-tex">\omega_m</annotation></semantics></math>, normalised to a mean of one.</p><div class="tscroll"><table>
+<thead>
+<tr>
+<th style="text-align: center;">Jan</th>
+<th style="text-align: center;">Feb</th>
+<th style="text-align: center;">Mar</th>
+<th style="text-align: center;">Apr</th>
+<th style="text-align: center;">May</th>
+<th style="text-align: center;">Jun</th>
+<th style="text-align: center;">Jul</th>
+<th style="text-align: center;">Aug</th>
+<th style="text-align: center;">Sep</th>
+<th style="text-align: center;">Oct</th>
+<th style="text-align: center;">Nov</th>
+<th style="text-align: center;">Dec</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1.19</td>
+<td style="text-align: center;">1.13</td>
+<td style="text-align: center;">1.04</td>
+<td style="text-align: center;">0.93</td>
+<td style="text-align: center;">0.82</td>
+<td style="text-align: center;">0.86</td>
+<td style="text-align: center;">1.00</td>
+<td style="text-align: center;">1.02</td>
+<td style="text-align: center;">0.82</td>
+<td style="text-align: center;">0.91</td>
+<td style="text-align: center;">1.05</td>
+<td style="text-align: center;">1.23</td>
+</tr>
+</tbody>
+</table></div></div>
+</div>
+<div id="tab:params-stay">
+<div class="tbl"><p class="tcap"><strong>Table A2.</strong> Planted length-of-stay distributions: log-normal median <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>μ</mi><mi>k</mi></msub><annotation encoding="application/x-tex">\mu_k</annotation></semantics></math> (nights) and log-scale <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>σ</mi><mi>k</mi></msub><annotation encoding="application/x-tex">\sigma_k</annotation></semantics></math>.</p><div class="tscroll"><table>
+<thead>
+<tr>
+<th style="text-align: left;">Market</th>
+<th style="text-align: left;">Origin region</th>
+<th style="text-align: right;"><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>μ</mi><mi>k</mi></msub><annotation encoding="application/x-tex">\mu_k</annotation></semantics></math></th>
+<th style="text-align: right;"><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>σ</mi><mi>k</mi></msub><annotation encoding="application/x-tex">\sigma_k</annotation></semantics></math></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Malaysia</td>
+<td style="text-align: left;">ASEAN</td>
+<td style="text-align: right;">3.2</td>
+<td style="text-align: right;">0.45</td>
+</tr>
+<tr>
+<td style="text-align: left;">India</td>
+<td style="text-align: left;">South Asia</td>
+<td style="text-align: right;">5.0</td>
+<td style="text-align: right;">0.40</td>
+</tr>
+<tr>
+<td style="text-align: left;">South Korea</td>
+<td style="text-align: left;">East Asia</td>
+<td style="text-align: right;">5.5</td>
+<td style="text-align: right;">0.35</td>
+</tr>
+<tr>
+<td style="text-align: left;">Japan</td>
+<td style="text-align: left;">East Asia</td>
+<td style="text-align: right;">6.5</td>
+<td style="text-align: right;">0.45</td>
+</tr>
+<tr>
+<td style="text-align: left;">China</td>
+<td style="text-align: left;">East Asia</td>
+<td style="text-align: right;">6.8</td>
+<td style="text-align: right;">0.35</td>
+</tr>
+<tr>
+<td style="text-align: left;">United States</td>
+<td style="text-align: left;">Americas</td>
+<td style="text-align: right;">11.0</td>
+<td style="text-align: right;">0.50</td>
+</tr>
+<tr>
+<td style="text-align: left;">Russia</td>
+<td style="text-align: left;">Europe</td>
+<td style="text-align: right;">12.5</td>
+<td style="text-align: right;">0.35</td>
+</tr>
+<tr>
+<td style="text-align: left;">United Kingdom</td>
+<td style="text-align: left;">Europe</td>
+<td style="text-align: right;">14.5</td>
+<td style="text-align: right;">0.45</td>
+</tr>
+<tr>
+<td style="text-align: left;">Germany</td>
+<td style="text-align: left;">Europe</td>
+<td style="text-align: right;">16.5</td>
+<td style="text-align: right;">0.45</td>
+</tr>
+</tbody>
+</table></div></div>
+</div>
+<div id="tab:params-personas">
+<div class="tbl"><p class="tcap"><strong>Table A3.</strong> Planted persona parameters: prior weight, mean spend per day (THB), nights, age, group size and activity intensities.</p><div class="tscroll"><table>
+<thead>
+<tr>
+<th style="text-align: left;">Persona</th>
+<th style="text-align: right;"><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>π</mi><mi>z</mi></msub><annotation encoding="application/x-tex">\pi_z</annotation></semantics></math></th>
+<th style="text-align: right;">Spend</th>
+<th style="text-align: right;">Nights</th>
+<th style="text-align: right;">Age</th>
+<th style="text-align: right;">Group</th>
+<th style="text-align: right;">Beach</th>
+<th style="text-align: right;">Shopping</th>
+<th style="text-align: right;">Culture</th>
+<th style="text-align: right;">Nightlife</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Long-stay beach</td>
+<td style="text-align: right;">0.22</td>
+<td style="text-align: right;">4,800</td>
+<td style="text-align: right;">13.0</td>
+<td style="text-align: right;">41</td>
+<td style="text-align: right;">2.1</td>
+<td style="text-align: right;">0.85</td>
+<td style="text-align: right;">0.25</td>
+<td style="text-align: right;">0.25</td>
+<td style="text-align: right;">0.45</td>
+</tr>
+<tr>
+<td style="text-align: left;">City shoppers</td>
+<td style="text-align: right;">0.24</td>
+<td style="text-align: right;">6,500</td>
+<td style="text-align: right;">4.5</td>
+<td style="text-align: right;">33</td>
+<td style="text-align: right;">2.5</td>
+<td style="text-align: right;">0.15</td>
+<td style="text-align: right;">0.90</td>
+<td style="text-align: right;">0.30</td>
+<td style="text-align: right;">0.50</td>
+</tr>
+<tr>
+<td style="text-align: left;">Culture seekers</td>
+<td style="text-align: right;">0.16</td>
+<td style="text-align: right;">3,800</td>
+<td style="text-align: right;">8.0</td>
+<td style="text-align: right;">38</td>
+<td style="text-align: right;">2.0</td>
+<td style="text-align: right;">0.20</td>
+<td style="text-align: right;">0.30</td>
+<td style="text-align: right;">0.90</td>
+<td style="text-align: right;">0.20</td>
+</tr>
+<tr>
+<td style="text-align: left;">Backpackers</td>
+<td style="text-align: right;">0.10</td>
+<td style="text-align: right;">1,800</td>
+<td style="text-align: right;">21.0</td>
+<td style="text-align: right;">25</td>
+<td style="text-align: right;">1.4</td>
+<td style="text-align: right;">0.60</td>
+<td style="text-align: right;">0.15</td>
+<td style="text-align: right;">0.60</td>
+<td style="text-align: right;">0.70</td>
+</tr>
+<tr>
+<td style="text-align: left;">Business travellers</td>
+<td style="text-align: right;">0.10</td>
+<td style="text-align: right;">9,500</td>
+<td style="text-align: right;">3.2</td>
+<td style="text-align: right;">42</td>
+<td style="text-align: right;">1.2</td>
+<td style="text-align: right;">0.10</td>
+<td style="text-align: right;">0.40</td>
+<td style="text-align: right;">0.10</td>
+<td style="text-align: right;">0.40</td>
+</tr>
+<tr>
+<td style="text-align: left;">Family holidaymakers</td>
+<td style="text-align: right;">0.18</td>
+<td style="text-align: right;">5,200</td>
+<td style="text-align: right;">6.0</td>
+<td style="text-align: right;">37</td>
+<td style="text-align: right;">4.0</td>
+<td style="text-align: right;">0.70</td>
+<td style="text-align: right;">0.55</td>
+<td style="text-align: right;">0.35</td>
+<td style="text-align: right;">0.10</td>
+</tr>
+</tbody>
+</table></div></div>
+</div>
+</article>
+<section class="cite" aria-label="How to cite"><h2>How to cite</h2><pre><code>@techreport{chongmankhong2026twelveviews,
+  author      = {Chongmankhong, Thanatchon},
+  title       = {Twelve Views of Thai Tourism: A Data-Shape-Driven Framework for Visual Analysis, Evaluated by Planted-Structure Recovery},
+  year        = {2026},
+  type        = {Working paper},
+  url         = {https://thanatchon36.github.io/twelve-views-thai-tourism/paper/}
+}</code></pre></section>
+<footer class="colophon">
+<p>Independent personal research; the views expressed are the author's own and do not represent those of any employer or institution. Working paper draft (SYNTHETIC-DATA RUN). Code and data: &lt;a href="https://github.com/thanatchon36/twelve-views-thai-tourism"&gt;https://github.com/thanatchon36/twelve-views-thai-tourism&lt;/a&gt;.</p>
+<p>Rendered from <code>paper/paper.tex</code> by <code>twelveviews.paper_web</code> (<code>make web</code>). Every number is resolved from the same generated macros and tables as the PDF, which is authoritative. This run uses synthetic data throughout.</p>
+</footer>
+</div>
+</body>
+</html>
