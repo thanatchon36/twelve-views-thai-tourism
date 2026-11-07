@@ -1,0 +1,11 @@
+Title: Twelve Views of Thai Tourism: A Data-Shape-Driven Framework for Visual Analysis, Evaluated by Planted-Structure Recovery
+Authors: Thanatchon Chongmankhong
+
+Abstract (1750 characters; the arXiv limit is 1,920):
+Tourism data are rarely of a single shape. A single research programme may require seasonal time series, origin–destination flows, hierarchical expenditure accounts, co-visitation networks and multivariate traveller profiles, yet empirical reporting in tourism continues to rely predominantly on bar and line charts. We propose a data-shape-driven framework that derives visual idioms from research questions through an explicit abstraction of the data, and instantiate it as twelve coordinated views organised around four questions: who visits and when, where visitors go, where the money goes, and what kinds of travellers there are. To evaluate the framework independently of the availability and quality of administrative data, we design a simulation study following the ADEMP structure, in which known structure—seasonality, a pandemic shock, the diversification of source markets, destination preferences, a hub-and-spoke pattern of onward travel, revenue concentration and six latent traveller personas—is planted in ten synthetic datasets spanning 2010–2025. Each view is paired with a companion statistic, and recovery of the planted structure is measured. The views recover the seasonal profile (r = 0.998), median length of stay (mean absolute error 0.32 nights), destination preferences (0.37 percentage points) and persona membership (adjusted Rand index 0.85), while making visible features that tabular summaries obscure, including the near-total collapse of arrivals in 2021 and a double concentration of revenue in a handful of provinces. An open, single-command pipeline regenerates every number, table and figure. All results derive from synthetic data and illustrate the method; they are not empirical findings about Thai tourism.
+
+Comments: 19 pages, 13 figures, 9 tables. Code and synthetic data: https://github.com/[username]/twelve-views-thai-tourism
+
+Primary category: cs.HC (Human-Computer Interaction)
+Cross-list: stat.AP (Statistics - Applications)
+Licence (suggested): CC BY 4.0

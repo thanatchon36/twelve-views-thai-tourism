@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software or its synthetic data, please cite it as below."
+title: "Twelve Views of Thai Tourism: code and synthetic data"
+authors:
+  - family-names: "Chongmankhong"
+    given-names: "Thanatchon"
+version: "1.0.0"
+date-released: "2026-11-06"
+license: MIT
+repository-code: "https://github.com/[username]/twelve-views-thai-tourism"
+keywords:
+  - visual analytics
+  - data visualisation
+  - tourism analytics
+  - simulation study
+  - synthetic data

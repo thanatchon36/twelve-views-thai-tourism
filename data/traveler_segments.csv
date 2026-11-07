@@ -1,0 +1,1201 @@
+x,y,segment,segment_id,origin_region,region_id,spend_per_day,nights,age,group_size
+-6.077,-7.911,Family holidaymakers,5,South Asia,3,10820,4.2,56,4.9
+-10.206,-1.303,City shoppers,1,ASEAN,1,4630,7.2,39,3.3
+15.928,25.134,Culture seekers,2,Europe,2,3840,11.0,26,1.0
+-23.644,-4.293,City shoppers,1,East Asia,0,7240,5.0,34,2.2
+18.449,23.034,Culture seekers,2,ASEAN,1,2970,11.9,26,1.0
+21.467,-0.537,Family holidaymakers,5,ASEAN,1,5400,10.6,21,2.9
+7.876,-14.087,Long-stay beach,0,Europe,2,4020,13.9,52,3.2
+32.522,2.414,Backpackers,3,Oceania & other,5,1490,21.8,24,1.1
+-33.422,10.347,City shoppers,1,East Asia,0,6520,4.7,18,2.4
+-19.687,4.727,City shoppers,1,Europe,2,6020,9.8,36,4.0
+-34.063,-5.424,City shoppers,1,Europe,2,8220,2.4,26,1.6
+29.909,8.053,Backpackers,3,Europe,2,2180,10.8,22,2.0
+-30.672,-20.597,Business travellers,4,Europe,2,10510,4.7,47,1.0
+-28.119,-19.774,Business travellers,4,South Asia,3,14030,1.7,45,1.0
+-32.242,-16.989,Business travellers,4,East Asia,0,13040,2.7,32,1.1
+8.032,19.693,Culture seekers,2,East Asia,0,2940,5.4,42,3.3
+-0.277,3.745,Family holidaymakers,5,East Asia,0,5760,5.7,32,3.3
+25.298,-11.741,Long-stay beach,0,Oceania & other,5,5190,27.1,40,3.8
+-25.483,-5.569,City shoppers,1,East Asia,0,9820,3.4,24,1.9
+5.211,-9.226,Long-stay beach,0,ASEAN,1,5710,10.1,46,3.5
+-28.038,0.153,City shoppers,1,ASEAN,1,8730,2.7,39,2.3
+-28.042,-16.255,Business travellers,4,Americas,4,11450,2.4,39,1.5
+-6.648,-4.91,Family holidaymakers,5,ASEAN,1,5320,5.9,52,4.3
+-28.915,8.716,City shoppers,1,East Asia,0,3810,4.5,33,2.7
+9.778,-18.043,Long-stay beach,0,Europe,2,5900,11.1,52,1.7
+-8.764,5.815,Family holidaymakers,5,East Asia,0,3270,12.3,33,5.3
+-2.556,0.63,Family holidaymakers,5,South Asia,3,7190,4.1,32,4.4
+-22.21,0.915,Business travellers,4,ASEAN,1,4860,2.5,53,2.4
+11.617,25.04,Culture seekers,2,Europe,2,5310,8.3,38,1.5
+-36.288,-5.371,City shoppers,1,East Asia,0,17520,3.2,28,2.6
+-21.836,-3.425,City shoppers,1,East Asia,0,5560,4.9,38,2.9
+-33.449,10.06,City shoppers,1,ASEAN,1,4350,7.4,23,2.4
+-29.266,-12.013,Business travellers,4,South Asia,3,9980,2.2,37,2.0
+-32.662,-14.508,Business travellers,4,East Asia,0,14220,3.9,31,1.0
+-5.17,-0.95,Family holidaymakers,5,ASEAN,1,7610,9.7,35,7.2
+17.782,-11.075,Long-stay beach,0,Europe,2,3610,7.6,34,1.0
+7.3,25.079,Culture seekers,2,East Asia,0,4910,6.1,46,1.7
+38.12,4.728,Backpackers,3,Oceania & other,5,2150,30.4,24,1.0
+19.735,-4.229,Long-stay beach,0,Europe,2,5210,19.3,22,2.4
+-11.309,-0.008,Family holidaymakers,5,ASEAN,1,5810,5.7,33,4.1
+-36.112,4.742,City shoppers,1,East Asia,0,8670,3.5,51,2.0
+-22.699,2.175,City shoppers,1,ASEAN,1,5290,2.9,52,2.3
+23.771,-3.172,Backpackers,3,Europe,2,2200,7.6,37,2.0
+10.491,-12.654,Long-stay beach,0,Americas,4,3700,12.0,45,2.6
+-24.689,1.767,City shoppers,1,ASEAN,1,4960,3.3,41,2.2
+-30.717,-21.784,Business travellers,4,Europe,2,9440,3.6,49,1.0
+-25.175,11.94,City shoppers,1,East Asia,0,4290,4.0,24,2.7
+8.664,22.356,Culture seekers,2,Europe,2,2660,3.9,41,2.7
+20.23,-10.906,Long-stay beach,0,East Asia,0,4790,19.1,37,1.8
+-21.737,3.707,City shoppers,1,ASEAN,1,5300,4.7,47,3.7
+-31.333,-1.071,City shoppers,1,East Asia,0,4460,3.4,35,2.2
+-24.535,-8.445,Business travellers,4,Americas,4,12370,2.2,33,2.2
+-16.738,8.79,City shoppers,1,East Asia,0,4190,5.0,30,4.0
+7.984,-8.301,Long-stay beach,0,Europe,2,3670,9.6,40,4.1
+-32.016,6.775,City shoppers,1,East Asia,0,6300,4.5,30,1.6
+11.968,-16.698,Long-stay beach,0,Europe,2,5890,18.6,43,2.5
+3.001,-11.205,Long-stay beach,0,Europe,2,3620,12.9,49,4.3
+37.378,-3.565,Backpackers,3,South Asia,3,1710,29.7,52,1.7
+39.35,0.567,Backpackers,3,Americas,4,1430,38.3,30,2.4
+-25.422,6.695,City shoppers,1,ASEAN,1,6600,4.3,30,3.1
+-0.312,-1.053,Family holidaymakers,5,South Asia,3,3800,6.4,32,4.3
+15.321,14.586,Culture seekers,2,Europe,2,2950,6.2,47,1.0
+-28.679,-5.15,City shoppers,1,East Asia,0,4820,3.9,18,1.0
+36.225,5.715,Backpackers,3,Europe,2,2220,23.6,24,1.0
+-23.04,2.716,City shoppers,1,Americas,4,3950,3.0,48,2.6
+-25.961,-14.979,Business travellers,4,ASEAN,1,8060,4.8,38,1.0
+-15.424,1.057,City shoppers,1,East Asia,0,6550,4.3,28,3.7
+4.739,18.897,Culture seekers,2,Europe,2,3940,6.1,42,3.6
+-23.104,10.836,City shoppers,1,South Asia,3,7780,4.1,18,2.8
+38.936,5.396,Backpackers,3,Europe,2,3250,29.1,28,1.3
+31.584,6.196,Backpackers,3,Oceania & other,5,1870,14.9,24,1.0
+7.239,-14.397,Family holidaymakers,5,ASEAN,1,3980,11.2,58,3.2
+9.528,-3.697,Family holidaymakers,5,Europe,2,3300,9.6,32,3.7
+2.265,20.725,Culture seekers,2,ASEAN,1,6010,11.9,46,3.5
+15.613,23.374,Culture seekers,2,East Asia,0,5050,12.0,26,2.4
+-20.745,10.408,City shoppers,1,ASEAN,1,6020,6.2,28,3.3
+-18.442,9.189,City shoppers,1,ASEAN,1,5390,4.5,27,4.1
+3.539,25.67,Culture seekers,2,East Asia,0,3650,8.0,49,1.5
+-23.988,9.174,City shoppers,1,South Asia,3,10760,4.4,22,3.3
+7.076,-7.841,Family holidaymakers,5,Europe,2,4190,7.2,37,4.2
+-30.967,9.155,Business travellers,4,East Asia,0,4090,4.5,44,1.1
+34.797,8.286,Backpackers,3,Europe,2,1120,21.0,35,1.2
+-33.719,8.269,City shoppers,1,East Asia,0,6470,10.1,26,1.1
+-25.658,12.954,City shoppers,1,Europe,2,6480,6.9,18,1.6
+23.47,-15.381,Long-stay beach,0,Europe,2,6410,28.9,44,1.8
+0.948,-0.839,Family holidaymakers,5,ASEAN,1,5160,4.7,28,4.4
+-28.73,-22.6,Business travellers,4,South Asia,3,9110,7.6,58,1.0
+-26.798,1.037,City shoppers,1,Europe,2,4860,4.3,38,2.0
+-30.718,-1.988,City shoppers,1,ASEAN,1,4330,3.7,40,1.9
+25.019,-7.479,Long-stay beach,0,ASEAN,1,4630,17.2,43,3.9
+-25.484,-5.461,City shoppers,1,South Asia,3,8870,7.3,26,2.2
+10.009,19.969,Culture seekers,2,Europe,2,3420,11.3,34,2.6
+0.762,5.169,Family holidaymakers,5,South Asia,3,7160,7.5,39,2.8
+-27.924,11.638,City shoppers,1,East Asia,0,5730,2.8,28,2.5
+-24.218,-19.338,Business travellers,4,South Asia,3,6370,4.3,42,1.0
+2.263,-1.88,Family holidaymakers,5,Oceania & other,5,6480,7.7,31,3.6
+-22.61,-20.896,Business travellers,4,Europe,2,5570,3.2,48,1.1
+41.747,2.018,Backpackers,3,Europe,2,2030,56.9,18,1.0
+14.776,-18.399,Long-stay beach,0,Europe,2,4890,16.7,44,1.3
+5.559,27.01,Culture seekers,2,Europe,2,3650,7.3,51,2.0
+12.929,-5.759,Long-stay beach,0,South Asia,3,5840,15.5,32,1.8
+-30.954,-15.389,Business travellers,4,East Asia,0,10620,1.3,33,1.4
+4.986,4.899,Family holidaymakers,5,South Asia,3,5480,13.2,33,3.2
+-36.381,-3.36,City shoppers,1,ASEAN,1,10490,6.3,19,2.7
+-32.229,-9.471,Business travellers,4,Europe,2,11990,6.3,35,1.0
+33.549,-2.032,Backpackers,3,Europe,2,2100,22.1,36,2.3
+6.039,-14.942,Long-stay beach,0,ASEAN,1,4700,6.9,59,2.4
+29.774,2.354,Backpackers,3,Europe,2,2550,14.5,27,1.0
+-26.99,-7.115,Business travellers,4,East Asia,0,7010,1.7,33,1.1
+-3.373,-10.502,Family holidaymakers,5,East Asia,0,3220,9.4,48,3.7
+-17.836,4.969,City shoppers,1,East Asia,0,3540,4.3,50,4.4
+1.141,-8.426,Family holidaymakers,5,ASEAN,1,3970,8.0,44,3.6
+27.883,2.625,Backpackers,3,Europe,2,2730,14.2,25,1.2
+22.251,-6.084,Long-stay beach,0,Europe,2,8790,16.9,29,2.1
+20.879,-13.189,Long-stay beach,0,Oceania & other,5,3430,11.7,43,1.5
+5.402,20.745,Culture seekers,2,Oceania & other,5,5000,9.8,38,2.4
+-34.44,-2.191,City shoppers,1,South Asia,3,5150,7.7,20,1.4
+38.446,4.134,Backpackers,3,Europe,2,1510,32.3,19,1.8
+-27.249,12.329,City shoppers,1,East Asia,0,3660,4.9,27,2.0
+-27.283,-23.594,Business travellers,4,East Asia,0,13190,3.2,51,2.1
+-25.13,-23.228,City shoppers,1,East Asia,0,7350,4.6,53,1.0
+33.591,1.94,Backpackers,3,Americas,4,2130,25.2,25,1.9
+8.989,-6.448,Long-stay beach,0,South Asia,3,5100,17.3,42,3.5
+-27.81,-5.428,City shoppers,1,ASEAN,1,5920,2.5,26,1.9
+32.594,1.058,Backpackers,3,Oceania & other,5,1740,21.7,35,1.8
+-4.275,-3.359,Family holidaymakers,5,East Asia,0,5490,4.2,42,4.4
+19.747,-15.569,Long-stay beach,0,Europe,2,2800,7.8,50,1.8
+-29.236,-17.439,Business travellers,4,East Asia,0,11590,3.4,38,1.0
+10.775,21.82,Culture seekers,2,South Asia,3,4080,4.8,34,2.6
+-29.474,-16.356,Business travellers,4,ASEAN,1,11870,1.9,40,1.7
+22.149,-7.367,Long-stay beach,0,East Asia,0,5170,19.0,34,3.7
+5.797,-10.859,Long-stay beach,0,Europe,2,6230,8.5,44,3.0
+-31.749,-4.76,City shoppers,1,ASEAN,1,5020,3.0,30,1.2
+12.289,-17.458,Long-stay beach,0,Europe,2,6500,22.3,45,2.3
+1.716,13.861,Culture seekers,2,South Asia,3,3490,7.3,35,3.5
+9.851,14.345,Culture seekers,2,Europe,2,4880,10.8,49,2.7
+35.4,-1.669,Backpackers,3,Europe,2,1460,26.1,34,2.2
+-32.202,-4.719,City shoppers,1,East Asia,0,4790,5.1,36,1.0
+-25.207,-22.459,Business travellers,4,East Asia,0,6990,4.7,52,1.0
+-2.609,2.523,Family holidaymakers,5,Europe,2,6770,5.1,23,4.4
+31.69,2.548,Backpackers,3,Europe,2,1400,17.8,25,1.0
+16.094,-20.067,Long-stay beach,0,Europe,2,3140,14.9,52,1.2
+-30.643,-16.354,Business travellers,4,South Asia,3,11610,2.8,36,1.0
+9.088,1.322,Culture seekers,2,Europe,2,3540,3.2,33,2.0
+6.82,20.983,Culture seekers,2,ASEAN,1,2750,5.3,42,2.5
+-28.998,-15.655,Business travellers,4,Europe,2,13740,1.6,41,2.3
+-24.821,6.765,City shoppers,1,East Asia,0,6290,7.2,34,3.9
+-23.779,-0.138,City shoppers,1,East Asia,0,7570,3.8,45,2.5
+-27.033,7.192,City shoppers,1,Europe,2,6470,3.7,33,3.0
+0.998,-7.075,Long-stay beach,0,Europe,2,3510,11.2,43,3.2
+-1.412,-0.802,Family holidaymakers,5,Europe,2,5590,3.5,32,5.0
+-22.765,-17.973,Business travellers,4,East Asia,0,7060,1.4,38,1.3
+-2.686,-2.113,Family holidaymakers,5,South Asia,3,4640,5.9,38,4.7
+13.594,-17.86,Long-stay beach,0,Europe,2,5500,13.9,44,2.1
+-34.964,6.291,City shoppers,1,East Asia,0,6730,2.6,45,2.3
+3.781,21.457,Culture seekers,2,Europe,2,3800,11.7,48,2.9
+35.817,-3.58,Backpackers,3,East Asia,0,2250,21.4,36,2.3
+-22.973,8.487,City shoppers,1,East Asia,0,8630,5.3,24,3.3
+22.261,-9.043,Long-stay beach,0,South Asia,3,5080,14.8,33,3.2
+13.058,-5.082,Long-stay beach,0,Europe,2,6770,18.7,32,2.7
+1.602,20.168,Culture seekers,2,Europe,2,5620,9.8,40,3.7
+9.732,21.889,Culture seekers,2,Americas,4,3020,6.2,41,3.1
+29.784,4.476,Backpackers,3,Americas,4,2010,12.2,18,1.2
+18.313,-9.25,Long-stay beach,0,East Asia,0,5560,11.8,34,2.4
+-5.215,-6.317,Family holidaymakers,5,East Asia,0,6700,2.5,44,6.4
+5.551,20.475,Culture seekers,2,East Asia,0,3950,8.8,39,2.6
+3.717,-1.347,Long-stay beach,0,Europe,2,6180,12.8,28,3.6
+-33.155,3.941,City shoppers,1,East Asia,0,8080,6.2,41,1.0
+35.362,7.407,Backpackers,3,Europe,2,1240,20.0,29,1.8
+34.83,0.176,Backpackers,3,Europe,2,1260,18.0,30,1.0
+-19.768,0.623,City shoppers,1,East Asia,0,5540,3.5,38,3.7
+6.69,27.843,Culture seekers,2,Europe,2,4320,4.8,51,1.3
+-36.068,3.014,Business travellers,4,South Asia,3,10810,4.6,44,1.0
+-36.041,-3.431,City shoppers,1,East Asia,0,9690,4.4,18,2.0
+11.84,27.101,Culture seekers,2,Europe,2,4900,5.3,37,1.0
+-22.297,-12.543,Long-stay beach,0,East Asia,0,7290,4.8,38,1.3
+17.246,-11.816,Long-stay beach,0,Americas,4,4970,9.4,40,1.3
+-27.981,2.998,City shoppers,1,ASEAN,1,6000,4.4,32,2.1
+4.09,24.942,Culture seekers,2,ASEAN,1,3710,8.2,46,1.9
+-25.811,3.751,City shoppers,1,Oceania & other,5,7420,3.4,41,2.8
+13.557,-4.552,Long-stay beach,0,Oceania & other,5,5590,25.4,32,2.3
+-31.943,-3.31,City shoppers,1,South Asia,3,5330,5.4,28,1.3
+15.826,25.483,Culture seekers,2,Europe,2,3560,7.3,27,1.0
+2.619,-8.093,Long-stay beach,0,Europe,2,5330,8.2,39,3.3
+15.009,27.21,Culture seekers,2,Europe,2,3340,6.2,19,2.1
+-21.618,10.398,City shoppers,1,East Asia,0,6200,1.8,22,3.7
+-29.517,12.898,City shoppers,1,South Asia,3,8690,1.7,23,1.2
+-34.213,-15.454,Business travellers,4,ASEAN,1,7880,2.1,22,1.0
+-11.126,-1.777,Family holidaymakers,5,ASEAN,1,4140,5.6,41,2.9
+-25.489,-2.609,City shoppers,1,Americas,4,8870,4.0,33,3.8
+-26.762,-20.028,Business travellers,4,Europe,2,11020,10.0,47,1.6
+-22.895,3.62,City shoppers,1,South Asia,3,3230,1.5,45,2.8
+9.165,15.243,Culture seekers,2,Americas,4,5070,14.0,45,2.7
+32.077,5.173,Backpackers,3,Americas,4,1940,17.0,24,1.9
+9.482,-3.072,Family holidaymakers,5,ASEAN,1,3690,6.2,39,3.9
+-25.882,-19.982,Business travellers,4,East Asia,0,11410,3.5,45,1.0
+-22.57,-18.597,Business travellers,4,Oceania & other,5,6530,1.7,40,1.0
+-24.004,2.072,City shoppers,1,East Asia,0,3100,4.1,35,2.7
+1.195,0.457,Family holidaymakers,5,South Asia,3,5770,5.8,19,4.9
+34.641,5.561,Backpackers,3,Europe,2,2770,21.7,27,1.5
+13.348,-2.788,Long-stay beach,0,Europe,2,6920,9.9,21,1.8
+27.728,8.545,Backpackers,3,Europe,2,2140,8.8,27,3.2
+8.663,20.758,Culture seekers,2,East Asia,0,2510,7.8,37,2.4
+-27.28,3.313,City shoppers,1,East Asia,0,5640,2.7,32,2.3
+37.763,7.485,Backpackers,3,ASEAN,1,4960,24.2,18,1.7
+15.594,21.346,Culture seekers,2,East Asia,0,4450,13.3,34,2.4
+20.684,-5.259,Long-stay beach,0,Europe,2,3190,19.2,26,3.1
+32.19,-1.063,Backpackers,3,Europe,2,1990,24.3,49,1.0
+-29.993,-7.74,City shoppers,1,East Asia,0,8950,8.5,32,2.3
+-11.691,5.569,Family holidaymakers,5,Oceania & other,5,6050,7.2,30,3.5
+-26.721,-14.912,Business travellers,4,East Asia,0,11000,4.8,41,1.0
+5.88,-8.451,Long-stay beach,0,Europe,2,4860,12.2,38,3.6
+11.546,-16.292,Long-stay beach,0,Europe,2,4910,17.7,46,2.8
+9.018,-15.76,Long-stay beach,0,Oceania & other,5,3690,13.7,49,3.3
+7.248,26.415,Culture seekers,2,East Asia,0,3680,4.8,45,1.4
+10.3,20.315,Culture seekers,2,Europe,2,3790,15.5,35,2.3
+30.429,-0.51,Backpackers,3,Europe,2,2130,20.1,40,1.0
+-35.278,-5.913,City shoppers,1,East Asia,0,10570,3.5,30,2.6
+10.998,20.55,Culture seekers,2,Europe,2,5520,9.2,34,3.4
+16.209,-13.956,Long-stay beach,0,Europe,2,5970,8.3,40,2.2
+37.999,4.345,Backpackers,3,East Asia,0,2070,33.4,18,1.0
+30.739,-3.381,Backpackers,3,Europe,2,2560,21.9,29,3.4
+-31.96,-0.541,City shoppers,1,East Asia,0,4980,2.0,35,2.1
+6.428,19.387,Culture seekers,2,Europe,2,3300,6.1,33,3.3
+-4.099,3.075,Family holidaymakers,5,ASEAN,1,5540,7.1,34,4.3
+9.832,23.857,Culture seekers,2,South Asia,3,2440,5.3,31,2.1
+-23.097,6.62,City shoppers,1,ASEAN,1,5730,4.1,29,3.1
+-9.91,1.44,City shoppers,1,ASEAN,1,7110,3.9,47,3.4
+-28.055,-15.266,Business travellers,4,South Asia,3,15000,4.1,41,2.4
+16.916,-11.318,Long-stay beach,0,Europe,2,6950,11.0,35,1.0
+-30.236,-19.423,Business travellers,4,East Asia,0,10030,2.3,44,1.0
+9.52,-12.492,Long-stay beach,0,Europe,2,2870,9.7,44,3.6
+3.793,21.845,Culture seekers,2,ASEAN,1,4700,8.0,44,2.7
+17.685,-15.915,Long-stay beach,0,Europe,2,6540,17.5,47,1.0
+12.146,11.941,Long-stay beach,0,South Asia,3,5190,5.2,46,2.9
+32.838,1.639,Backpackers,3,Europe,2,1840,23.1,31,1.3
+7.461,19.146,Culture seekers,2,Europe,2,3800,3.7,37,2.9
+-0.026,-1.584,Family holidaymakers,5,South Asia,3,3060,4.4,29,4.8
+-1.765,4.768,Family holidaymakers,5,Europe,2,3770,6.6,35,4.1
+-25.353,-2.512,City shoppers,1,ASEAN,1,8700,1.7,34,3.5
+16.72,21.632,Culture seekers,2,Europe,2,3930,10.6,33,2.0
+-32.481,2.212,City shoppers,1,East Asia,0,8310,4.8,39,1.0
+-29.942,-3.319,City shoppers,1,East Asia,0,4880,4.5,27,2.1
+-0.605,-9.536,Family holidaymakers,5,Americas,4,4790,4.3,46,4.2
+3.866,-19.654,Family holidaymakers,5,ASEAN,1,6570,6.9,32,1.0
+-3.211,-10.596,Family holidaymakers,5,Europe,2,2850,13.6,47,3.4
+17.978,-18.797,Long-stay beach,0,Oceania & other,5,4350,10.0,47,1.0
+1.827,17.68,Culture seekers,2,East Asia,0,5070,3.9,47,3.9
+-23.82,-1.484,City shoppers,1,ASEAN,1,9860,4.4,42,2.1
+-24.203,-17.085,Business travellers,4,ASEAN,1,9050,5.6,43,2.2
+-32.708,-5.614,City shoppers,1,South Asia,3,6170,3.2,35,1.0
+13.638,26.547,Culture seekers,2,Europe,2,3300,7.4,30,1.6
+-23.711,11.643,City shoppers,1,East Asia,0,5040,4.9,18,3.0
+17.752,20.263,Culture seekers,2,Oceania & other,5,3380,6.9,43,1.0
+-28.723,-18.274,Business travellers,4,East Asia,0,12370,3.1,44,1.0
+-33.462,-2.094,City shoppers,1,ASEAN,1,4910,2.1,23,2.3
+7.694,21.806,Culture seekers,2,Oceania & other,5,2290,7.6,38,2.8
+21.082,-4.977,Long-stay beach,0,Americas,4,4430,16.6,18,2.8
+11.593,26.823,Culture seekers,2,East Asia,0,5040,4.0,39,1.4
+11.12,-18.992,Long-stay beach,0,Europe,2,4040,21.9,46,2.4
+10.352,13.84,Culture seekers,2,Europe,2,4420,12.7,45,3.3
+6.648,17.724,Culture seekers,2,Oceania & other,5,3380,5.6,30,3.4
+-5.048,-4.083,Family holidaymakers,5,ASEAN,1,6090,2.9,47,5.1
+13.586,-3.565,Long-stay beach,0,Americas,4,7550,15.4,31,1.6
+-28.488,4.802,City shoppers,1,East Asia,0,10440,4.8,40,2.4
+8.264,28.134,Culture seekers,2,Europe,2,3270,5.1,48,1.0
+6.876,1.729,Family holidaymakers,5,ASEAN,1,3480,8.4,26,1.7
+-27.223,-20.59,Business travellers,4,Americas,4,14380,2.9,49,1.0
+-28.486,-17.993,Business travellers,4,East Asia,0,16080,2.1,42,1.0
+14.45,-11.763,Long-stay beach,0,Europe,2,5790,9.3,41,1.7
+3.383,-1.219,Family holidaymakers,5,South Asia,3,5900,11.5,27,4.3
+-29.153,-24.124,Business travellers,4,Europe,2,16240,4.6,55,2.6
+-25.248,4.163,City shoppers,1,South Asia,3,6720,3.9,41,3.4
+-2.204,-7.781,Family holidaymakers,5,South Asia,3,5490,9.9,45,4.4
+14.681,18.93,Culture seekers,2,East Asia,0,7740,8.9,35,1.7
+-27.841,10.707,City shoppers,1,ASEAN,1,6260,6.8,26,2.5
+-29.594,12.327,City shoppers,1,East Asia,0,8900,2.2,25,1.6
+42.11,1.069,Backpackers,3,Europe,2,1320,64.5,38,1.7
+30.789,3.633,Backpackers,3,South Asia,3,1850,16.4,18,1.0
+22.32,-8.947,Long-stay beach,0,Oceania & other,5,6720,12.1,31,3.3
+-22.395,-13.749,Business travellers,4,ASEAN,1,5430,2.2,38,1.7
+-30.039,-4.575,Business travellers,4,East Asia,0,7310,2.3,32,1.0
+17.102,25.177,Culture seekers,2,ASEAN,1,2850,10.9,26,1.2
+35.0,-1.842,Backpackers,3,Europe,2,1540,24.9,34,2.7
+-26.789,-8.43,Business travellers,4,ASEAN,1,7640,1.3,39,1.0
+2.798,8.731,Family holidaymakers,5,South Asia,3,5900,3.8,54,3.7
+13.413,-20.333,Long-stay beach,0,Oceania & other,5,3790,18.3,51,1.7
+16.657,-10.359,Long-stay beach,0,Europe,2,7190,15.8,32,1.0
+9.287,-18.353,Long-stay beach,0,Oceania & other,5,4090,11.3,53,2.3
+-5.363,4.576,Family holidaymakers,5,ASEAN,1,4320,3.5,42,3.9
+-28.322,5.317,City shoppers,1,ASEAN,1,13000,4.5,34,2.5
+13.844,24.534,Culture seekers,2,East Asia,0,3970,7.0,29,1.3
+-3.63,2.895,Family holidaymakers,5,ASEAN,1,5220,5.9,36,4.1
+29.024,7.802,Backpackers,3,Europe,2,1660,12.5,18,2.8
+-3.962,-6.642,Family holidaymakers,5,South Asia,3,5580,10.0,48,4.2
+17.366,-5.216,Long-stay beach,0,East Asia,0,3990,7.2,30,2.1
+-22.441,-11.209,City shoppers,1,East Asia,0,6380,2.4,37,1.6
+35.401,4.304,Backpackers,3,Europe,2,2070,24.0,18,1.0
+-34.696,2.336,City shoppers,1,East Asia,0,9400,3.9,40,1.0
+-25.967,4.723,City shoppers,1,ASEAN,1,8150,2.3,39,3.1
+-28.786,10.598,City shoppers,1,East Asia,0,6660,8.1,30,1.7
+0.924,22.864,Culture seekers,2,Americas,4,3940,5.8,55,2.8
+-32.376,-3.027,City shoppers,1,Oceania & other,5,3640,2.9,23,1.0
+-33.291,2.711,City shoppers,1,ASEAN,1,10610,7.0,37,2.0
+31.544,4.592,Backpackers,3,Europe,2,2280,17.4,18,1.0
+5.807,-1.038,Family holidaymakers,5,East Asia,0,4110,8.8,30,2.9
+9.13,18.882,Culture seekers,2,East Asia,0,3930,12.1,38,3.9
+-26.133,1.32,City shoppers,1,East Asia,0,5960,2.2,44,2.3
+-36.161,5.677,City shoppers,1,ASEAN,1,9460,2.4,51,1.9
+18.211,-5.673,Long-stay beach,0,Europe,2,4330,9.6,28,2.4
+-33.405,1.703,City shoppers,1,South Asia,3,8260,2.1,34,1.0
+14.553,-15.349,Long-stay beach,0,Europe,2,10940,13.4,47,1.7
+16.89,25.222,Culture seekers,2,Europe,2,3510,6.6,31,1.4
+-32.322,-13.843,Business travellers,4,South Asia,3,11390,4.8,28,1.1
+-22.905,-7.176,Business travellers,4,Americas,4,7540,3.4,27,2.3
+10.436,-16.305,Long-stay beach,0,Oceania & other,5,4630,16.7,46,3.2
+-7.179,-4.667,Family holidaymakers,5,South Asia,3,4220,7.5,52,4.8
+-4.041,-4.208,Family holidaymakers,5,South Asia,3,6170,3.3,42,4.3
+20.573,-17.838,Long-stay beach,0,Europe,2,8260,19.1,56,2.1
+15.892,-9.536,Long-stay beach,0,Europe,2,6090,15.4,33,1.2
+-28.773,3.232,City shoppers,1,ASEAN,1,5850,5.0,34,2.3
+-2.579,-0.956,Family holidaymakers,5,South Asia,3,2020,7.5,32,5.2
+-25.023,-19.355,Business travellers,4,Americas,4,9240,2.2,41,1.0
+-25.98,-23.201,Business travellers,4,Americas,4,10610,2.9,60,1.8
+-30.569,-18.005,Business travellers,4,Americas,4,9470,4.9,41,1.0
+-13.438,0.212,Family holidaymakers,5,East Asia,0,3560,3.5,26,4.5
+-34.023,3.828,City shoppers,1,ASEAN,1,11830,2.6,39,2.4
+-28.154,-16.704,Business travellers,4,East Asia,0,9320,4.2,42,1.5
+-22.179,3.379,City shoppers,1,East Asia,0,6390,3.5,50,2.9
+-23.106,1.293,City shoppers,1,ASEAN,1,3660,4.5,50,2.1
+-29.341,0.884,City shoppers,1,South Asia,3,5200,4.5,33,2.5
+39.12,-1.65,Backpackers,3,Americas,4,2010,35.1,39,1.0
+22.463,-15.744,Long-stay beach,0,East Asia,0,6060,21.4,45,2.4
+-32.68,2.891,City shoppers,1,East Asia,0,8870,4.1,37,2.0
+34.208,6.771,Backpackers,3,Europe,2,1370,17.9,28,1.0
+32.604,4.508,Backpackers,3,ASEAN,1,1480,14.3,30,1.1
+-29.763,11.796,City shoppers,1,East Asia,0,7530,3.2,30,1.1
+1.601,-3.992,Family holidaymakers,5,East Asia,0,3800,5.6,33,3.5
+-19.227,-1.753,City shoppers,1,Europe,2,7380,5.5,39,4.0
+20.906,-6.258,Long-stay beach,0,East Asia,0,3780,12.5,32,3.6
+13.205,21.224,Culture seekers,2,East Asia,0,5360,7.7,25,2.4
+-30.52,2.152,City shoppers,1,Europe,2,6560,6.8,34,1.7
+-1.094,0.515,Family holidaymakers,5,South Asia,3,4250,4.6,25,4.5
+15.269,15.18,Culture seekers,2,ASEAN,1,3570,5.1,50,1.0
+11.571,25.885,Culture seekers,2,Oceania & other,5,5580,14.2,39,1.0
+25.463,-10.008,Long-stay beach,0,East Asia,0,7820,25.8,20,4.8
+-36.16,5.361,Business travellers,4,ASEAN,1,8320,2.2,52,1.8
+7.283,20.034,Culture seekers,2,South Asia,3,2200,9.1,34,3.4
+14.661,21.955,Culture seekers,2,ASEAN,1,6970,11.1,33,1.4
+19.79,-11.868,Long-stay beach,0,Europe,2,3730,11.7,38,1.9
+10.657,13.54,Culture seekers,2,Europe,2,5670,14.4,50,2.7
+10.126,-13.492,Long-stay beach,0,Europe,2,2600,8.4,49,2.6
+4.335,-6.943,Long-stay beach,0,Europe,2,4730,16.8,40,3.5
+-23.1,-14.291,Business travellers,4,Europe,2,6770,2.2,36,1.0
+19.899,-5.507,Long-stay beach,0,Europe,2,3140,16.7,33,2.5
+9.53,-14.71,Long-stay beach,0,South Asia,3,3590,11.8,55,3.5
+-5.059,-4.068,Family holidaymakers,5,East Asia,0,5620,5.5,49,5.0
+3.738,23.408,Culture seekers,2,Americas,4,7230,4.7,41,1.9
+9.097,25.099,Culture seekers,2,Americas,4,2080,5.6,37,1.5
+12.219,-19.334,Long-stay beach,0,Americas,4,3620,16.7,46,1.8
+-33.732,-4.424,City shoppers,1,East Asia,0,5650,8.3,22,1.2
+-23.706,-20.692,Business travellers,4,East Asia,0,7640,3.2,52,1.0
+10.891,-15.439,Long-stay beach,0,Americas,4,5200,18.4,49,3.6
+7.307,-9.772,Long-stay beach,0,East Asia,0,7700,6.0,41,3.8
+14.848,26.848,Culture seekers,2,East Asia,0,4100,6.2,22,1.8
+24.081,-10.507,Long-stay beach,0,East Asia,0,8100,25.6,30,3.6
+20.782,-7.874,Long-stay beach,0,Oceania & other,5,5100,18.2,25,2.1
+-23.037,12.014,City shoppers,1,ASEAN,1,7600,4.3,20,3.1
+-29.78,8.321,City shoppers,1,East Asia,0,4570,2.6,34,2.3
+16.593,-12.816,Long-stay beach,0,Europe,2,8590,13.4,37,2.1
+-22.693,-11.979,Business travellers,4,East Asia,0,8270,1.8,32,1.0
+-34.562,0.814,City shoppers,1,East Asia,0,8820,5.3,34,2.1
+-16.992,12.53,City shoppers,1,East Asia,0,2850,3.8,18,2.0
+-7.086,-3.082,Family holidaymakers,5,ASEAN,1,4230,5.2,45,4.4
+31.298,4.288,Backpackers,3,East Asia,0,1950,18.7,18,2.0
+-23.303,10.38,City shoppers,1,South Asia,3,6370,4.4,18,2.8
+-29.682,-17.059,Business travellers,4,East Asia,0,14900,2.1,40,1.0
+8.168,-4.591,Family holidaymakers,5,East Asia,0,3220,9.4,34,3.7
+11.75,-16.993,Long-stay beach,0,Europe,2,5220,18.6,47,2.5
+27.395,2.05,Long-stay beach,0,Europe,2,3630,17.6,28,1.9
+-26.377,-19.044,Business travellers,4,East Asia,0,16750,4.0,44,2.4
+-18.901,10.8,City shoppers,1,Americas,4,4510,4.8,21,3.3
+13.045,19.264,Culture seekers,2,Europe,2,4910,13.0,37,1.9
+-27.427,5.254,City shoppers,1,Americas,4,9950,2.6,31,2.9
+-33.553,-15.553,Business travellers,4,South Asia,3,7850,3.2,29,1.0
+16.962,-6.635,Long-stay beach,0,Europe,2,3630,11.9,32,1.6
+-24.223,6.342,City shoppers,1,East Asia,0,7480,7.5,35,3.3
+-21.327,-1.099,City shoppers,1,East Asia,0,7750,2.7,43,3.0
+37.293,1.577,Backpackers,3,Europe,2,2240,28.0,25,1.0
+-6.865,-1.613,Family holidaymakers,5,ASEAN,1,9680,2.9,39,5.7
+7.385,16.595,Culture seekers,2,Americas,4,2990,9.3,28,4.3
+8.109,-4.755,Long-stay beach,0,Europe,2,2510,12.0,36,3.8
+-32.163,-13.947,Business travellers,4,East Asia,0,10660,3.5,29,1.0
+13.231,27.975,Culture seekers,2,ASEAN,1,5460,11.2,31,1.0
+11.119,13.062,Culture seekers,2,Europe,2,4950,9.7,50,2.4
+-34.303,8.73,City shoppers,1,ASEAN,1,5410,5.2,21,1.4
+7.382,-12.888,Family holidaymakers,5,East Asia,0,4060,9.9,48,3.5
+-0.473,9.205,Family holidaymakers,5,South Asia,3,3760,7.6,42,5.2
+25.439,-7.727,Long-stay beach,0,East Asia,0,4050,17.0,43,2.5
+7.42,18.181,Culture seekers,2,East Asia,0,4350,6.5,29,3.2
+-3.322,-0.447,Family holidaymakers,5,East Asia,0,4530,5.2,33,5.6
+3.949,20.03,Culture seekers,2,Europe,2,5100,10.7,44,3.3
+-29.437,-22.294,Business travellers,4,East Asia,0,7870,2.3,56,1.2
+-28.931,15.737,Culture seekers,2,Europe,2,5020,5.4,29,1.0
+14.507,24.473,Culture seekers,2,ASEAN,1,4270,7.1,22,1.5
+23.266,-3.497,Long-stay beach,0,South Asia,3,3260,10.1,36,2.4
+5.463,-10.258,Long-stay beach,0,East Asia,0,6160,10.2,39,3.1
+-0.783,0.019,Family holidaymakers,5,East Asia,0,3330,7.1,20,5.2
+-0.86,-1.581,Family holidaymakers,5,East Asia,0,3580,8.5,31,5.5
+-20.215,3.169,City shoppers,1,East Asia,0,5290,5.3,44,3.5
+-29.684,-23.786,Business travellers,4,Oceania & other,5,12420,5.3,52,2.2
+5.083,24.183,Culture seekers,2,Europe,2,3440,10.3,43,2.2
+7.229,28.271,Culture seekers,2,ASEAN,1,3740,5.6,47,1.0
+16.417,-14.065,Long-stay beach,0,Europe,2,6910,10.6,42,2.5
+31.89,-0.384,Backpackers,3,Americas,4,1060,18.2,43,1.7
+-2.71,4.733,Family holidaymakers,5,Oceania & other,5,3990,7.0,37,3.1
+-31.88,-17.385,Business travellers,4,East Asia,0,9250,4.1,35,1.0
+-31.048,-14.73,Business travellers,4,South Asia,3,9560,3.8,35,1.0
+12.683,-7.615,Long-stay beach,0,Europe,2,4690,15.3,40,1.9
+19.178,-5.441,Long-stay beach,0,Europe,2,4030,14.9,28,2.3
+0.569,6.231,Family holidaymakers,5,Oceania & other,5,4910,7.4,41,3.6
+-25.425,5.617,City shoppers,1,East Asia,0,7830,2.8,38,3.8
+3.98,18.149,Culture seekers,2,East Asia,0,6220,4.1,35,3.6
+16.105,-9.913,Long-stay beach,0,Oceania & other,5,7610,8.2,36,1.0
+13.209,21.35,Culture seekers,2,Americas,4,5140,8.4,31,1.7
+20.906,-7.932,Long-stay beach,0,Oceania & other,5,5080,18.0,30,2.9
+8.031,27.74,Culture seekers,2,East Asia,0,3290,3.1,46,1.0
+6.494,-1.282,Long-stay beach,0,Americas,4,4480,12.8,21,3.1
+34.468,4.197,Backpackers,3,Europe,2,2700,24.9,26,2.4
+7.715,20.328,Culture seekers,2,Americas,4,2110,6.0,44,3.7
+12.1,20.649,Culture seekers,2,East Asia,0,6380,9.0,33,2.7
+15.617,23.609,Culture seekers,2,Europe,2,4720,9.2,25,1.6
+-6.894,-5.887,Family holidaymakers,5,South Asia,3,6760,12.3,53,4.5
+30.705,4.918,Backpackers,3,Oceania & other,5,1390,14.4,18,1.0
+8.632,-15.478,Long-stay beach,0,Europe,2,3380,12.5,55,3.4
+11.43,-11.422,Long-stay beach,0,ASEAN,1,5270,13.2,40,3.4
+21.015,-10.925,Long-stay beach,0,Europe,2,6190,21.7,36,1.0
+7.821,-1.238,Long-stay beach,0,East Asia,0,5350,19.2,19,3.2
+34.167,8.396,Backpackers,3,Europe,2,1610,13.9,38,1.0
+-31.258,-13.884,Business travellers,4,ASEAN,1,9450,3.2,33,1.0
+-31.326,-23.386,Business travellers,4,South Asia,3,9690,2.6,56,1.0
+-5.322,2.574,Family holidaymakers,5,ASEAN,1,6680,6.2,39,4.8
+-14.703,5.77,City shoppers,1,ASEAN,1,7080,3.8,38,4.3
+-1.283,1.656,Family holidaymakers,5,South Asia,3,9050,7.4,26,5.0
+20.64,-13.542,Long-stay beach,0,Europe,2,4630,11.3,42,1.0
+-5.897,-7.96,Family holidaymakers,5,East Asia,0,8330,4.8,53,4.3
+20.063,-14.914,Long-stay beach,0,Europe,2,2430,7.5,50,1.6
+12.529,26.466,Culture seekers,2,Europe,2,5030,5.2,34,1.6
+16.73,-8.914,Long-stay beach,0,Oceania & other,5,6110,12.6,38,1.7
+-32.262,-21.507,Business travellers,4,Europe,2,8110,4.8,48,1.0
+-29.133,1.849,City shoppers,1,Europe,2,6450,5.9,33,2.2
+-1.376,1.658,Family holidaymakers,5,Europe,2,8570,5.1,27,4.9
+0.948,4.102,Family holidaymakers,5,ASEAN,1,6900,7.0,35,3.7
+-3.278,-4.978,Family holidaymakers,5,ASEAN,1,7370,3.9,44,3.4
+8.626,-14.03,Long-stay beach,0,East Asia,0,3130,10.4,58,3.7
+-24.392,-21.49,Business travellers,4,East Asia,0,7260,2.8,53,1.0
+-8.285,0.358,Family holidaymakers,5,East Asia,0,5860,4.6,42,3.4
+9.841,-20.762,Long-stay beach,0,Europe,2,4340,14.9,50,1.9
+-33.903,-6.054,Business travellers,4,ASEAN,1,9510,1.7,30,1.0
+-28.169,12.596,City shoppers,1,East Asia,0,4980,4.3,25,1.2
+-30.086,-0.909,City shoppers,1,East Asia,0,3730,7.3,31,2.9
+0.878,0.843,Family holidaymakers,5,ASEAN,1,6880,6.2,18,4.9
+-32.442,-12.438,Business travellers,4,ASEAN,1,16100,2.9,32,1.1
+12.699,16.029,Culture seekers,2,ASEAN,1,2250,8.5,50,2.2
+2.984,25.639,City shoppers,1,ASEAN,1,4060,8.2,49,2.3
+5.406,1.344,Family holidaymakers,5,East Asia,0,1950,3.7,18,2.5
+12.869,22.002,Culture seekers,2,Europe,2,5060,6.0,32,1.8
+12.879,-8.819,Long-stay beach,0,Europe,2,3630,11.0,35,2.1
+3.615,-2.671,Family holidaymakers,5,East Asia,0,4380,6.9,31,3.7
+40.348,0.082,Long-stay beach,0,Oceania & other,5,3740,40.4,28,2.5
+10.778,-19.895,Long-stay beach,0,Americas,4,3700,22.6,46,2.3
+-36.608,-1.608,Business travellers,4,East Asia,0,12640,4.0,24,1.0
+9.563,-12.47,Long-stay beach,0,Europe,2,3170,8.5,45,2.7
+-28.352,-10.725,Business travellers,4,Europe,2,12330,2.6,41,3.2
+17.28,-7.94,Long-stay beach,0,Americas,4,4230,14.3,38,1.4
+-22.014,-6.364,City shoppers,1,ASEAN,1,6860,4.9,29,2.8
+-29.692,-4.89,City shoppers,1,East Asia,0,5650,5.1,33,1.0
+-32.185,-23.092,Business travellers,4,Europe,2,20580,3.2,49,1.1
+-31.62,-4.958,City shoppers,1,East Asia,0,3640,2.7,31,1.6
+-29.668,-13.235,Business travellers,4,South Asia,3,11040,2.9,32,2.5
+-19.396,10.843,City shoppers,1,East Asia,0,5320,4.7,22,3.1
+-17.853,-0.955,City shoppers,1,East Asia,0,3740,3.4,36,3.2
+2.538,-2.008,Family holidaymakers,5,ASEAN,1,5530,8.3,31,3.9
+7.207,23.674,Culture seekers,2,East Asia,0,2810,6.4,46,2.0
+3.353,-7.548,Family holidaymakers,5,East Asia,0,6180,13.6,39,3.0
+41.099,-0.054,Backpackers,3,Europe,2,3040,48.3,38,1.6
+9.482,21.156,Culture seekers,2,Europe,2,3560,6.7,41,3.0
+-22.483,-14.311,Business travellers,4,East Asia,0,5770,1.3,35,2.1
+7.464,28.378,Culture seekers,2,Americas,4,3290,8.9,51,1.0
+0.816,6.751,Family holidaymakers,5,Europe,2,3870,6.3,44,3.4
+-0.882,-2.853,Family holidaymakers,5,East Asia,0,4090,8.2,32,5.4
+-27.907,2.394,City shoppers,1,East Asia,0,6270,5.4,37,1.9
+-27.234,-16.58,Business travellers,4,South Asia,3,6790,3.1,43,1.5
+36.867,-2.138,Backpackers,3,Europe,2,1400,19.9,43,1.3
+10.598,-10.996,Long-stay beach,0,Europe,2,4660,5.9,38,2.9
+8.36,-15.803,Long-stay beach,0,Oceania & other,5,2890,11.3,52,3.1
+-19.712,6.706,City shoppers,1,East Asia,0,4910,3.4,33,3.5
+10.284,26.305,Culture seekers,2,Europe,2,3350,7.8,36,1.6
+13.046,-13.513,Long-stay beach,0,Europe,2,9980,10.8,45,3.2
+-25.385,-21.043,Business travellers,4,East Asia,0,9280,3.3,46,1.0
+-21.789,8.534,City shoppers,1,Americas,4,6810,3.7,25,4.3
+-20.195,-1.112,City shoppers,1,East Asia,0,5890,8.8,39,3.2
+8.313,17.556,Culture seekers,2,Oceania & other,5,3930,5.7,20,3.5
+7.759,-12.745,Long-stay beach,0,Europe,2,3960,9.2,46,3.1
+-4.29,0.764,Family holidaymakers,5,ASEAN,1,7880,9.0,35,4.8
+34.385,1.624,Backpackers,3,Oceania & other,5,2100,29.9,18,1.0
+-23.543,3.075,City shoppers,1,ASEAN,1,3390,5.3,41,2.9
+-32.47,-11.323,Business travellers,4,ASEAN,1,16630,10.6,34,1.0
+7.288,27.579,Culture seekers,2,ASEAN,1,3070,8.0,46,1.4
+11.389,21.268,Culture seekers,2,Europe,2,4200,8.5,30,2.6
+13.919,-7.53,Long-stay beach,0,Americas,4,3650,17.0,39,2.1
+-23.197,-0.865,City shoppers,1,East Asia,0,8050,3.3,42,2.7
+33.804,5.617,Backpackers,3,Europe,2,1660,20.0,22,1.0
+14.765,-17.499,Long-stay beach,0,Europe,2,4280,10.9,45,1.7
+0.766,2.394,Family holidaymakers,5,Oceania & other,5,5490,8.9,26,3.8
+9.863,23.832,Culture seekers,2,Europe,2,2970,4.4,37,1.8
+15.236,22.437,Culture seekers,2,Europe,2,5730,10.6,32,1.5
+16.349,-7.556,Long-stay beach,0,Europe,2,4140,10.3,33,1.0
+22.63,-11.263,Long-stay beach,0,Europe,2,7900,18.2,31,1.8
+0.356,-1.018,Family holidaymakers,5,South Asia,3,3800,9.3,28,4.1
+-32.204,-20.74,Business travellers,4,Americas,4,6560,3.0,43,1.0
+-8.064,-0.303,Family holidaymakers,5,East Asia,0,6380,5.4,43,3.7
+-11.946,4.76,Long-stay beach,0,Oceania & other,5,7080,7.9,38,2.9
+8.453,22.053,Culture seekers,2,Oceania & other,5,2520,7.5,38,2.6
+-26.334,2.319,City shoppers,1,East Asia,0,5830,3.8,38,2.5
+-4.744,4.053,Family holidaymakers,5,Europe,2,4500,11.0,42,4.0
+5.484,-2.78,Family holidaymakers,5,East Asia,0,3780,9.2,28,4.1
+-23.304,4.518,City shoppers,1,East Asia,0,5560,5.3,41,3.0
+-22.256,-1.217,City shoppers,1,East Asia,0,7120,2.5,33,2.6
+-22.892,10.837,City shoppers,1,Oceania & other,5,8200,4.9,20,2.8
+-21.634,-19.375,City shoppers,1,East Asia,0,5290,4.2,47,1.1
+-17.63,9.419,City shoppers,1,East Asia,0,5770,4.6,27,4.0
+18.144,1.321,Backpackers,3,Europe,2,1400,10.0,27,3.1
+-26.547,-0.059,City shoppers,1,East Asia,0,5830,4.6,34,2.3
+31.74,3.459,Backpackers,3,Europe,2,1320,17.9,20,1.0
+34.312,-2.718,Backpackers,3,Europe,2,1380,27.8,41,3.7
+17.549,-9.35,Long-stay beach,0,Europe,2,5140,17.6,39,2.0
+18.518,-6.866,Long-stay beach,0,Oceania & other,5,5190,15.9,28,1.6
+-29.531,-19.158,Business travellers,4,East Asia,0,8910,2.3,45,1.0
+-20.586,-1.06,Family holidaymakers,5,ASEAN,1,7110,6.3,44,3.3
+34.459,4.98,Backpackers,3,Europe,2,3080,22.4,20,1.5
+11.439,-7.251,Long-stay beach,0,Oceania & other,5,3630,12.4,41,1.7
+1.988,13.972,Culture seekers,2,Americas,4,3970,10.4,33,3.4
+-25.489,1.782,City shoppers,1,East Asia,0,5340,5.7,41,1.9
+-6.839,-3.609,Family holidaymakers,5,Europe,2,5010,3.0,47,4.7
+-34.195,-2.873,City shoppers,1,ASEAN,1,6460,3.7,22,1.5
+12.743,-18.549,Long-stay beach,0,Europe,2,6920,22.3,51,1.6
+-26.569,11.393,City shoppers,1,Europe,2,6000,3.1,25,2.1
+1.444,21.463,Culture seekers,2,East Asia,0,5390,15.2,53,3.9
+-0.285,-9.638,Family holidaymakers,5,ASEAN,1,5330,4.3,44,3.7
+-1.089,5.431,Family holidaymakers,5,South Asia,3,4900,4.3,31,3.7
+2.57,23.276,Culture seekers,2,South Asia,3,4360,6.3,51,2.9
+-32.658,9.455,City shoppers,1,East Asia,0,3410,2.2,32,2.4
+23.293,-7.717,Long-stay beach,0,Americas,4,6480,13.7,39,3.0
+2.304,-15.048,Long-stay beach,0,Europe,2,4620,7.2,53,2.0
+5.912,-6.021,Long-stay beach,0,Europe,2,5230,17.9,33,2.9
+22.444,-12.477,Long-stay beach,0,Europe,2,6100,21.6,42,1.1
+13.147,25.215,Culture seekers,2,East Asia,0,4100,3.7,32,1.3
+-36.923,3.949,City shoppers,1,South Asia,3,10210,6.8,48,1.3
+23.486,-13.938,Long-stay beach,0,East Asia,0,2750,23.4,42,1.0
+11.649,27.609,Culture seekers,2,East Asia,0,4310,8.9,39,1.0
+18.039,-12.438,Long-stay beach,0,Europe,2,4360,16.9,40,2.0
+39.781,3.287,Backpackers,3,Americas,4,1800,40.1,23,1.0
+16.073,-9.568,Long-stay beach,0,East Asia,0,7740,12.9,32,1.8
+25.267,-11.888,Long-stay beach,0,Europe,2,5900,32.7,38,3.4
+-22.395,11.24,City shoppers,1,ASEAN,1,7840,5.2,18,3.1
+-1.337,2.457,Family holidaymakers,5,East Asia,0,9390,6.6,27,4.5
+4.982,21.354,Culture seekers,2,Europe,2,3220,18.1,37,3.0
+35.034,6.845,Backpackers,3,Europe,2,1600,21.4,33,2.2
+4.708,19.086,Culture seekers,2,ASEAN,1,3930,4.2,42,3.1
+-3.734,5.396,Family holidaymakers,5,ASEAN,1,5350,3.9,39,3.1
+3.226,2.689,Family holidaymakers,5,Europe,2,9830,3.8,18,3.3
+12.205,-21.212,Long-stay beach,0,Europe,2,4980,24.6,58,2.1
+14.761,19.358,Culture seekers,2,ASEAN,1,6290,8.9,29,1.4
+9.604,24.076,Culture seekers,2,East Asia,0,2050,9.9,34,1.7
+-30.729,13.458,City shoppers,1,Americas,4,11340,2.1,18,1.1
+8.492,26.379,Culture seekers,2,Americas,4,3160,12.3,42,1.7
+32.407,6.803,Backpackers,3,Europe,2,1660,14.0,31,1.0
+-28.725,7.15,City shoppers,1,East Asia,0,5910,6.9,43,3.0
+-2.893,-4.165,Family holidaymakers,5,ASEAN,1,6920,4.8,37,3.9
+7.636,13.251,Culture seekers,2,Americas,4,2970,19.2,47,3.5
+25.25,-5.83,Long-stay beach,0,Europe,2,4410,6.6,48,2.5
+14.237,-14.613,Long-stay beach,0,Europe,2,8280,11.1,48,2.4
+13.593,-21.312,Long-stay beach,0,Oceania & other,5,3330,16.9,60,1.1
+0.622,9.024,Family holidaymakers,5,East Asia,0,4920,9.1,49,4.7
+15.455,-13.496,Long-stay beach,0,Europe,2,8240,10.8,43,2.9
+-27.722,-12.589,Business travellers,4,South Asia,3,8650,4.7,40,1.8
+-24.668,10.949,City shoppers,1,ASEAN,1,7470,9.2,23,2.3
+-19.373,-1.806,City shoppers,1,East Asia,0,8210,8.7,39,3.7
+-29.175,6.896,City shoppers,1,East Asia,0,8140,6.1,39,2.6
+-19.674,1.874,City shoppers,1,ASEAN,1,3930,5.9,36,3.9
+36.061,-1.751,Backpackers,3,Europe,2,710,23.8,33,2.1
+-26.174,6.533,City shoppers,1,East Asia,0,7350,3.3,34,2.8
+15.524,-17.03,Long-stay beach,0,Americas,4,5500,13.6,47,1.3
+-0.168,3.035,Family holidaymakers,5,Europe,2,5740,8.5,30,3.6
+-35.443,4.515,City shoppers,1,Europe,2,8750,7.1,47,2.0
+40.312,1.647,Backpackers,3,Americas,4,2520,42.9,18,2.2
+6.833,26.233,Culture seekers,2,Europe,2,5200,4.0,49,1.8
+-7.102,-5.905,Family holidaymakers,5,East Asia,0,6180,14.7,53,5.0
+-9.782,-1.363,Family holidaymakers,5,East Asia,0,4250,7.8,44,3.7
+34.09,2.998,Backpackers,3,East Asia,0,2650,21.4,21,1.7
+-0.916,15.289,Family holidaymakers,5,South Asia,3,6070,9.9,34,4.7
+7.099,26.369,Culture seekers,2,East Asia,0,3840,7.2,47,1.3
+-30.03,8.248,City shoppers,1,East Asia,0,4860,4.0,40,2.2
+14.019,-17.166,Long-stay beach,0,Europe,2,6800,12.7,46,2.0
+25.88,-0.867,Long-stay beach,0,South Asia,3,3920,10.8,32,1.0
+12.264,14.454,Culture seekers,2,Americas,4,3600,10.2,54,1.4
+30.957,5.9,Backpackers,3,Europe,2,1650,15.3,18,1.5
+15.689,-7.574,Long-stay beach,0,Europe,2,4570,11.5,35,1.8
+-20.879,2.151,City shoppers,1,East Asia,0,5030,7.3,40,3.1
+-3.724,-0.876,Family holidaymakers,5,ASEAN,1,3590,3.4,33,4.9
+16.508,21.603,Culture seekers,2,Europe,2,4750,8.0,37,2.1
+5.299,-2.166,Family holidaymakers,5,ASEAN,1,3840,5.6,24,3.9
+15.785,-18.505,Long-stay beach,0,East Asia,0,4710,12.9,44,1.0
+2.426,1.305,Family holidaymakers,5,East Asia,0,5930,2.4,24,3.8
+7.589,-17.085,Long-stay beach,0,Oceania & other,5,2790,12.7,47,2.4
+4.502,0.966,Family holidaymakers,5,ASEAN,1,4080,5.7,20,3.2
+-31.691,-2.825,City shoppers,1,ASEAN,1,3280,7.3,31,1.3
+7.436,-15.756,Long-stay beach,0,East Asia,0,3970,10.8,49,3.7
+14.352,-13.315,Long-stay beach,0,East Asia,0,4550,13.0,46,2.4
+-27.992,15.554,Culture seekers,2,East Asia,0,4480,15.7,32,1.4
+13.024,-15.021,Long-stay beach,0,East Asia,0,7760,12.6,55,2.4
+8.127,-3.591,Long-stay beach,0,Oceania & other,5,4960,12.1,29,3.9
+19.412,-2.055,Family holidaymakers,5,South Asia,3,4260,5.9,24,3.6
+5.462,27.664,Culture seekers,2,Americas,4,3350,4.1,47,2.1
+36.405,4.877,Backpackers,3,Europe,2,1950,25.0,21,1.2
+4.455,-4.599,Long-stay beach,0,Europe,2,2780,14.9,32,4.3
+14.148,-19.954,Long-stay beach,0,Europe,2,4950,18.2,52,1.0
+15.448,15.008,Culture seekers,2,East Asia,0,2640,5.7,47,1.6
+-27.01,-14.357,Business travellers,4,East Asia,0,13510,1.7,44,1.0
+-23.427,7.626,City shoppers,1,Americas,4,7250,2.9,25,3.6
+23.442,-0.361,Long-stay beach,0,Europe,2,3140,11.4,32,3.2
+36.288,6.587,Backpackers,3,Americas,4,1150,23.4,21,1.6
+-21.139,-19.454,Family holidaymakers,5,East Asia,0,5010,7.2,49,1.9
+16.148,22.563,Culture seekers,2,Europe,2,4290,9.1,31,1.6
+-20.638,0.135,City shoppers,1,Americas,4,6080,5.1,34,3.1
+33.435,-1.916,Backpackers,3,Europe,2,1840,23.6,39,1.9
+20.489,-10.242,Long-stay beach,0,Europe,2,6000,22.9,35,1.8
+14.99,20.651,Culture seekers,2,Americas,4,7740,14.1,25,2.2
+-30.712,-22.085,Business travellers,4,South Asia,3,9030,3.5,53,1.0
+-30.046,3.942,City shoppers,1,East Asia,0,5940,3.1,34,1.0
+-26.059,-0.166,City shoppers,1,Americas,4,6420,4.0,33,2.8
+-26.905,-21.206,Business travellers,4,East Asia,0,12070,1.5,52,1.7
+-27.674,4.399,City shoppers,1,ASEAN,1,9060,5.3,32,2.6
+10.651,7.104,Culture seekers,2,Europe,2,2990,7.6,25,1.9
+-5.154,-3.192,Family holidaymakers,5,Oceania & other,5,6100,6.1,44,4.7
+-8.314,-3.763,Family holidaymakers,5,Americas,4,4810,11.8,51,5.2
+-26.875,13.675,City shoppers,1,Oceania & other,5,3530,6.8,31,1.5
+17.471,-19.404,Long-stay beach,0,Europe,2,3420,6.5,47,1.2
+-5.546,-1.997,Family holidaymakers,5,East Asia,0,4630,16.6,39,5.3
+-31.503,-15.186,Business travellers,4,ASEAN,1,9890,6.4,32,1.0
+4.617,16.136,Culture seekers,2,Europe,2,2260,6.9,48,3.4
+-27.335,-1.75,City shoppers,1,East Asia,0,9560,3.3,40,2.5
+-25.297,-19.999,Business travellers,4,ASEAN,1,11640,1.8,48,1.0
+19.387,-8.099,Long-stay beach,0,Americas,4,3880,12.0,35,2.3
+-15.714,-2.574,City shoppers,1,East Asia,0,4310,9.4,30,2.8
+-31.456,3.285,City shoppers,1,Oceania & other,5,8720,6.1,38,2.0
+41.127,0.424,Backpackers,3,East Asia,0,3160,48.1,31,1.0
+16.932,18.337,Culture seekers,2,Europe,2,4870,4.4,37,1.0
+35.112,6.822,Backpackers,3,Europe,2,1260,18.8,28,2.0
+6.308,22.515,Culture seekers,2,East Asia,0,3820,5.7,36,2.7
+-17.955,2.001,City shoppers,1,ASEAN,1,6600,2.1,38,5.0
+2.61,4.373,Family holidaymakers,5,South Asia,3,3540,10.2,26,3.0
+32.073,-1.386,Backpackers,3,East Asia,0,1720,15.9,45,2.1
+30.438,6.547,Backpackers,3,Europe,2,1740,15.4,18,1.0
+-15.395,2.257,City shoppers,1,ASEAN,1,9690,1.5,23,4.2
+-28.442,-19.369,Business travellers,4,Americas,4,13290,2.2,41,1.0
+2.165,-6.206,Family holidaymakers,5,Europe,2,3250,5.0,41,2.3
+-26.561,-12.7,Business travellers,4,South Asia,3,10140,1.5,44,2.3
+10.915,3.847,Family holidaymakers,5,South Asia,3,4600,7.2,49,1.0
+-30.22,-22.797,Business travellers,4,East Asia,0,8080,3.7,55,2.0
+-26.918,7.132,City shoppers,1,East Asia,0,8230,6.2,30,2.7
+32.731,7.723,Backpackers,3,Europe,2,1880,15.1,39,1.5
+8.7,22.491,Culture seekers,2,Europe,2,1670,7.5,38,2.4
+-14.787,0.852,City shoppers,1,East Asia,0,6110,6.0,31,4.0
+-35.144,9.415,City shoppers,1,ASEAN,1,6780,5.4,21,1.9
+-9.893,-2.088,Family holidaymakers,5,East Asia,0,4730,10.0,42,4.0
+13.284,23.966,Culture seekers,2,Europe,2,2680,5.2,32,1.3
+2.271,-0.054,Family holidaymakers,5,Americas,4,7880,8.3,25,4.9
+-19.77,11.372,City shoppers,1,East Asia,0,3690,2.9,18,3.7
+-1.456,7.547,Family holidaymakers,5,East Asia,0,3670,4.1,42,4.4
+9.541,27.069,Culture seekers,2,ASEAN,1,3260,6.6,39,1.8
+23.13,-9.463,Family holidaymakers,5,East Asia,0,8770,16.2,35,3.2
+-3.501,-6.544,Family holidaymakers,5,South Asia,3,5190,7.0,47,4.3
+-34.402,-2.359,City shoppers,1,East Asia,0,5370,4.7,18,1.8
+-8.957,4.143,Family holidaymakers,5,East Asia,0,2660,4.2,37,4.0
+14.671,25.607,Culture seekers,2,Europe,2,4690,9.4,28,1.0
+7.331,-9.376,Long-stay beach,0,East Asia,0,5400,8.8,43,4.1
+15.081,-10.547,Long-stay beach,0,South Asia,3,5710,12.4,33,1.4
+16.084,-3.127,Long-stay beach,0,Europe,2,5340,14.4,35,3.2
+19.753,-6.077,Long-stay beach,0,Oceania & other,5,3770,13.6,29,2.5
+2.37,24.243,Family holidaymakers,5,Americas,4,6170,9.7,49,1.7
+-32.666,-21.593,Business travellers,4,South Asia,3,5420,2.4,51,1.4
+3.439,-19.488,Long-stay beach,0,East Asia,0,7170,6.4,25,2.0
+36.696,1.03,Backpackers,3,Europe,2,2380,22.9,29,1.0
+42.282,1.774,Backpackers,3,Americas,4,1770,75.9,18,2.2
+-28.121,2.154,City shoppers,1,East Asia,0,7560,6.3,34,2.0
+-24.049,-16.301,Business travellers,4,South Asia,3,7680,5.1,37,2.7
+-24.881,-16.693,Business travellers,4,ASEAN,1,7190,4.5,42,2.1
+-10.867,11.569,City shoppers,1,East Asia,0,3670,13.7,27,2.1
+10.274,-3.975,Family holidaymakers,5,South Asia,3,3550,11.4,32,3.0
+-22.219,-6.089,Business travellers,4,East Asia,0,9630,2.5,37,3.0
+-3.536,-2.312,Family holidaymakers,5,East Asia,0,3560,3.8,43,5.6
+-22.203,6.984,City shoppers,1,East Asia,0,4560,5.1,30,3.8
+0.345,0.777,Family holidaymakers,5,East Asia,0,5880,5.6,26,5.1
+1.319,25.942,Culture seekers,2,Europe,2,5060,18.3,64,1.6
+1.598,18.441,Culture seekers,2,Europe,2,5320,2.9,48,2.9
+37.881,5.32,Backpackers,3,Europe,2,1430,30.7,23,1.0
+4.713,18.138,City shoppers,1,East Asia,0,4300,2.7,37,4.1
+16.391,-5.711,Long-stay beach,0,Europe,2,3540,12.5,34,2.4
+-25.055,3.118,City shoppers,1,East Asia,0,7870,2.8,53,2.7
+-35.328,0.566,City shoppers,1,East Asia,0,9590,6.3,34,2.8
+1.737,-5.853,Family holidaymakers,5,Americas,4,3320,4.5,40,2.6
+-23.856,-13.784,Business travellers,4,South Asia,3,6320,2.3,33,1.3
+-31.193,-19.314,Business travellers,4,Europe,2,8530,3.8,44,1.0
+16.253,27.38,Culture seekers,2,Europe,2,4460,7.6,18,2.3
+13.352,15.865,Culture seekers,2,Europe,2,2400,9.0,46,1.0
+17.832,-11.419,Long-stay beach,0,East Asia,0,4340,12.3,35,1.0
+-30.665,-16.237,Business travellers,4,East Asia,0,11880,4.0,35,1.2
+8.66,-13.198,Long-stay beach,0,Europe,2,4420,11.7,50,2.9
+31.286,7.955,Backpackers,3,East Asia,0,2320,15.9,29,1.3
+-22.512,-4.385,City shoppers,1,East Asia,0,8150,2.6,35,2.6
+-31.781,-23.752,Business travellers,4,East Asia,0,15540,1.7,52,1.0
+7.4,18.593,Culture seekers,2,East Asia,0,4760,6.5,35,3.0
+23.167,-7.631,Long-stay beach,0,South Asia,3,6070,19.2,34,2.9
+9.429,20.269,Culture seekers,2,Europe,2,3800,11.8,40,2.1
+9.079,-11.097,Family holidaymakers,5,ASEAN,1,4380,6.2,45,3.2
+-36.067,-1.47,City shoppers,1,East Asia,0,9710,6.6,24,1.6
+5.456,26.296,Culture seekers,2,Americas,4,2750,7.3,52,2.0
+-31.523,-4.462,City shoppers,1,ASEAN,1,4330,6.0,30,1.0
+17.143,-9.529,Long-stay beach,0,Oceania & other,5,6150,13.6,39,1.6
+-21.881,-12.948,City shoppers,1,South Asia,3,6070,3.4,43,1.0
+-31.008,-16.631,Business travellers,4,Europe,2,13200,3.7,35,1.0
+39.306,4.373,Backpackers,3,Europe,2,1790,34.0,25,1.6
+-24.418,1.253,City shoppers,1,East Asia,0,3150,3.0,38,1.5
+0.203,-6.991,Family holidaymakers,5,East Asia,0,2990,6.1,45,3.7
+14.066,15.374,Culture seekers,2,Europe,2,2760,7.5,46,1.1
+21.23,3.047,Long-stay beach,0,Europe,2,5720,20.2,25,2.4
+2.848,21.302,Culture seekers,2,Europe,2,4870,14.1,45,2.6
+-34.683,2.898,City shoppers,1,East Asia,0,8860,6.5,44,2.2
+21.2,3.14,Culture seekers,2,Europe,2,7290,17.1,20,2.5
+-31.48,-5.918,Business travellers,4,East Asia,0,5010,3.4,40,1.0
+-29.799,0.808,City shoppers,1,East Asia,0,5900,8.4,31,2.3
+0.418,-8.228,Family holidaymakers,5,ASEAN,1,3990,6.3,47,3.9
+11.772,-20.523,Long-stay beach,0,Europe,2,4750,19.5,55,2.3
+-27.573,-1.273,City shoppers,1,ASEAN,1,7560,4.5,40,2.7
+35.869,0.929,Backpackers,3,Americas,4,2860,21.2,18,1.4
+15.204,-7.473,Long-stay beach,0,Europe,2,3530,8.4,34,1.4
+-28.247,-21.608,Business travellers,4,South Asia,3,9170,5.8,54,1.3
+-26.941,-21.524,Business travellers,4,South Asia,3,11930,4.3,54,1.0
+-24.565,0.491,City shoppers,1,East Asia,0,6030,4.8,44,2.0
+-24.023,-17.16,Business travellers,4,East Asia,0,9710,3.2,37,1.9
+16.803,-17.404,Long-stay beach,0,Europe,2,6920,7.3,48,1.9
+16.838,-1.974,Long-stay beach,0,East Asia,0,7600,11.6,32,3.4
+34.59,3.212,Backpackers,3,Europe,2,2170,23.0,18,2.3
+14.489,15.25,Culture seekers,2,Europe,2,4770,8.8,53,1.0
+35.108,2.781,Backpackers,3,Americas,4,2280,28.8,18,1.6
+38.324,-0.72,Backpackers,3,ASEAN,1,2810,29.2,33,1.3
+-19.632,8.317,City shoppers,1,ASEAN,1,6760,8.6,28,4.0
+-35.237,5.801,City shoppers,1,ASEAN,1,7030,2.6,46,2.6
+32.627,0.37,Backpackers,3,Europe,2,2130,24.4,38,1.3
+-27.434,-18.22,Business travellers,4,East Asia,0,20960,2.7,43,1.9
+3.545,-19.512,Long-stay beach,0,Europe,2,6220,6.1,28,1.2
+-22.389,1.411,City shoppers,1,East Asia,0,4170,3.3,44,2.8
+19.282,-8.439,Long-stay beach,0,Europe,2,3220,6.3,34,1.7
+-23.494,-6.417,City shoppers,1,East Asia,0,10360,2.9,21,2.8
+-17.339,5.01,City shoppers,1,East Asia,0,4480,6.9,43,4.3
+-30.92,4.036,City shoppers,1,Americas,4,8680,3.3,37,1.3
+3.541,0.997,Family holidaymakers,5,East Asia,0,4800,5.3,18,3.8
+-31.52,5.497,City shoppers,1,East Asia,0,8460,3.7,32,2.2
+18.027,20.89,Culture seekers,2,South Asia,3,3010,8.6,36,1.1
+-30.852,2.549,City shoppers,1,East Asia,0,7310,9.6,34,1.9
+14.867,17.381,Culture seekers,2,East Asia,0,7390,8.1,45,1.5
+30.138,9.82,Culture seekers,2,Americas,4,1470,17.1,29,2.1
+-10.703,-3.21,Family holidaymakers,5,East Asia,0,5560,4.8,41,4.2
+36.072,3.513,Backpackers,3,Americas,4,950,26.7,22,1.0
+16.297,-14.592,Long-stay beach,0,Europe,2,7450,12.8,40,2.2
+1.964,-11.938,Family holidaymakers,5,South Asia,3,5920,6.1,59,5.2
+14.491,-14.194,Long-stay beach,0,Europe,2,8370,10.8,45,2.5
+-23.61,-21.501,Business travellers,4,South Asia,3,7590,4.4,52,1.0
+-3.154,-10.713,Family holidaymakers,5,East Asia,0,2880,12.0,51,2.9
+-33.737,-13.986,Business travellers,4,East Asia,0,8980,2.2,20,1.0
+16.749,-15.761,Long-stay beach,0,Europe,2,6100,17.9,44,1.6
+32.524,-2.119,Backpackers,3,Oceania & other,5,1930,17.6,44,1.4
+-29.317,5.593,City shoppers,1,East Asia,0,10270,5.8,42,2.3
+-33.553,-2.116,City shoppers,1,ASEAN,1,5420,6.2,24,2.2
+19.087,24.474,Culture seekers,2,East Asia,0,1950,4.5,28,1.0
+4.905,-0.536,Family holidaymakers,5,Europe,2,5770,7.8,24,3.0
+16.221,-17.78,Long-stay beach,0,Europe,2,5840,6.6,49,1.8
+-16.739,-2.689,City shoppers,1,East Asia,0,4170,16.1,39,2.5
+14.493,16.668,Culture seekers,2,East Asia,0,5230,9.9,49,1.1
+22.529,-15.071,Long-stay beach,0,East Asia,0,5020,24.1,43,1.0
+17.783,-8.285,Long-stay beach,0,Europe,2,4700,16.4,40,2.3
+19.969,-7.152,Long-stay beach,0,Europe,2,4140,10.0,29,2.1
+-9.947,-0.239,Family holidaymakers,5,East Asia,0,5480,6.6,35,4.0
+-27.788,-2.557,City shoppers,1,ASEAN,1,11330,2.4,30,2.7
+-8.934,-0.912,Family holidaymakers,5,ASEAN,1,6360,7.5,45,3.4
+-1.629,-3.303,Family holidaymakers,5,Europe,2,2900,5.6,35,5.0
+28.315,3.705,Backpackers,3,Americas,4,2500,12.3,24,2.2
+-31.453,3.107,City shoppers,1,South Asia,3,9970,7.5,35,1.6
+19.722,-4.037,Long-stay beach,0,Europe,2,6340,16.5,18,2.5
+13.057,-11.237,Family holidaymakers,5,East Asia,0,4390,5.3,38,2.5
+31.249,2.556,Backpackers,3,Americas,4,1730,19.6,20,1.0
+21.76,-0.495,Long-stay beach,0,South Asia,3,4770,17.2,20,2.6
+-25.633,-10.93,Business travellers,4,East Asia,0,14750,7.1,45,3.0
+-3.794,2.395,Family holidaymakers,5,ASEAN,1,5600,4.3,33,4.5
+-1.975,0.64,Family holidaymakers,5,Americas,4,6150,7.5,31,4.9
+3.719,-4.059,Family holidaymakers,5,ASEAN,1,3200,6.1,33,4.0
+-32.574,-13.058,Business travellers,4,Americas,4,13280,3.3,25,1.0
+-28.115,4.102,City shoppers,1,East Asia,0,8810,6.7,37,2.2
+39.198,-2.06,Backpackers,3,Europe,2,2980,32.5,42,1.1
+0.203,4.363,Family holidaymakers,5,East Asia,0,5370,8.8,33,3.4
+13.497,18.598,Culture seekers,2,East Asia,0,5160,5.9,34,2.1
+28.655,5.29,Backpackers,3,Europe,2,1750,9.9,18,2.5
+37.15,4.79,Backpackers,3,Oceania & other,5,1640,26.5,18,1.0
+-24.543,-16.14,City shoppers,1,ASEAN,1,7590,4.7,42,2.1
+-1.768,-6.409,Family holidaymakers,5,South Asia,3,4030,8.7,44,3.9
+14.566,-20.983,Long-stay beach,0,Americas,4,4390,15.2,55,1.0
+19.547,-10.399,Long-stay beach,0,Oceania & other,5,5260,15.5,37,1.7
+9.8,-14.088,Long-stay beach,0,ASEAN,1,3220,6.5,53,3.0
+0.916,5.644,Family holidaymakers,5,ASEAN,1,5620,4.4,42,3.3
+-31.265,8.766,City shoppers,1,East Asia,0,4770,3.1,48,1.0
+-26.525,-12.855,Business travellers,4,South Asia,3,10460,2.5,43,2.6
+4.752,-2.408,Family holidaymakers,5,South Asia,3,5170,9.7,25,4.4
+15.293,16.901,Culture seekers,2,Europe,2,6790,3.4,53,1.0
+0.149,-3.682,Family holidaymakers,5,ASEAN,1,2670,8.4,35,4.3
+-25.997,-20.648,Business travellers,4,ASEAN,1,11970,4.1,47,1.0
+1.543,-4.453,Family holidaymakers,5,Americas,4,3570,7.1,35,3.4
+-0.395,7.976,Family holidaymakers,5,East Asia,0,4100,6.7,37,4.4
+35.288,-1.788,Backpackers,3,Americas,4,1470,27.2,38,2.5
+-0.256,4.981,Family holidaymakers,5,East Asia,0,6240,6.6,37,3.6
+20.582,-16.662,Long-stay beach,0,Europe,2,4780,19.8,52,1.5
+5.577,-9.031,Long-stay beach,0,South Asia,3,6370,12.8,43,4.3
+-32.024,5.236,City shoppers,1,East Asia,0,6330,2.1,30,2.0
+-30.206,2.884,City shoppers,1,East Asia,0,8070,4.9,31,1.5
+-4.407,0.157,Family holidaymakers,5,East Asia,0,7670,11.7,38,4.4
+5.437,23.086,Culture seekers,2,Europe,2,3570,5.1,37,2.8
+37.314,3.013,Backpackers,3,Americas,4,2470,33.1,18,3.1
+-32.157,-8.647,City shoppers,1,Americas,4,12940,7.4,33,2.1
+2.14,18.037,Culture seekers,2,Oceania & other,5,4610,3.1,44,3.9
+32.536,5.726,Backpackers,3,South Asia,3,2550,16.4,31,1.5
+-22.33,-0.965,City shoppers,1,East Asia,0,6450,2.3,37,2.5
+-3.134,-4.948,Family holidaymakers,5,Europe,2,7090,4.4,45,3.8
+-30.949,6.597,City shoppers,1,East Asia,0,7730,4.4,32,2.1
+33.065,1.72,Backpackers,3,Oceania & other,5,2230,20.0,31,1.9
+-29.377,-20.284,Business travellers,4,South Asia,3,12250,3.1,49,1.1
+38.544,1.627,Backpackers,3,Americas,4,1500,34.2,18,2.3
+-22.246,9.753,City shoppers,1,East Asia,0,7630,4.7,21,3.9
+17.126,-2.825,Long-stay beach,0,ASEAN,1,4930,7.1,29,2.7
+6.069,-12.173,Long-stay beach,0,Europe,2,7190,10.9,47,2.8
+33.674,-0.585,Backpackers,3,Europe,2,1870,21.3,35,2.7
+-36.149,0.304,City shoppers,1,South Asia,3,12310,6.9,28,3.1
+1.335,-1.138,Family holidaymakers,5,ASEAN,1,4940,3.4,28,4.3
+-19.186,0.196,City shoppers,1,Americas,4,4750,7.6,45,3.5
+-26.207,7.952,City shoppers,1,ASEAN,1,9720,5.4,32,3.3
+-28.551,-10.996,Business travellers,4,Americas,4,12300,3.3,43,3.0
+-33.45,-7.327,Business travellers,4,East Asia,0,9580,5.8,34,1.5
+-29.48,3.164,City shoppers,1,South Asia,3,6240,3.3,35,1.6
+25.29,-5.216,Long-stay beach,0,Europe,2,3740,5.5,42,3.2
+11.407,18.747,Culture seekers,2,South Asia,3,2870,12.4,31,2.6
+0.051,7.646,Family holidaymakers,5,Europe,2,5680,6.9,43,3.8
+13.01,-7.475,Long-stay beach,0,Europe,2,3700,11.9,35,1.7
+12.482,-12.871,Family holidaymakers,5,ASEAN,1,5830,6.7,46,2.8
+13.652,2.838,Culture seekers,2,East Asia,0,3610,10.0,55,1.0
+-23.858,2.654,City shoppers,1,East Asia,0,3340,4.4,41,2.3
+10.946,3.805,Long-stay beach,0,Europe,2,3390,10.8,48,1.0
+-22.06,-20.784,Business travellers,4,Europe,2,4140,5.2,50,1.5
+1.966,23.113,Culture seekers,2,ASEAN,1,5440,8.1,48,2.7
+-26.426,-16.817,Business travellers,4,Americas,4,7930,2.8,43,1.8
+-25.937,11.14,City shoppers,1,South Asia,3,5290,5.3,27,2.3
+19.17,-13.605,Long-stay beach,0,ASEAN,1,4700,7.1,43,1.7
+18.168,20.806,Culture seekers,2,East Asia,0,2410,6.7,36,1.0
+10.924,17.613,Culture seekers,2,Europe,2,3060,5.3,27,2.6
+-35.433,-3.422,City shoppers,1,Oceania & other,5,7490,11.3,18,1.6
+18.627,-15.723,Long-stay beach,0,Europe,2,5490,16.8,46,2.5
+12.123,-14.497,Long-stay beach,0,Europe,2,5480,10.3,49,2.4
+-2.629,-5.55,Family holidaymakers,5,East Asia,0,6680,4.0,42,3.6
+-20.193,-5.664,City shoppers,1,East Asia,0,5950,5.8,19,3.5
+27.646,4.022,Backpackers,3,South Asia,3,2580,14.7,18,3.0
+0.164,-6.886,Family holidaymakers,5,South Asia,3,3650,7.5,46,3.3
+-23.605,4.423,City shoppers,1,South Asia,3,4530,2.3,37,3.3
+11.075,21.803,Culture seekers,2,Europe,2,4930,4.7,31,2.6
+4.942,4.948,Family holidaymakers,5,Europe,2,6130,10.4,36,3.1
+35.688,0.329,Backpackers,3,Oceania & other,5,1710,21.2,22,1.0
+-25.247,-22.302,Business travellers,4,East Asia,0,8760,3.1,50,1.0
+11.106,-7.33,Long-stay beach,0,Europe,2,5010,8.8,41,2.1
+5.039,27.867,Culture seekers,2,Americas,4,3090,6.3,46,2.2
+-34.866,5.633,City shoppers,1,East Asia,0,7730,5.0,46,2.8
+5.876,-12.065,Long-stay beach,0,Americas,4,8070,5.7,44,2.4
+1.317,-5.122,Family holidaymakers,5,ASEAN,1,3490,3.4,36,2.7
+12.849,-2.144,Long-stay beach,0,Americas,4,5500,8.7,22,1.3
+-6.18,-0.383,Family holidaymakers,5,ASEAN,1,6250,2.8,35,4.5
+7.287,-18.016,Long-stay beach,0,Europe,2,1960,16.5,62,2.7
+-35.825,2.579,City shoppers,1,East Asia,0,5770,4.3,46,1.0
+11.52,12.22,Long-stay beach,0,Europe,2,6730,7.9,46,2.7
+2.319,-14.931,Family holidaymakers,5,ASEAN,1,4220,3.6,49,2.3
+19.133,-6.331,Long-stay beach,0,East Asia,0,5340,12.1,31,2.2
+-24.907,7.818,City shoppers,1,South Asia,3,9000,5.1,32,3.9
+4.134,26.926,Culture seekers,2,Europe,2,4810,10.5,56,2.8
+19.705,-17.075,Long-stay beach,0,Europe,2,4560,15.5,51,1.3
+-6.596,-4.511,Family holidaymakers,5,South Asia,3,5230,5.4,46,4.5
+36.774,3.897,Backpackers,3,Europe,2,1880,31.8,18,1.3
+4.876,-19.711,Long-stay beach,0,Oceania & other,5,7310,10.2,39,1.0
+-33.279,0.409,City shoppers,1,ASEAN,1,5710,3.0,32,1.2
+36.099,-4.287,Long-stay beach,0,Europe,2,2910,26.4,43,2.1
+18.497,25.209,Culture seekers,2,Americas,4,1860,4.7,28,1.6
+9.336,26.497,Culture seekers,2,East Asia,0,2980,9.1,39,1.8
+12.736,-16.797,Long-stay beach,0,Europe,2,8370,25.4,41,2.8
+-32.622,-0.735,City shoppers,1,South Asia,3,6030,5.3,33,1.9
+12.538,-18.039,Long-stay beach,0,Europe,2,6170,24.2,40,1.2
+1.273,25.596,Culture seekers,2,Oceania & other,5,6200,19.1,53,2.3
+12.424,-9.379,Long-stay beach,0,Europe,2,4680,7.3,37,2.1
+11.511,-18.787,Long-stay beach,0,South Asia,3,5390,19.1,45,1.7
+4.686,15.377,Culture seekers,2,Americas,4,2350,6.1,48,3.0
+-0.575,9.582,Culture seekers,2,East Asia,0,3480,9.5,38,5.4
+14.927,-6.81,Long-stay beach,0,Europe,2,4350,5.7,36,2.2
+-2.549,5.697,Family holidaymakers,5,South Asia,3,4990,9.1,38,3.5
+-4.21,8.864,Family holidaymakers,5,Europe,2,5740,6.0,21,2.8
+-26.476,8.498,City shoppers,1,East Asia,0,6250,2.3,39,3.6
+9.048,25.745,Culture seekers,2,Americas,4,2210,6.0,39,1.7
+26.875,1.224,Long-stay beach,0,Europe,2,3800,15.9,28,1.6
+-29.98,-20.379,City shoppers,1,South Asia,3,11580,4.2,48,1.0
+-29.396,-23.967,Business travellers,4,South Asia,3,17270,1.9,54,1.9
+-30.151,-15.721,Business travellers,4,East Asia,0,8430,2.7,37,1.0
+15.137,-1.007,Long-stay beach,0,Europe,2,5070,12.8,43,3.0
+-22.235,-21.065,Business travellers,4,Europe,2,4460,2.8,54,1.0
+18.214,-12.164,Long-stay beach,0,Oceania & other,5,3410,15.7,39,1.6
+-27.532,7.741,City shoppers,1,East Asia,0,6410,2.0,30,3.2
+19.217,-6.27,Long-stay beach,0,Europe,2,5030,8.4,29,2.7
+-14.954,2.831,City shoppers,1,East Asia,0,8220,5.1,18,5.3
+40.049,3.861,Backpackers,3,South Asia,3,2150,38.9,20,3.0
+-30.312,7.65,City shoppers,1,Americas,4,6080,4.0,36,1.8
+15.811,-16.372,Long-stay beach,0,Europe,2,8550,13.2,48,1.5
+-27.371,-5.277,City shoppers,1,East Asia,0,6110,3.6,18,2.0
+-31.715,-17.237,Business travellers,4,East Asia,0,10160,5.5,36,1.0
+34.105,8.925,Backpackers,3,East Asia,0,1130,12.2,36,1.0
+9.239,18.371,Culture seekers,2,East Asia,0,3760,12.3,25,3.8
+1.258,1.633,Family holidaymakers,5,East Asia,0,7070,10.9,18,4.2
+0.019,1.023,Family holidaymakers,5,East Asia,0,7680,2.2,32,4.6
+18.493,-16.737,Long-stay beach,0,Europe,2,6710,13.3,53,2.1
+-26.94,-22.438,Business travellers,4,South Asia,3,10630,2.4,53,1.0
+29.172,3.371,Backpackers,3,Oceania & other,5,2900,15.7,19,1.0
+7.351,16.496,Culture seekers,2,Europe,2,2160,4.1,33,4.2
+-29.987,-10.865,Business travellers,4,East Asia,0,17400,5.4,33,3.1
+2.31,19.726,Culture seekers,2,Americas,4,6640,5.6,42,3.3
+2.404,-0.862,Family holidaymakers,5,ASEAN,1,9570,4.6,29,4.3
+7.692,28.948,Culture seekers,2,Oceania & other,5,4150,8.9,46,1.0
+-27.752,-14.159,Business travellers,4,South Asia,3,12380,2.8,36,1.0
+23.961,-14.875,Long-stay beach,0,East Asia,0,4390,31.4,46,1.0
+17.021,-17.97,Long-stay beach,0,Europe,2,5990,8.3,45,1.0
+20.011,-6.722,Long-stay beach,0,Americas,4,3780,13.9,27,2.0
+18.684,-17.294,Long-stay beach,0,Europe,2,4240,10.4,52,1.6
+10.961,30.35,Culture seekers,2,East Asia,0,2080,14.2,40,1.0
+-3.458,5.219,Family holidaymakers,5,East Asia,0,4520,5.4,41,3.4
+-0.298,-2.838,Family holidaymakers,5,South Asia,3,4030,6.5,38,5.0
+17.428,-3.424,Long-stay beach,0,Europe,2,3910,5.6,29,2.5
+-24.012,6.289,City shoppers,1,ASEAN,1,6900,4.2,37,3.9
+39.101,2.801,Backpackers,3,Europe,2,1260,37.3,28,1.4
+-21.987,8.658,City shoppers,1,South Asia,3,5240,2.4,25,3.6
+10.389,-12.173,Long-stay beach,0,Europe,2,3990,10.9,43,2.7
+14.939,22.559,Culture seekers,2,East Asia,0,7390,7.7,33,1.7
+5.814,17.386,City shoppers,1,ASEAN,1,3420,3.5,26,2.8
+16.193,-15.54,Long-stay beach,0,Oceania & other,5,7490,10.2,46,1.7
+-33.322,0.714,City shoppers,1,Europe,2,5330,2.6,37,1.1
+6.323,-13.936,Long-stay beach,0,East Asia,0,5210,7.2,51,2.9
+-31.587,1.419,City shoppers,1,East Asia,0,6670,2.9,39,1.0
+-26.823,4.748,City shoppers,1,ASEAN,1,8180,10.2,36,3.0
+-26.54,-24.778,Business travellers,4,ASEAN,1,12400,1.7,70,2.3
+-18.933,-0.414,City shoppers,1,ASEAN,1,6740,4.5,39,4.0
+9.642,-9.096,Long-stay beach,0,Oceania & other,5,3150,16.1,40,3.3
+9.249,-10.866,Long-stay beach,0,Oceania & other,5,3220,8.0,43,2.8
+-0.829,3.68,Family holidaymakers,5,Europe,2,5630,5.3,32,3.7
+-35.783,4.189,City shoppers,1,East Asia,0,8680,4.1,49,1.0
+16.236,-13.359,Long-stay beach,0,Europe,2,6940,11.6,38,2.9
+10.75,24.892,Culture seekers,2,South Asia,3,3820,8.3,39,2.1
+38.619,1.05,Backpackers,3,Europe,2,1060,34.1,27,1.0
+-1.505,-8.677,Family holidaymakers,5,South Asia,3,7070,5.9,43,4.5
+-18.333,9.856,City shoppers,1,East Asia,0,5130,3.5,22,4.1
+-29.96,-21.729,Business travellers,4,ASEAN,1,7450,2.7,50,1.0
+15.815,-6.774,Long-stay beach,0,Europe,2,3490,7.5,40,1.0
+7.94,23.113,Culture seekers,2,Europe,2,2700,7.9,45,2.1
+2.805,21.292,Culture seekers,2,Europe,2,6270,14.5,39,2.4
+-32.404,2.721,City shoppers,1,East Asia,0,8180,5.1,37,1.6
+-33.686,-15.48,Business travellers,4,ASEAN,1,8040,2.4,27,1.0
+-25.686,-21.493,Business travellers,4,South Asia,3,11970,4.0,50,1.5
+-27.961,-23.046,Business travellers,4,South Asia,3,10080,2.0,57,1.5
+0.962,5.025,Family holidaymakers,5,East Asia,0,6060,5.6,37,2.8
+18.506,-17.776,Long-stay beach,0,ASEAN,1,5890,7.7,56,1.1
+-31.373,-1.144,City shoppers,1,ASEAN,1,3650,4.2,34,2.0
+-4.691,-1.489,Family holidaymakers,5,East Asia,0,5640,7.8,39,5.3
+-0.675,-2.481,Family holidaymakers,5,ASEAN,1,3620,4.4,37,5.1
+14.7,-8.428,Long-stay beach,0,Europe,2,3230,10.6,37,1.0
+-10.899,-4.977,Family holidaymakers,5,ASEAN,1,8170,5.4,41,3.3
+19.021,22.646,Culture seekers,2,East Asia,0,4420,7.0,18,1.5
+10.833,-1.09,Family holidaymakers,5,East Asia,0,5220,4.9,28,2.3
+-27.742,-22.35,Business travellers,4,East Asia,0,8700,3.2,62,1.0
+5.211,24.204,Culture seekers,2,Europe,2,2920,10.4,42,2.0
+-28.15,-1.027,City shoppers,1,South Asia,3,7380,7.2,33,2.0
+-25.222,-17.473,Business travellers,4,South Asia,3,5560,5.9,46,2.2
+16.987,-2.206,Long-stay beach,0,Oceania & other,5,6540,8.5,26,3.8
+-32.244,-15.434,Business travellers,4,East Asia,0,8920,3.7,30,1.0
+-29.383,-12.415,Business travellers,4,East Asia,0,8880,3.3,32,1.9
+6.054,24.472,Culture seekers,2,Oceania & other,5,3220,11.0,44,2.6
+31.611,7.244,Backpackers,3,Europe,2,1900,16.8,29,1.6
+-19.863,10.356,City shoppers,1,Americas,4,6510,3.9,24,3.8
+3.715,-7.962,Family holidaymakers,5,South Asia,3,6960,18.3,45,3.4
+-1.367,-4.952,Family holidaymakers,5,Europe,2,4400,10.2,41,4.6
+20.714,-16.598,Long-stay beach,0,Oceania & other,5,3950,18.8,54,2.1
+-31.078,-14.131,Business travellers,4,South Asia,3,8750,5.4,34,1.3
+-4.989,-4.707,Family holidaymakers,5,South Asia,3,7790,7.3,44,5.2
+8.67,27.312,Culture seekers,2,Europe,2,2870,5.8,42,1.2
+12.597,-6.574,Long-stay beach,0,Europe,2,4850,14.8,35,1.7
+25.986,-0.484,Long-stay beach,0,Europe,2,2730,6.8,33,1.0
+19.826,-9.493,Long-stay beach,0,Oceania & other,5,3970,16.4,31,1.4
+31.495,1.172,Backpackers,3,Europe,2,1090,14.8,36,1.0
+-20.985,1.662,City shoppers,1,ASEAN,1,5290,5.7,38,3.1
+-28.688,-15.837,Business travellers,4,South Asia,3,14220,2.4,40,1.6
+20.317,-12.632,Long-stay beach,0,Europe,2,3650,12.4,42,1.8
+15.158,-11.798,Long-stay beach,0,Europe,2,5100,8.6,41,1.0
+-22.757,-2.395,City shoppers,1,East Asia,0,6290,2.5,34,2.2
+11.573,22.814,Culture seekers,2,Europe,2,3070,9.5,28,2.3
+4.12,9.411,Family holidaymakers,5,ASEAN,1,8180,9.7,57,2.3
+-30.643,1.525,City shoppers,1,East Asia,0,4790,12.5,32,1.4
+-2.106,-6.006,Family holidaymakers,5,South Asia,3,3920,3.7,44,4.2
+-0.937,6.286,Culture seekers,2,Americas,4,6840,6.3,30,3.3
+-16.568,2.75,City shoppers,1,East Asia,0,5530,4.9,29,5.8
+16.702,-7.613,Long-stay beach,0,East Asia,0,3900,10.0,38,1.6
+-11.31,2.393,Family holidaymakers,5,East Asia,0,7830,4.4,45,2.9
+8.998,-10.694,Long-stay beach,0,Europe,2,3790,6.7,42,3.3
+36.598,0.616,Backpackers,3,East Asia,0,2230,22.7,28,1.0
+-22.608,4.72,City shoppers,1,South Asia,3,4440,6.7,44,3.0
+-30.906,-20.493,Business travellers,4,South Asia,3,9130,2.8,47,1.0
+6.096,21.803,Culture seekers,2,Americas,4,2370,6.9,38,2.3
+-18.177,1.436,City shoppers,1,South Asia,3,7180,4.1,36,4.6
+36.129,2.468,Backpackers,3,Americas,4,1360,27.2,20,1.3
+-4.057,9.77,Family holidaymakers,5,Europe,2,3380,4.2,19,2.2
+-4.125,9.161,Family holidaymakers,5,South Asia,3,3700,7.0,22,3.1
+33.412,7.79,Backpackers,3,Europe,2,1650,20.8,39,1.0
+9.55,25.757,Culture seekers,2,Europe,2,2210,13.0,35,1.8
+-25.031,-7.09,Business travellers,4,East Asia,0,10710,4.6,35,1.7
+14.376,-22.136,Long-stay beach,0,Oceania & other,5,5470,15.1,65,1.3
+-32.215,-0.485,City shoppers,1,ASEAN,1,4780,2.8,40,1.6
+-23.666,-14.883,Business travellers,4,ASEAN,1,5080,3.0,44,1.0
+-26.648,-24.58,Business travellers,4,South Asia,3,10640,2.5,59,1.8
+-32.231,6.716,City shoppers,1,ASEAN,1,5470,5.7,34,1.1
+9.727,17.239,Culture seekers,2,ASEAN,1,3300,9.3,33,2.7
+38.08,-0.309,Backpackers,3,Europe,2,2470,30.2,29,2.2
+14.564,-21.177,Long-stay beach,0,Americas,4,4330,13.2,60,1.0
+21.053,-14.047,Long-stay beach,0,Europe,2,3340,15.8,47,1.3
+-26.38,-17.454,Business travellers,4,Europe,2,11510,4.6,43,2.5
+35.557,-4.845,Long-stay beach,0,East Asia,0,3500,22.9,37,1.9
+34.335,2.558,Backpackers,3,Americas,4,2940,26.4,26,2.1
+-26.287,-2.341,City shoppers,1,Oceania & other,5,9290,2.3,32,3.4
+5.56,18.644,Culture seekers,2,Europe,2,3510,3.7,35,3.1
+-26.003,11.399,City shoppers,1,East Asia,0,5610,4.8,26,2.0
+-31.741,-1.991,City shoppers,1,East Asia,0,3450,5.4,27,2.3
+19.608,-18.047,Long-stay beach,0,Americas,4,5880,16.2,52,1.0
+36.501,-1.037,Backpackers,3,East Asia,0,1560,21.9,33,1.7
+16.207,26.361,Culture seekers,2,Europe,2,3370,8.2,19,2.1
+9.316,-21.005,Long-stay beach,0,Europe,2,4840,17.6,47,3.0
+-6.472,2.684,Family holidaymakers,5,ASEAN,1,6700,3.7,44,6.2
+-4.547,0.907,Family holidaymakers,5,ASEAN,1,9610,9.7,38,4.2
+35.983,2.795,Backpackers,3,Europe,2,1160,24.8,18,1.9
+-26.97,-14.43,Business travellers,4,ASEAN,1,11660,3.5,43,1.0
+-21.112,-2.705,City shoppers,1,ASEAN,1,7470,7.1,37,2.9
+39.405,-1.199,Long-stay beach,0,East Asia,0,3390,35.5,40,1.9
+25.812,-7.705,Long-stay beach,0,Oceania & other,5,2780,15.7,48,2.8
+37.048,-0.253,Backpackers,3,Americas,4,1910,25.0,28,1.7
+18.459,25.423,Culture seekers,2,ASEAN,1,2350,5.0,33,2.3
+10.173,16.924,Long-stay beach,0,Europe,2,3230,9.6,32,3.7
+-3.322,-6.183,Family holidaymakers,5,East Asia,0,5680,9.5,42,4.9
+-30.59,-7.548,Business travellers,4,ASEAN,1,7530,6.4,32,1.5
+-7.631,1.037,Family holidaymakers,5,Americas,4,6040,6.2,45,3.4
+-26.76,7.279,City shoppers,1,South Asia,3,7580,4.3,32,2.9
+1.913,-4.507,Long-stay beach,0,Europe,2,2970,12.5,34,3.0
+16.589,-8.504,Long-stay beach,0,Americas,4,5830,9.2,37,2.3
+32.289,2.725,Backpackers,3,Americas,4,1310,20.4,24,1.0
+11.744,26.961,Culture seekers,2,East Asia,0,6510,6.2,40,1.0
+10.441,22.254,Culture seekers,2,Europe,2,3890,2.3,37,2.3
+31.048,2.835,Backpackers,3,South Asia,3,2340,16.9,18,1.0
+11.656,23.982,Culture seekers,2,East Asia,0,3100,12.6,32,2.1
+11.391,25.086,Culture seekers,2,East Asia,0,4530,9.0,39,1.7
+19.256,-14.141,Long-stay beach,0,Europe,2,5480,5.8,49,1.8
+32.826,3.268,Backpackers,3,ASEAN,1,1340,20.1,28,1.2
+13.931,-18.915,Long-stay beach,0,Americas,4,6760,18.2,43,1.0
+13.052,-20.124,Long-stay beach,0,Europe,2,4290,15.9,52,1.8
+35.508,5.414,Backpackers,3,Europe,2,1720,21.4,18,2.2
+-26.161,-14.444,City shoppers,1,South Asia,3,8410,4.7,40,1.0
+14.888,13.049,Long-stay beach,0,Americas,4,5150,17.9,41,1.0
+-19.877,4.127,City shoppers,1,East Asia,0,8320,4.7,41,4.3
+-22.386,10.191,City shoppers,1,East Asia,0,6100,4.3,18,3.4
+36.467,6.289,Backpackers,3,Americas,4,1700,20.5,19,1.2
+14.081,25.567,Culture seekers,2,East Asia,0,3700,7.7,30,1.0
+-27.416,10.829,City shoppers,1,East Asia,0,7190,8.2,26,2.4
+-30.406,13.419,City shoppers,1,East Asia,0,10560,3.4,18,1.0
+3.069,24.062,Culture seekers,2,Europe,2,4870,9.3,49,2.1
+-19.061,-0.332,City shoppers,1,East Asia,0,5910,4.5,40,3.4
+13.637,20.662,Culture seekers,2,Americas,4,5310,6.4,28,1.9
+-32.54,7.364,City shoppers,1,ASEAN,1,6530,4.2,29,1.0
+-27.447,-21.725,Business travellers,4,East Asia,0,11780,3.9,57,1.0
+-34.327,5.583,City shoppers,1,Europe,2,9410,6.7,42,2.3
+-0.3,22.885,City shoppers,1,ASEAN,1,4400,2.7,51,3.1
+29.647,4.812,Backpackers,3,South Asia,3,2260,12.4,18,1.0
+-29.415,-14.465,Business travellers,4,Americas,4,8520,2.6,36,2.1
+-3.293,3.506,Family holidaymakers,5,ASEAN,1,4970,4.9,29,4.0
+28.798,0.52,Backpackers,3,Oceania & other,5,2370,22.2,26,3.2
+13.879,23.254,Culture seekers,2,ASEAN,1,3740,6.1,36,1.5
+0.323,-5.953,Family holidaymakers,5,East Asia,0,2790,7.2,41,2.5
+9.685,23.844,Culture seekers,2,East Asia,0,2490,4.8,36,1.9
+-19.866,8.253,City shoppers,1,ASEAN,1,9050,9.1,28,3.1
+17.778,-18.846,Long-stay beach,0,Europe,2,4580,7.4,41,1.1
+-9.233,3.544,Family holidaymakers,5,ASEAN,1,4350,4.4,40,3.8
+17.507,17.254,Long-stay beach,0,Europe,2,4440,7.1,43,1.0
+12.189,-9.611,Long-stay beach,0,Europe,2,4740,8.2,43,2.2
+33.912,4.398,Backpackers,3,South Asia,3,2220,19.4,26,2.4
+1.36,4.163,Family holidaymakers,5,East Asia,0,4630,6.3,32,3.2
+12.335,23.434,Culture seekers,2,East Asia,0,3120,6.7,31,2.3
+-4.98,-5.852,Family holidaymakers,5,Europe,2,5260,6.4,41,4.8
+39.133,-0.942,Backpackers,3,Americas,4,3210,33.8,35,1.0
+18.294,-6.898,Long-stay beach,0,East Asia,0,4490,15.0,31,1.8
+-21.461,-6.543,City shoppers,1,East Asia,0,5090,3.7,37,2.8
+5.69,19.629,Culture seekers,2,Americas,4,4690,6.9,35,3.3
+-4.352,-1.644,Family holidaymakers,5,Oceania & other,5,4200,5.6,39,5.6
+21.345,3.393,Culture seekers,2,East Asia,0,5390,23.1,29,3.0
+-9.578,-0.925,Family holidaymakers,5,ASEAN,1,4800,7.1,42,3.8
+6.636,1.703,Family holidaymakers,5,East Asia,0,3660,5.9,18,2.0
+-30.404,10.559,City shoppers,1,South Asia,3,7200,4.4,38,1.5
+-2.992,-3.046,Family holidaymakers,5,East Asia,0,4130,4.0,39,4.5
+19.59,-18.156,Long-stay beach,0,East Asia,0,7680,13.1,55,1.6
+12.901,-20.94,Long-stay beach,0,East Asia,0,4270,17.4,59,2.3
+-25.237,4.394,City shoppers,1,East Asia,0,6470,5.5,45,3.1
+-23.39,5.937,City shoppers,1,East Asia,0,5660,2.9,34,3.3
+-27.476,8.27,City shoppers,1,East Asia,0,6880,2.3,31,3.0
+14.631,13.322,Culture seekers,2,South Asia,3,4730,10.3,43,1.6
+-16.991,4.802,City shoppers,1,East Asia,0,4780,3.7,45,4.3
+2.564,-11.773,Family holidaymakers,5,ASEAN,1,4680,6.9,53,4.4
+28.499,4.499,Backpackers,3,Europe,2,1900,9.3,24,2.2
+11.013,30.148,Culture seekers,2,Europe,2,2150,12.7,33,1.0
+-29.653,-13.749,Business travellers,4,South Asia,3,8570,3.0,31,2.4
+4.137,0.494,Family holidaymakers,5,ASEAN,1,3760,4.3,20,4.1
+2.157,2.35,Family holidaymakers,5,East Asia,0,4050,8.1,25,3.3
+-27.821,-5.609,City shoppers,1,ASEAN,1,5680,3.1,27,1.5
+2.108,18.496,Culture seekers,2,Europe,2,5600,9.5,45,4.1
+-18.178,0.802,City shoppers,1,East Asia,0,6080,5.9,41,4.6
+-26.891,2.844,City shoppers,1,East Asia,0,6090,2.9,33,2.5
+41.92,0.973,Backpackers,3,Americas,4,1990,57.2,36,1.2
+-12.394,5.79,Family holidaymakers,5,East Asia,0,9580,10.1,36,4.0
+6.307,-11.0,Long-stay beach,0,Americas,4,6740,5.3,42,3.4
+5.274,-13.039,Long-stay beach,0,East Asia,0,7290,12.3,53,3.8
+-11.938,5.249,City shoppers,1,ASEAN,1,7060,8.6,29,3.2
+-5.828,3.765,Family holidaymakers,5,East Asia,0,6210,6.3,42,4.5
+1.925,-7.379,Family holidaymakers,5,South Asia,3,4100,11.4,43,3.7
+33.23,6.664,Backpackers,3,East Asia,0,1640,16.8,34,1.0
+-4.001,-3.324,Family holidaymakers,5,South Asia,3,5820,3.8,41,4.2
+18.11,-14.659,Long-stay beach,0,Europe,2,5170,14.5,47,2.2
+3.926,2.733,Family holidaymakers,5,Americas,4,7470,6.5,18,2.0
+-34.648,9.426,City shoppers,1,East Asia,0,4070,8.1,21,1.9
+3.409,-0.926,Family holidaymakers,5,ASEAN,1,6180,9.9,27,4.6
+1.822,1.575,Family holidaymakers,5,Americas,4,5460,8.3,25,4.0
+-22.187,13.779,City shoppers,1,East Asia,0,4630,3.9,20,3.4
+10.075,28.463,Culture seekers,2,ASEAN,1,4330,4.8,37,1.3
+-15.674,1.105,City shoppers,1,ASEAN,1,6830,5.7,27,3.7
+-19.585,6.755,City shoppers,1,ASEAN,1,4570,5.2,32,3.2
+14.174,-12.345,Long-stay beach,0,Americas,4,6250,7.6,41,2.2
+10.287,27.945,Culture seekers,2,Americas,4,4650,6.7,34,1.9
+9.708,-18.819,Long-stay beach,0,Oceania & other,5,4150,18.6,46,2.7
+-30.474,-24.599,Business travellers,4,ASEAN,1,8700,5.0,69,1.8
+-0.704,4.872,Family holidaymakers,5,East Asia,0,6010,7.9,32,3.2
+22.852,-9.238,Long-stay beach,0,Europe,2,6870,16.0,35,2.8
+-30.679,-24.258,Business travellers,4,East Asia,0,14510,2.5,61,2.1
+-25.997,11.805,City shoppers,1,ASEAN,1,4910,3.6,26,2.2
+16.864,23.461,Culture seekers,2,East Asia,0,2790,9.3,29,1.2
+-24.345,-14.657,Business travellers,4,East Asia,0,5410,2.9,40,1.0
+37.088,5.935,Backpackers,3,Oceania & other,5,1460,25.2,26,1.0
+-28.234,0.299,City shoppers,1,East Asia,0,7890,4.0,30,2.3
+6.297,24.666,Culture seekers,2,Europe,2,3720,10.0,43,2.2
+36.218,-0.087,Backpackers,3,Americas,4,1590,25.0,27,1.0
+-35.8,-0.729,City shoppers,1,Americas,4,10470,8.9,31,1.9
+-30.17,7.152,City shoppers,1,East Asia,0,7470,3.1,40,2.1
+5.51,-3.24,Family holidaymakers,5,Oceania & other,5,3840,4.1,33,4.7
+11.046,18.722,Culture seekers,2,ASEAN,1,2570,7.8,34,2.7
+4.55,-15.104,Family holidaymakers,5,East Asia,0,5270,6.9,62,3.0
+12.306,28.597,Culture seekers,2,East Asia,0,4690,9.9,40,1.0
+9.968,-3.424,Long-stay beach,0,Europe,2,4610,11.6,31,3.6
+13.714,22.961,Culture seekers,2,East Asia,0,3920,2.9,37,1.9
+13.44,-13.428,Long-stay beach,0,Europe,2,6240,12.3,46,2.6
+39.476,4.376,Backpackers,3,Americas,4,1710,31.3,28,2.5
+6.367,1.461,Family holidaymakers,5,ASEAN,1,4060,5.9,21,2.7
+36.205,0.492,Backpackers,3,Europe,2,2610,19.1,28,1.0
+5.511,-5.82,Long-stay beach,0,East Asia,0,5460,15.6,33,3.7
+16.536,27.513,Culture seekers,2,East Asia,0,5160,9.2,23,2.3
+12.959,26.501,Culture seekers,2,Americas,4,5620,6.6,30,1.3
+-6.345,2.963,Family holidaymakers,5,East Asia,0,6650,3.8,45,5.5
+2.905,22.838,Culture seekers,2,Europe,2,5830,8.3,46,2.7
+41.819,2.199,Backpackers,3,Oceania & other,5,1830,58.4,18,1.6
+-4.672,1.964,Family holidaymakers,5,South Asia,3,7130,10.3,40,4.0
+9.23,14.342,Culture seekers,2,East Asia,0,5970,9.8,49,2.9
+-5.373,-2.3,Family holidaymakers,5,Europe,2,5080,12.1,41,5.0
+-29.23,2.453,City shoppers,1,East Asia,0,6240,5.1,35,2.0
+29.635,5.352,Backpackers,3,Oceania & other,5,2320,11.0,18,1.0

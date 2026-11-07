@@ -1,0 +1,273 @@
+year,nationality,origin_region,region_id,kind,arrivals
+2010,China,East Asia,0,country,1120497
+2011,China,East Asia,0,country,1719424
+2012,China,East Asia,0,country,2781026
+2013,China,East Asia,0,country,4600056
+2014,China,East Asia,0,country,4642395
+2015,China,East Asia,0,country,7914712
+2016,China,East Asia,0,country,8753176
+2017,China,East Asia,0,country,9775359
+2018,China,East Asia,0,country,10515409
+2019,China,East Asia,0,country,10973913
+2020,China,East Asia,0,country,1249630
+2021,China,East Asia,0,country,13006
+2022,China,East Asia,0,country,274716
+2023,China,East Asia,0,country,3528438
+2024,China,East Asia,0,country,6691555
+2025,China,East Asia,0,country,4656868
+2010,Malaysia,ASEAN,1,country,2051773
+2011,Malaysia,ASEAN,1,country,2505838
+2012,Malaysia,ASEAN,1,country,2550766
+2013,Malaysia,ASEAN,1,country,2993638
+2014,Malaysia,ASEAN,1,country,2605256
+2015,Malaysia,ASEAN,1,country,3426315
+2016,Malaysia,ASEAN,1,country,3564269
+2017,Malaysia,ASEAN,1,country,3346263
+2018,Malaysia,ASEAN,1,country,4097731
+2019,Malaysia,ASEAN,1,country,4135417
+2020,Malaysia,ASEAN,1,country,639715
+2021,Malaysia,ASEAN,1,country,5003
+2022,Malaysia,ASEAN,1,country,1969798
+2023,Malaysia,ASEAN,1,country,4657082
+2024,Malaysia,ASEAN,1,country,4976268
+2025,Malaysia,ASEAN,1,country,4433903
+2010,Russia,Europe,2,country,1052046
+2011,Russia,Europe,2,country,1297758
+2012,Russia,Europe,2,country,1332345
+2013,Russia,Europe,2,country,1747772
+2014,Russia,Europe,2,country,1601867
+2015,Russia,Europe,2,country,879518
+2016,Russia,Europe,2,country,1099502
+2017,Russia,Europe,2,country,1353489
+2018,Russia,Europe,2,country,1478857
+2019,Russia,Europe,2,country,1487252
+2020,Russia,Europe,2,country,430573
+2021,Russia,Europe,2,country,29800
+2022,Russia,Europe,2,country,402643
+2023,Russia,Europe,2,country,1475988
+2024,Russia,Europe,2,country,1732421
+2025,Russia,Europe,2,country,1869705
+2010,South Korea,East Asia,0,country,805442
+2011,South Korea,East Asia,0,country,1008863
+2012,South Korea,East Asia,0,country,1170572
+2013,South Korea,East Asia,0,country,1293525
+2014,South Korea,East Asia,0,country,1115217
+2015,South Korea,East Asia,0,country,1366876
+2016,South Korea,East Asia,0,country,1455939
+2017,South Korea,East Asia,0,country,1704275
+2018,South Korea,East Asia,0,country,1790776
+2019,South Korea,East Asia,0,country,1883887
+2020,South Korea,East Asia,0,country,257543
+2021,South Korea,East Asia,0,country,9995
+2022,South Korea,East Asia,0,country,598690
+2023,South Korea,East Asia,0,country,1650997
+2024,South Korea,East Asia,0,country,1871488
+2025,South Korea,East Asia,0,country,1679569
+2010,India,South Asia,3,country,763494
+2011,India,South Asia,3,country,913811
+2012,India,South Asia,3,country,1012474
+2013,India,South Asia,3,country,1046988
+2014,India,South Asia,3,country,930846
+2015,India,South Asia,3,country,1068294
+2016,India,South Asia,3,country,1193918
+2017,India,South Asia,3,country,1406772
+2018,India,South Asia,3,country,1590876
+2019,India,South Asia,3,country,1981727
+2020,India,South Asia,3,country,199351
+2021,India,South Asia,3,country,6013
+2022,India,South Asia,3,country,975784
+2023,India,South Asia,3,country,1629079
+2024,India,South Asia,3,country,2128388
+2025,India,South Asia,3,country,2306716
+2010,Laos,ASEAN,1,country,720583
+2011,Laos,ASEAN,1,country,900685
+2012,Laos,ASEAN,1,country,982803
+2013,Laos,ASEAN,1,country,985102
+2014,Laos,ASEAN,1,country,1050659
+2015,Laos,ASEAN,1,country,1228613
+2016,Laos,ASEAN,1,country,1380550
+2017,Laos,ASEAN,1,country,1615869
+2018,Laos,ASEAN,1,country,1719424
+2019,Laos,ASEAN,1,country,1861326
+2020,Laos,ASEAN,1,country,200920
+2021,Laos,ASEAN,1,country,999
+2022,Laos,ASEAN,1,country,746841
+2023,Laos,ASEAN,1,country,1493769
+2024,Laos,ASEAN,1,country,1417075
+2025,Laos,ASEAN,1,country,1308828
+2010,Japan,East Asia,0,country,991403
+2011,Japan,East Asia,0,country,1125527
+2012,Japan,East Asia,0,country,1361944
+2013,Japan,East Asia,0,country,1547106
+2014,Japan,East Asia,0,country,1266412
+2015,Japan,East Asia,0,country,1383832
+2016,Japan,East Asia,0,country,1445500
+2017,Japan,East Asia,0,country,1545228
+2018,Japan,East Asia,0,country,1671664
+2019,Japan,East Asia,0,country,1810575
+2020,Japan,East Asia,0,country,330229
+2021,Japan,East Asia,0,country,9994
+2022,Japan,East Asia,0,country,271970
+2023,Japan,East Asia,0,country,980839
+2024,Japan,East Asia,0,country,1176344
+2025,Japan,East Asia,0,country,1207420
+2010,United States,Americas,4,country,612562
+2011,United States,Americas,4,country,680820
+2012,United States,Americas,4,country,776834
+2013,United States,Americas,4,country,820929
+2014,United States,Americas,4,country,763372
+2015,United States,Americas,4,country,870543
+2016,United States,Americas,4,country,965600
+2017,United States,Americas,4,country,1051872
+2018,United States,Americas,4,country,1117025
+2019,United States,Americas,4,country,1170132
+2020,United States,Americas,4,country,190779
+2021,United States,Americas,4,country,19909
+2022,United States,Americas,4,country,498740
+2023,United States,Americas,4,country,899685
+2024,United States,Americas,4,country,1120532
+2025,United States,Americas,4,country,1148013
+2010,United Kingdom,Europe,2,country,810637
+2011,United Kingdom,Europe,2,country,877744
+2012,United Kingdom,Europe,2,country,869435
+2013,United Kingdom,Europe,2,country,913866
+2014,United Kingdom,Europe,2,country,908429
+2015,United Kingdom,Europe,2,country,955736
+2016,United Kingdom,Europe,2,country,1004171
+2017,United Kingdom,Europe,2,country,995343
+2018,United Kingdom,Europe,2,country,993961
+2019,United Kingdom,Europe,2,country,998508
+2020,United Kingdom,Europe,2,country,200017
+2021,United Kingdom,Europe,2,country,20090
+2022,United Kingdom,Europe,2,country,401085
+2023,United Kingdom,Europe,2,country,813268
+2024,United Kingdom,Europe,2,country,994309
+2025,United Kingdom,Europe,2,country,1010095
+2010,Germany,Europe,2,country,611421
+2011,Germany,Europe,2,country,617835
+2012,Germany,Europe,2,country,679018
+2013,Germany,Europe,2,country,731311
+2014,Germany,Europe,2,country,722822
+2015,Germany,Europe,2,country,759581
+2016,Germany,Europe,2,country,828439
+2017,Germany,Europe,2,country,852960
+2018,Germany,Europe,2,country,871587
+2019,Germany,Europe,2,country,869808
+2020,Germany,Europe,2,country,240714
+2021,Germany,Europe,2,country,19967
+2022,Germany,Europe,2,country,396858
+2023,Germany,Europe,2,country,719424
+2024,Germany,Europe,2,country,880752
+2025,Germany,Europe,2,country,901434
+2010,Other East Asia,East Asia,0,group,613140
+2011,Other East Asia,East Asia,0,group,705878
+2012,Other East Asia,East Asia,0,group,804427
+2013,Other East Asia,East Asia,0,group,910014
+2014,Other East Asia,East Asia,0,group,963268
+2015,Other East Asia,East Asia,0,group,1132163
+2016,Other East Asia,East Asia,0,group,1204807
+2017,Other East Asia,East Asia,0,group,1320485
+2018,Other East Asia,East Asia,0,group,1405681
+2019,Other East Asia,East Asia,0,group,1542923
+2020,Other East Asia,East Asia,0,group,258518
+2021,Other East Asia,East Asia,0,group,30506
+2022,Other East Asia,East Asia,0,group,502668
+2023,Other East Asia,East Asia,0,group,1095546
+2024,Other East Asia,East Asia,0,group,1354591
+2025,Other East Asia,East Asia,0,group,1419798
+2010,Other ASEAN,ASEAN,1,group,2096596
+2011,Other ASEAN,ASEAN,1,group,2539604
+2012,Other ASEAN,ASEAN,1,group,2969732
+2013,Other ASEAN,ASEAN,1,group,3131126
+2014,Other ASEAN,ASEAN,1,group,3403938
+2015,Other ASEAN,ASEAN,1,group,3873801
+2016,Other ASEAN,ASEAN,1,group,4359512
+2017,Other ASEAN,ASEAN,1,group,4461222
+2018,Other ASEAN,ASEAN,1,group,4904158
+2019,Other ASEAN,ASEAN,1,group,5231254
+2020,Other ASEAN,ASEAN,1,group,891119
+2021,Other ASEAN,ASEAN,1,group,108262
+2022,Other ASEAN,ASEAN,1,group,1747289
+2023,Other ASEAN,ASEAN,1,group,3889807
+2024,Other ASEAN,ASEAN,1,group,4932491
+2025,Other ASEAN,ASEAN,1,group,5018527
+2010,Other Europe,Europe,2,group,2622678
+2011,Other Europe,Europe,2,group,2722205
+2012,Other Europe,Europe,2,group,2783549
+2013,Other Europe,Europe,2,group,2898995
+2014,Other Europe,Europe,2,group,2881371
+2015,Other Europe,Europe,2,group,3118352
+2016,Other Europe,Europe,2,group,3294854
+2017,Other Europe,Europe,2,group,3283410
+2018,Other Europe,Europe,2,group,3553778
+2019,Other Europe,Europe,2,group,3489997
+2020,Other Europe,Europe,2,group,589482
+2021,Other Europe,Europe,2,group,69945
+2022,Other Europe,Europe,2,group,1168808
+2023,Other Europe,Europe,2,group,2566106
+2024,Other Europe,Europe,2,group,3362819
+2025,Other Europe,Europe,2,group,3307009
+2010,Other South Asia,South Asia,3,group,205182
+2011,Other South Asia,South Asia,3,group,217004
+2012,Other South Asia,South Asia,3,group,227821
+2013,Other South Asia,South Asia,3,group,235857
+2014,Other South Asia,South Asia,3,group,249793
+2015,Other South Asia,South Asia,3,group,278470
+2016,Other South Asia,South Asia,3,group,283548
+2017,Other South Asia,South Asia,3,group,301924
+2018,Other South Asia,South Asia,3,group,321503
+2019,Other South Asia,South Asia,3,group,326797
+2020,Other South Asia,South Asia,3,group,57196
+2021,Other South Asia,South Asia,3,group,6692
+2022,Other South Asia,South Asia,3,group,108567
+2023,Other South Asia,South Asia,3,group,248582
+2024,Other South Asia,South Asia,3,group,302377
+2025,Other South Asia,South Asia,3,group,298424
+2010,Other Americas,Americas,4,group,156295
+2011,Other Americas,Americas,4,group,184077
+2012,Other Americas,Americas,4,group,196624
+2013,Other Americas,Americas,4,group,220428
+2014,Other Americas,Americas,4,group,235479
+2015,Other Americas,Americas,4,group,254269
+2016,Other Americas,Americas,4,group,275694
+2017,Other Americas,Americas,4,group,302410
+2018,Other Americas,Americas,4,group,315384
+2019,Other Americas,Americas,4,group,335190
+2020,Other Americas,Americas,4,group,56585
+2021,Other Americas,Americas,4,group,6373
+2022,Other Americas,Americas,4,group,107074
+2023,Other Americas,Americas,4,group,244387
+2024,Other Americas,Americas,4,group,302368
+2025,Other Americas,Americas,4,group,303975
+2010,Oceania,Oceania & other,5,group,751955
+2011,Oceania,Oceania & other,5,group,761209
+2012,Oceania,Oceania & other,5,group,796819
+2013,Oceania,Oceania & other,5,group,804264
+2014,Oceania,Oceania & other,5,group,769204
+2015,Oceania,Oceania & other,5,group,854116
+2016,Oceania,Oceania & other,5,group,851413
+2017,Oceania,Oceania & other,5,group,899279
+2018,Oceania,Oceania & other,5,group,900513
+2019,Oceania,Oceania & other,5,group,859584
+2020,Oceania,Oceania & other,5,group,156065
+2021,Oceania,Oceania & other,5,group,17626
+2022,Oceania,Oceania & other,5,group,295451
+2023,Oceania,Oceania & other,5,group,641098
+2024,Oceania,Oceania & other,5,group,845623
+2025,Oceania,Oceania & other,5,group,826127
+2010,Middle East & Africa,Oceania & other,5,group,595613
+2011,Middle East & Africa,Oceania & other,5,group,601270
+2012,Middle East & Africa,Oceania & other,5,group,625518
+2013,Middle East & Africa,Oceania & other,5,group,627746
+2014,Middle East & Africa,Oceania & other,5,group,645915
+2015,Middle East & Africa,Oceania & other,5,group,696252
+2016,Middle East & Africa,Oceania & other,5,group,671930
+2017,Middle East & Africa,Oceania & other,5,group,686320
+2018,Middle East & Africa,Oceania & other,5,group,716853
+2019,Middle East & Africa,Oceania & other,5,group,727246
+2020,Middle East & Africa,Oceania & other,5,group,117847
+2021,Middle East & Africa,Oceania & other,5,group,14498
+2022,Middle East & Africa,Oceania & other,5,group,229212
+2023,Middle East & Africa,Oceania & other,5,group,548336
+2024,Middle East & Africa,Oceania & other,5,group,674856
+2025,Middle East & Africa,Oceania & other,5,group,673211

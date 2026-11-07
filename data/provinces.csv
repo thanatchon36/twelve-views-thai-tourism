@@ -1,0 +1,78 @@
+province,thai_region,thai_region_id,foreign_visitors,spend_per_visitor,revenue_mb
+Chiang Mai,North,0,2819700,26950,75990.9
+Chiang Rai,North,0,788700,15760,12429.9
+Lampang,North,0,115500,8240,951.7
+Lamphun,North,0,84900,5220,443.2
+Mae Hong Son,North,0,182800,14470,2645.1
+Nan,North,0,90500,9380,848.9
+Phayao,North,0,15400,3740,57.6
+Phrae,North,0,57100,5160,294.6
+Uttaradit,North,0,73700,8460,623.5
+Kalasin,Northeast,1,53900,5330,287.3
+Khon Kaen,Northeast,1,244900,9640,2360.8
+Chaiyaphum,Northeast,1,82100,6560,538.6
+Nakhon Phanom,Northeast,1,297200,3880,1153.1
+Nakhon Ratchasima,Northeast,1,271000,8550,2317.0
+Bueng Kan,Northeast,1,51800,5800,300.4
+Buriram,Northeast,1,117400,9130,1071.9
+Maha Sarakham,Northeast,1,53700,7300,392.0
+Mukdahan,Northeast,1,486700,3460,1684.0
+Yasothon,Northeast,1,82300,5530,455.1
+Roi Et,Northeast,1,82700,4220,349.0
+Loei,Northeast,1,93200,7640,712.0
+Sisaket,Northeast,1,38100,5290,201.5
+Sakon Nakhon,Northeast,1,73700,5540,408.3
+Surin,Northeast,1,77300,7690,594.4
+Nong Khai,Northeast,1,953400,4430,4223.6
+Nong Bua Lamphu,Northeast,1,41600,7470,310.8
+Amnat Charoen,Northeast,1,25100,3180,79.8
+Udon Thani,Northeast,1,422600,9030,3816.1
+Ubon Ratchathani,Northeast,1,168800,6630,1119.1
+Bangkok,Central,2,21989800,34090,749632.3
+Kamphaeng Phet,Central,2,51500,7200,370.8
+Chai Nat,Central,2,15700,8410,132.0
+Nakhon Nayok,Central,2,68800,2960,203.6
+Nakhon Pathom,Central,2,175300,4560,799.4
+Nakhon Sawan,Central,2,60400,4760,287.5
+Nonthaburi,Central,2,66500,8480,563.9
+Pathum Thani,Central,2,77000,8210,632.2
+Phra Nakhon Si Ayutthaya,Central,2,1592300,4980,7929.7
+Phichit,Central,2,45900,2930,134.5
+Phitsanulok,Central,2,129100,7150,923.1
+Phetchabun,Central,2,62000,3070,190.3
+Lopburi,Central,2,111500,4310,480.6
+Samut Prakan,Central,2,705500,8680,6123.7
+Samut Songkhram,Central,2,262500,3750,984.4
+Samut Sakhon,Central,2,41000,6840,280.4
+Sing Buri,Central,2,15800,8340,131.8
+Sukhothai,Central,2,211100,7290,1538.9
+Suphan Buri,Central,2,64900,6130,397.8
+Saraburi,Central,2,50500,4450,224.7
+Ang Thong,Central,2,77300,7080,547.3
+Uthai Thani,Central,2,39700,4390,174.3
+Chanthaburi,East,3,190700,11520,2196.9
+Chachoengsao,East,3,33400,6250,208.8
+Chonburi,East,3,7750600,30380,235463.2
+Trat,East,3,526800,26700,14065.6
+Prachinburi,East,3,18900,7270,137.4
+Rayong,East,3,642700,20980,13483.8
+Sa Kaeo,East,3,696400,2700,1880.3
+Kanchanaburi,West,4,844800,13060,11033.1
+Tak,West,4,534300,3090,1651.0
+Prachuap Khiri Khan,West,4,1167600,28640,33440.1
+Phetchaburi,West,4,342600,10880,3727.5
+Ratchaburi,West,4,47800,4050,193.6
+Krabi,South,5,3541000,38840,137532.4
+Chumphon,South,5,150300,8980,1349.7
+Trang,South,5,242900,14260,3463.8
+Nakhon Si Thammarat,South,5,151300,8260,1249.7
+Narathiwat,South,5,395500,2950,1166.7
+Pattani,South,5,28100,3270,91.9
+Phang Nga,South,5,2030300,38990,79161.4
+Phatthalung,South,5,49800,8100,403.4
+Phuket,South,5,10120500,51650,522723.8
+Ranong,South,5,302100,9180,2773.3
+Satun,South,5,335500,15860,5321.0
+Songkhla,South,5,2035100,10160,20676.6
+Surat Thani,South,5,3204700,44930,143987.2
+Yala,South,5,218100,3220,702.3

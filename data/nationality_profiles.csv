@@ -1,0 +1,16 @@
+nationality,origin_region,region_id,spend_per_day,avg_nights,repeat_share,independent_share,beach_share,median_age
+China,East Asia,0,6200,7.2,0.42,0.62,0.55,31
+Malaysia,ASEAN,1,4300,3.5,0.78,0.75,0.25,38
+Russia,Europe,2,4500,13.2,0.62,0.55,0.85,39
+South Korea,East Asia,0,5600,5.8,0.55,0.7,0.45,36
+India,South Asia,3,6300,5.4,0.4,0.55,0.48,32
+Japan,East Asia,0,6000,7.2,0.68,0.78,0.3,42
+Laos,ASEAN,1,3000,2.5,0.82,0.88,0.08,33
+United States,Americas,4,5900,11.9,0.48,0.86,0.5,41
+United Kingdom,Europe,2,5300,14.9,0.58,0.88,0.7,43
+Germany,Europe,2,4800,16.4,0.55,0.87,0.72,45
+France,Europe,2,4900,15.0,0.5,0.86,0.66,40
+Australia,Oceania & other,5,6100,11.5,0.6,0.85,0.68,42
+Singapore,ASEAN,1,6500,3.8,0.8,0.84,0.3,39
+Vietnam,ASEAN,1,4400,4.5,0.45,0.58,0.35,32
+Taiwan,East Asia,0,5700,6.2,0.52,0.72,0.4,37

@@ -1,0 +1,31 @@
+from,from_id,to,to_id,travelers
+Bangkok,0,Phuket & Andaman,1,2377700
+Bangkok,0,Samui & Gulf,2,824100
+Bangkok,0,Pattaya & East,3,2683100
+Bangkok,0,Chiang Mai & North,4,1673900
+Bangkok,0,Border towns & other,5,900800
+Phuket & Andaman,1,Bangkok,0,1655200
+Phuket & Andaman,1,Samui & Gulf,2,502600
+Phuket & Andaman,1,Pattaya & East,3,151200
+Phuket & Andaman,1,Chiang Mai & North,4,270200
+Phuket & Andaman,1,Border towns & other,5,123700
+Samui & Gulf,2,Bangkok,0,718900
+Samui & Gulf,2,Phuket & Andaman,1,482800
+Samui & Gulf,2,Pattaya & East,3,82200
+Samui & Gulf,2,Chiang Mai & North,4,117500
+Samui & Gulf,2,Border towns & other,5,56600
+Pattaya & East,3,Bangkok,0,1870200
+Pattaya & East,3,Phuket & Andaman,1,123200
+Pattaya & East,3,Samui & Gulf,2,57500
+Pattaya & East,3,Chiang Mai & North,4,87400
+Pattaya & East,3,Border towns & other,5,152400
+Chiang Mai & North,4,Bangkok,0,1341400
+Chiang Mai & North,4,Phuket & Andaman,1,300800
+Chiang Mai & North,4,Samui & Gulf,2,145600
+Chiang Mai & North,4,Pattaya & East,3,86100
+Chiang Mai & North,4,Border towns & other,5,224000
+Border towns & other,5,Bangkok,0,828000
+Border towns & other,5,Phuket & Andaman,1,93600
+Border towns & other,5,Samui & Gulf,2,47900
+Border towns & other,5,Pattaya & East,3,127100
+Border towns & other,5,Chiang Mai & North,4,169700

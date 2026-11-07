@@ -1,0 +1,271 @@
+nationality,origin_region,region_id,nights,share
+Malaysia,ASEAN,1,1,0.0461
+Malaysia,ASEAN,1,2,0.24554
+Malaysia,ASEAN,1,3,0.28728
+Malaysia,ASEAN,1,4,0.19674
+Malaysia,ASEAN,1,5,0.10996
+Malaysia,ASEAN,1,6,0.05673
+Malaysia,ASEAN,1,7,0.02846
+Malaysia,ASEAN,1,8,0.01423
+Malaysia,ASEAN,1,9,0.00717
+Malaysia,ASEAN,1,10,0.00366
+Malaysia,ASEAN,1,11,0.0019
+Malaysia,ASEAN,1,12,0.00101
+Malaysia,ASEAN,1,13,0.00054
+Malaysia,ASEAN,1,14,0.0003
+Malaysia,ASEAN,1,15,0.00017
+Malaysia,ASEAN,1,16,9e-05
+Malaysia,ASEAN,1,17,5e-05
+Malaysia,ASEAN,1,18,3e-05
+Malaysia,ASEAN,1,19,2e-05
+Malaysia,ASEAN,1,20,1e-05
+Malaysia,ASEAN,1,21,1e-05
+Malaysia,ASEAN,1,22,0.0
+Malaysia,ASEAN,1,23,0.0
+Malaysia,ASEAN,1,24,0.0
+Malaysia,ASEAN,1,25,0.0
+Malaysia,ASEAN,1,26,0.0
+Malaysia,ASEAN,1,27,0.0
+Malaysia,ASEAN,1,28,0.0
+Malaysia,ASEAN,1,29,0.0
+Malaysia,ASEAN,1,30,0.0
+India,South Asia,3,1,0.00131
+India,South Asia,3,2,0.04025
+India,South Asia,3,3,0.14472
+India,South Asia,3,4,0.20984
+India,South Asia,3,5,0.19805
+India,South Asia,3,6,0.14989
+India,South Asia,3,7,0.10057
+India,South Asia,3,8,0.06305
+India,South Asia,3,9,0.03804
+India,South Asia,3,10,0.02248
+India,South Asia,3,11,0.01315
+India,South Asia,3,12,0.00767
+India,South Asia,3,13,0.00448
+India,South Asia,3,14,0.00263
+India,South Asia,3,15,0.00155
+India,South Asia,3,16,0.00092
+India,South Asia,3,17,0.00055
+India,South Asia,3,18,0.00033
+India,South Asia,3,19,0.0002
+India,South Asia,3,20,0.00012
+India,South Asia,3,21,8e-05
+India,South Asia,3,22,5e-05
+India,South Asia,3,23,3e-05
+India,South Asia,3,24,2e-05
+India,South Asia,3,25,1e-05
+India,South Asia,3,26,1e-05
+India,South Asia,3,27,1e-05
+India,South Asia,3,28,0.0
+India,South Asia,3,29,0.0
+India,South Asia,3,30,0.0
+South Korea,East Asia,0,1,0.0001
+South Korea,East Asia,0,2,0.01204
+South Korea,East Asia,0,3,0.08615
+South Korea,East Asia,0,4,0.18492
+South Korea,East Asia,0,5,0.21679
+South Korea,East Asia,0,6,0.18342
+South Korea,East Asia,0,7,0.12881
+South Korea,East Asia,0,8,0.08097
+South Korea,East Asia,0,9,0.0476
+South Korea,East Asia,0,10,0.02686
+South Korea,East Asia,0,11,0.0148
+South Korea,East Asia,0,12,0.00804
+South Korea,East Asia,0,13,0.00435
+South Korea,East Asia,0,14,0.00235
+South Korea,East Asia,0,15,0.00127
+South Korea,East Asia,0,16,0.00069
+South Korea,East Asia,0,17,0.00038
+South Korea,East Asia,0,18,0.00021
+South Korea,East Asia,0,19,0.00011
+South Korea,East Asia,0,20,6e-05
+South Korea,East Asia,0,21,4e-05
+South Korea,East Asia,0,22,2e-05
+South Korea,East Asia,0,23,1e-05
+South Korea,East Asia,0,24,1e-05
+South Korea,East Asia,0,25,0.0
+South Korea,East Asia,0,26,0.0
+South Korea,East Asia,0,27,0.0
+South Korea,East Asia,0,28,0.0
+South Korea,East Asia,0,29,0.0
+South Korea,East Asia,0,30,0.0
+Japan,East Asia,0,1,0.00056
+Japan,East Asia,0,2,0.01631
+Japan,East Asia,0,3,0.06762
+Japan,East Asia,0,4,0.12249
+Japan,East Asia,0,5,0.14836
+Japan,East Asia,0,6,0.14481
+Japan,East Asia,0,7,0.1248
+Japan,East Asia,0,8,0.09973
+Japan,East Asia,0,9,0.07604
+Japan,East Asia,0,10,0.05627
+Japan,East Asia,0,11,0.04087
+Japan,East Asia,0,12,0.02934
+Japan,East Asia,0,13,0.02093
+Japan,East Asia,0,14,0.01488
+Japan,East Asia,0,15,0.01057
+Japan,East Asia,0,16,0.00751
+Japan,East Asia,0,17,0.00535
+Japan,East Asia,0,18,0.00382
+Japan,East Asia,0,19,0.00274
+Japan,East Asia,0,20,0.00197
+Japan,East Asia,0,21,0.00142
+Japan,East Asia,0,22,0.00103
+Japan,East Asia,0,23,0.00075
+Japan,East Asia,0,24,0.00055
+Japan,East Asia,0,25,0.0004
+Japan,East Asia,0,26,0.0003
+Japan,East Asia,0,27,0.00022
+Japan,East Asia,0,28,0.00016
+Japan,East Asia,0,29,0.00012
+Japan,East Asia,0,30,9e-05
+China,East Asia,0,1,1e-05
+China,East Asia,0,2,0.00212
+China,East Asia,0,3,0.02675
+China,East Asia,0,4,0.09021
+China,East Asia,0,5,0.1531
+China,East Asia,0,6,0.17653
+China,East Asia,0,7,0.16153
+China,East Asia,0,8,0.12788
+China,East Asia,0,9,0.09218
+China,East Asia,0,10,0.06245
+China,East Asia,0,11,0.0406
+China,East Asia,0,12,0.02567
+China,East Asia,0,13,0.01594
+China,East Asia,0,14,0.00979
+China,East Asia,0,15,0.00597
+China,East Asia,0,16,0.00363
+China,East Asia,0,17,0.0022
+China,East Asia,0,18,0.00134
+China,East Asia,0,19,0.00081
+China,East Asia,0,20,0.0005
+China,East Asia,0,21,0.00031
+China,East Asia,0,22,0.00019
+China,East Asia,0,23,0.00012
+China,East Asia,0,24,7e-05
+China,East Asia,0,25,5e-05
+China,East Asia,0,26,3e-05
+China,East Asia,0,27,2e-05
+China,East Asia,0,28,1e-05
+China,East Asia,0,29,1e-05
+China,East Asia,0,30,0.0
+United States,Americas,4,1,3e-05
+United States,Americas,4,2,0.00152
+United States,Americas,4,3,0.00968
+United States,Americas,4,4,0.02646
+United States,Americas,4,5,0.04688
+United States,Americas,4,6,0.06487
+United States,Americas,4,7,0.07708
+United States,Americas,4,8,0.08292
+United States,Americas,4,9,0.08336
+United States,Americas,4,10,0.07991
+United States,Americas,4,11,0.07402
+United States,Americas,4,12,0.06686
+United States,Americas,4,13,0.05928
+United States,Americas,4,14,0.05183
+United States,Americas,4,15,0.04484
+United States,Americas,4,16,0.03848
+United States,Americas,4,17,0.03284
+United States,Americas,4,18,0.02789
+United States,Americas,4,19,0.02362
+United States,Americas,4,20,0.01995
+United States,Americas,4,21,0.01683
+United States,Americas,4,22,0.01418
+United States,Americas,4,23,0.01195
+United States,Americas,4,24,0.01006
+United States,Americas,4,25,0.00848
+United States,Americas,4,26,0.00714
+United States,Americas,4,27,0.00602
+United States,Americas,4,28,0.00508
+United States,Americas,4,29,0.00429
+United States,Americas,4,30,0.00363
+Russia,Europe,2,1,0.0
+Russia,Europe,2,2,0.0
+Russia,Europe,2,3,0.00014
+Russia,Europe,2,4,0.00163
+Russia,Europe,2,5,0.00778
+Russia,Europe,2,6,0.02148
+Russia,Europe,2,7,0.04158
+Russia,Europe,2,8,0.06338
+Russia,Europe,2,9,0.08168
+Russia,Europe,2,10,0.0932
+Russia,Europe,2,11,0.09719
+Russia,Europe,2,12,0.09466
+Russia,Europe,2,13,0.08749
+Russia,Europe,2,14,0.07764
+Russia,Europe,2,15,0.06671
+Russia,Europe,2,16,0.05589
+Russia,Europe,2,17,0.04588
+Russia,Europe,2,18,0.03706
+Russia,Europe,2,19,0.02954
+Russia,Europe,2,20,0.02331
+Russia,Europe,2,21,0.01823
+Russia,Europe,2,22,0.01417
+Russia,Europe,2,23,0.01095
+Russia,Europe,2,24,0.00843
+Russia,Europe,2,25,0.00647
+Russia,Europe,2,26,0.00495
+Russia,Europe,2,27,0.00378
+Russia,Europe,2,28,0.00289
+Russia,Europe,2,29,0.0022
+Russia,Europe,2,30,0.00168
+United Kingdom,Europe,2,1,0.0
+United Kingdom,Europe,2,2,5e-05
+United Kingdom,Europe,2,3,0.00078
+United Kingdom,Europe,2,4,0.00407
+United Kingdom,Europe,2,5,0.01152
+United Kingdom,Europe,2,6,0.02281
+United Kingdom,Europe,2,7,0.03594
+United Kingdom,Europe,2,8,0.04857
+United Kingdom,Europe,2,9,0.05895
+United Kingdom,Europe,2,10,0.06617
+United Kingdom,Europe,2,11,0.07008
+United Kingdom,Europe,2,12,0.07103
+United Kingdom,Europe,2,13,0.06957
+United Kingdom,Europe,2,14,0.06635
+United Kingdom,Europe,2,15,0.06196
+United Kingdom,Europe,2,16,0.05689
+United Kingdom,Europe,2,17,0.05153
+United Kingdom,Europe,2,18,0.04616
+United Kingdom,Europe,2,19,0.04099
+United Kingdom,Europe,2,20,0.03613
+United Kingdom,Europe,2,21,0.03166
+United Kingdom,Europe,2,22,0.02761
+United Kingdom,Europe,2,23,0.02399
+United Kingdom,Europe,2,24,0.02077
+United Kingdom,Europe,2,25,0.01794
+United Kingdom,Europe,2,26,0.01547
+United Kingdom,Europe,2,27,0.01331
+United Kingdom,Europe,2,28,0.01144
+United Kingdom,Europe,2,29,0.00983
+United Kingdom,Europe,2,30,0.00843
+Germany,Europe,2,1,0.0
+Germany,Europe,2,2,1e-05
+Germany,Europe,2,3,0.0003
+Germany,Europe,2,4,0.00181
+Germany,Europe,2,5,0.00588
+Germany,Europe,2,6,0.01303
+Germany,Europe,2,7,0.0226
+Germany,Europe,2,8,0.03323
+Germany,Europe,2,9,0.04344
+Germany,Europe,2,10,0.05213
+Germany,Europe,2,11,0.05866
+Germany,Europe,2,12,0.06284
+Germany,Europe,2,13,0.06477
+Germany,Europe,2,14,0.06476
+Germany,Europe,2,15,0.06319
+Germany,Europe,2,16,0.06045
+Germany,Europe,2,17,0.05692
+Germany,Europe,2,18,0.05288
+Germany,Europe,2,19,0.0486
+Germany,Europe,2,20,0.04427
+Germany,Europe,2,21,0.04002
+Germany,Europe,2,22,0.03595
+Germany,Europe,2,23,0.03213
+Germany,Europe,2,24,0.02859
+Germany,Europe,2,25,0.02535
+Germany,Europe,2,26,0.0224
+Germany,Europe,2,27,0.01975
+Germany,Europe,2,28,0.01738
+Germany,Europe,2,29,0.01526
+Germany,Europe,2,30,0.01339

@@ -1,0 +1,120 @@
+{
+  "arrivals_by_nationality": {
+    "rows": 272,
+    "columns": [
+      "year",
+      "nationality",
+      "origin_region",
+      "region_id",
+      "kind",
+      "arrivals"
+    ],
+    "description": "Annual international arrivals by market"
+  },
+  "arrivals_monthly": {
+    "rows": 192,
+    "columns": [
+      "month",
+      "arrivals"
+    ],
+    "description": "Monthly international arrivals, all markets"
+  },
+  "stay_length": {
+    "rows": 270,
+    "columns": [
+      "nationality",
+      "origin_region",
+      "region_id",
+      "nights",
+      "share"
+    ],
+    "description": "Distribution of nights per trip by market"
+  },
+  "nationality_profiles": {
+    "rows": 15,
+    "columns": [
+      "nationality",
+      "origin_region",
+      "region_id",
+      "spend_per_day",
+      "avg_nights",
+      "repeat_share",
+      "independent_share",
+      "beach_share",
+      "median_age"
+    ],
+    "description": "Behavioural profiles of fifteen markets"
+  },
+  "trip_flows": {
+    "rows": 144,
+    "columns": [
+      "origin_region",
+      "region_id",
+      "destination",
+      "dest_id",
+      "style",
+      "style_id",
+      "travelers"
+    ],
+    "description": "Origin region, main destination and trip style, latest year"
+  },
+  "region_flows": {
+    "rows": 30,
+    "columns": [
+      "from",
+      "from_id",
+      "to",
+      "to_id",
+      "travelers"
+    ],
+    "description": "Onward trips between destination clusters"
+  },
+  "provinces": {
+    "rows": 77,
+    "columns": [
+      "province",
+      "thai_region",
+      "thai_region_id",
+      "foreign_visitors",
+      "spend_per_visitor",
+      "revenue_mb"
+    ],
+    "description": "Foreign visitors, spend per visitor and revenue by province"
+  },
+  "province_covisits": {
+    "rows": 76,
+    "columns": [
+      "province_a",
+      "province_b",
+      "trips"
+    ],
+    "description": "Pairs of provinces visited on the same trip"
+  },
+  "spending_breakdown": {
+    "rows": 21,
+    "columns": [
+      "category",
+      "cat_id",
+      "subcategory",
+      "item",
+      "share"
+    ],
+    "description": "Three-level structure of visitor spending"
+  },
+  "traveler_segments": {
+    "rows": 1200,
+    "columns": [
+      "x",
+      "y",
+      "segment",
+      "segment_id",
+      "origin_region",
+      "region_id",
+      "spend_per_day",
+      "nights",
+      "age",
+      "group_size"
+    ],
+    "description": "Individual survey responses with t-SNE coordinates"
+  }
+}

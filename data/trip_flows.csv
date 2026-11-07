@@ -1,0 +1,145 @@
+origin_region,region_id,destination,dest_id,style,style_id,travelers
+East Asia,0,Bangkok,0,Beach & islands,0,151900
+East Asia,0,Bangkok,0,City & shopping,1,3060500
+East Asia,0,Bangkok,0,Culture & nature,2,683500
+East Asia,0,Bangkok,0,Business & MICE,3,569600
+East Asia,0,Phuket & Andaman,1,Beach & islands,0,1311600
+East Asia,0,Phuket & Andaman,1,City & shopping,1,125400
+East Asia,0,Phuket & Andaman,1,Culture & nature,2,154300
+East Asia,0,Phuket & Andaman,1,Business & MICE,3,38600
+East Asia,0,Samui & Gulf,2,Beach & islands,0,466800
+East Asia,0,Samui & Gulf,2,City & shopping,1,17200
+East Asia,0,Samui & Gulf,2,Culture & nature,2,53000
+East Asia,0,Samui & Gulf,2,Business & MICE,3,13300
+East Asia,0,Pattaya & East,3,Beach & islands,0,572700
+East Asia,0,Pattaya & East,3,City & shopping,1,300200
+East Asia,0,Pattaya & East,3,Culture & nature,2,92400
+East Asia,0,Pattaya & East,3,Business & MICE,3,115500
+East Asia,0,Chiang Mai & North,4,Beach & islands,0,10800
+East Asia,0,Chiang Mai & North,4,City & shopping,1,158500
+East Asia,0,Chiang Mai & North,4,Culture & nature,2,508000
+East Asia,0,Chiang Mai & North,4,Business & MICE,3,33900
+East Asia,0,Border towns & other,5,Beach & islands,0,30100
+East Asia,0,Border towns & other,5,City & shopping,1,275100
+East Asia,0,Border towns & other,5,Culture & nature,2,150500
+East Asia,0,Border towns & other,5,Business & MICE,3,70500
+ASEAN,1,Bangkok,0,Beach & islands,0,162500
+ASEAN,1,Bangkok,0,City & shopping,1,2686700
+ASEAN,1,Bangkok,0,Culture & nature,2,650000
+ASEAN,1,Bangkok,0,Business & MICE,3,595900
+ASEAN,1,Phuket & Andaman,1,Beach & islands,0,442900
+ASEAN,1,Phuket & Andaman,1,City & shopping,1,34700
+ASEAN,1,Phuket & Andaman,1,Culture & nature,2,46300
+ASEAN,1,Phuket & Andaman,1,Business & MICE,3,12700
+ASEAN,1,Samui & Gulf,2,Beach & islands,0,281500
+ASEAN,1,Samui & Gulf,2,City & shopping,1,8500
+ASEAN,1,Samui & Gulf,2,Culture & nature,2,28400
+ASEAN,1,Samui & Gulf,2,Business & MICE,3,7800
+ASEAN,1,Pattaya & East,3,Beach & islands,0,338100
+ASEAN,1,Pattaya & East,3,City & shopping,1,145400
+ASEAN,1,Pattaya & East,3,Culture & nature,2,48500
+ASEAN,1,Pattaya & East,3,Business & MICE,3,66700
+ASEAN,1,Chiang Mai & North,4,Beach & islands,0,7600
+ASEAN,1,Chiang Mai & North,4,City & shopping,1,91200
+ASEAN,1,Chiang Mai & North,4,Culture & nature,2,316600
+ASEAN,1,Chiang Mai & North,4,Business & MICE,3,23200
+ASEAN,1,Border towns & other,5,Beach & islands,0,312800
+ASEAN,1,Border towns & other,5,City & shopping,1,2346000
+ASEAN,1,Border towns & other,5,Culture & nature,2,1390200
+ASEAN,1,Border towns & other,5,Business & MICE,3,716800
+Europe,2,Bangkok,0,Beach & islands,0,134700
+Europe,2,Bangkok,0,City & shopping,1,899200
+Europe,2,Bangkok,0,Culture & nature,2,410200
+Europe,2,Bangkok,0,Business & MICE,3,248600
+Europe,2,Phuket & Andaman,1,Beach & islands,0,1876700
+Europe,2,Phuket & Andaman,1,City & shopping,1,59400
+Europe,2,Phuket & Andaman,1,Culture & nature,2,149500
+Europe,2,Phuket & Andaman,1,Business & MICE,3,27200
+Europe,2,Samui & Gulf,2,Beach & islands,0,1006100
+Europe,2,Samui & Gulf,2,City & shopping,1,12300
+Europe,2,Samui & Gulf,2,Culture & nature,2,77400
+Europe,2,Samui & Gulf,2,Business & MICE,3,14100
+Europe,2,Pattaya & East,3,Beach & islands,0,824700
+Europe,2,Pattaya & East,3,City & shopping,1,143200
+Europe,2,Pattaya & East,3,Culture & nature,2,90000
+Europe,2,Pattaya & East,3,Business & MICE,3,81900
+Europe,2,Chiang Mai & North,4,Beach & islands,0,17000
+Europe,2,Chiang Mai & North,4,City & shopping,1,82300
+Europe,2,Chiang Mai & North,4,Culture & nature,2,539100
+Europe,2,Chiang Mai & North,4,Business & MICE,3,26100
+Europe,2,Border towns & other,5,Beach & islands,0,43000
+Europe,2,Border towns & other,5,City & shopping,1,130300
+Europe,2,Border towns & other,5,Culture & nature,2,145600
+Europe,2,Border towns & other,5,Business & MICE,3,49600
+South Asia,3,Bangkok,0,Beach & islands,0,54000
+South Asia,3,Bangkok,0,City & shopping,1,743500
+South Asia,3,Bangkok,0,Culture & nature,2,172700
+South Asia,3,Bangkok,0,Business & MICE,3,287800
+South Asia,3,Phuket & Andaman,1,Beach & islands,0,324900
+South Asia,3,Phuket & Andaman,1,City & shopping,1,21200
+South Asia,3,Phuket & Andaman,1,Culture & nature,2,27200
+South Asia,3,Phuket & Andaman,1,Business & MICE,3,13600
+South Asia,3,Samui & Gulf,2,Beach & islands,0,67900
+South Asia,3,Samui & Gulf,2,City & shopping,1,1700
+South Asia,3,Samui & Gulf,2,Culture & nature,2,5500
+South Asia,3,Samui & Gulf,2,Business & MICE,3,2700
+South Asia,3,Pattaya & East,3,Beach & islands,0,396300
+South Asia,3,Pattaya & East,3,City & shopping,1,142000
+South Asia,3,Pattaya & East,3,Culture & nature,2,45500
+South Asia,3,Pattaya & East,3,Business & MICE,3,113600
+South Asia,3,Chiang Mai & North,4,Beach & islands,0,1600
+South Asia,3,Chiang Mai & North,4,City & shopping,1,15600
+South Asia,3,Chiang Mai & North,4,Culture & nature,2,52000
+South Asia,3,Chiang Mai & North,4,Business & MICE,3,6900
+South Asia,3,Border towns & other,5,Beach & islands,0,7700
+South Asia,3,Border towns & other,5,City & shopping,1,48200
+South Asia,3,Border towns & other,5,Culture & nature,2,27400
+South Asia,3,Border towns & other,5,Business & MICE,3,25700
+Americas,4,Bangkok,0,Beach & islands,0,29000
+Americas,4,Bangkok,0,City & shopping,1,323900
+Americas,4,Bangkok,0,Culture & nature,2,135800
+Americas,4,Bangkok,0,Business & MICE,3,87100
+Americas,4,Phuket & Andaman,1,Beach & islands,0,219700
+Americas,4,Phuket & Andaman,1,City & shopping,1,11600
+Americas,4,Phuket & Andaman,1,Culture & nature,2,26900
+Americas,4,Phuket & Andaman,1,Business & MICE,3,5200
+Americas,4,Samui & Gulf,2,Beach & islands,0,152500
+Americas,4,Samui & Gulf,2,City & shopping,1,3100
+Americas,4,Samui & Gulf,2,Culture & nature,2,18000
+Americas,4,Samui & Gulf,2,Business & MICE,3,3500
+Americas,4,Pattaya & East,3,Beach & islands,0,74500
+Americas,4,Pattaya & East,3,City & shopping,1,21600
+Americas,4,Pattaya & East,3,Culture & nature,2,12500
+Americas,4,Pattaya & East,3,Business & MICE,3,12000
+Americas,4,Chiang Mai & North,4,Beach & islands,0,4000
+Americas,4,Chiang Mai & North,4,City & shopping,1,32000
+Americas,4,Chiang Mai & North,4,Culture & nature,2,192900
+Americas,4,Chiang Mai & North,4,Business & MICE,3,9900
+Americas,4,Border towns & other,5,Beach & islands,0,5800
+Americas,4,Border towns & other,5,City & shopping,1,29300
+Americas,4,Border towns & other,5,Culture & nature,2,30100
+Americas,4,Border towns & other,5,Business & MICE,3,10900
+Oceania & other,5,Bangkok,0,Beach & islands,0,33400
+Oceania & other,5,Bangkok,0,City & shopping,1,310800
+Oceania & other,5,Bangkok,0,Culture & nature,2,100300
+Oceania & other,5,Bangkok,0,Business & MICE,3,75200
+Oceania & other,5,Phuket & Andaman,1,Beach & islands,0,397900
+Oceania & other,5,Phuket & Andaman,1,City & shopping,1,17600
+Oceania & other,5,Phuket & Andaman,1,Culture & nature,2,31200
+Oceania & other,5,Phuket & Andaman,1,Business & MICE,3,7000
+Oceania & other,5,Samui & Gulf,2,Beach & islands,0,153600
+Oceania & other,5,Samui & Gulf,2,City & shopping,1,2600
+Oceania & other,5,Samui & Gulf,2,Culture & nature,2,11600
+Oceania & other,5,Samui & Gulf,2,Business & MICE,3,2600
+Oceania & other,5,Pattaya & East,3,Beach & islands,0,102500
+Oceania & other,5,Pattaya & East,3,City & shopping,1,24800
+Oceania & other,5,Pattaya & East,3,Culture & nature,2,11000
+Oceania & other,5,Pattaya & East,3,Business & MICE,3,12400
+Oceania & other,5,Chiang Mai & North,4,Beach & islands,0,3000
+Oceania & other,5,Chiang Mai & North,4,City & shopping,1,20200
+Oceania & other,5,Chiang Mai & North,4,Culture & nature,2,93300
+Oceania & other,5,Chiang Mai & North,4,Business & MICE,3,5600
+Oceania & other,5,Border towns & other,5,Beach & islands,0,8300
+Oceania & other,5,Border towns & other,5,City & shopping,1,35100
+Oceania & other,5,Border towns & other,5,Culture & nature,2,27700
+Oceania & other,5,Border towns & other,5,Business & MICE,3,11700

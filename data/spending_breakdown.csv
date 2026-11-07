@@ -1,0 +1,22 @@
+category,cat_id,subcategory,item,share
+Accommodation,0,Hotels,Five-star hotels,0.09
+Accommodation,0,Hotels,Three- and four-star hotels,0.125
+Accommodation,0,Guesthouses & hostels,,0.035
+Accommodation,0,Short-term rentals,,0.035
+Shopping,1,Department stores,Fashion,0.065
+Shopping,1,Department stores,Cosmetics,0.05
+Shopping,1,Department stores,Electronics,0.02
+Shopping,1,Markets & souvenirs,,0.06
+Shopping,1,Duty-free,,0.045
+Food & drink,2,Restaurants,Thai cuisine,0.075
+Food & drink,2,Restaurants,International cuisine,0.045
+Food & drink,2,Street food,,0.04
+Food & drink,2,Bars & cafés,,0.05
+Entertainment & activities,3,Spa & massage,,0.035
+Entertainment & activities,3,Tours & activities,Island & diving tours,0.035
+Entertainment & activities,3,Tours & activities,Cultural tours,0.02
+Entertainment & activities,3,Shows & nightlife,,0.04
+Domestic transport,4,Domestic flights,,0.04
+Domestic transport,4,Car hire & taxis,,0.045
+Domestic transport,4,Boats & ferries,,0.02
+Other,5,Other services,,0.03

@@ -1,0 +1,77 @@
+province_a,province_b,trips
+Phuket,Krabi,870500
+Phuket,Phang Nga,771500
+Krabi,Phang Nga,412800
+Krabi,Trang,160600
+Trang,Satun,115100
+Krabi,Surat Thani,412900
+Phuket,Surat Thani,351600
+Songkhla,Satun,94800
+Songkhla,Trang,71100
+Bangkok,Phuket,1069500
+Bangkok,Chonburi,1401800
+Bangkok,Chiang Mai,808200
+Bangkok,Surat Thani,575700
+Bangkok,Krabi,478800
+Bangkok,Phra Nakhon Si Ayutthaya,903700
+Bangkok,Kanchanaburi,436300
+Bangkok,Prachuap Khiri Khan,384600
+Bangkok,Samut Songkhram,316000
+Bangkok,Nakhon Pathom,161600
+Bangkok,Rayong,201500
+Bangkok,Chiang Rai,202200
+Bangkok,Trat,148700
+Bangkok,Songkhla,142200
+Bangkok,Phang Nga,157400
+Bangkok,Udon Thani,91200
+Bangkok,Khon Kaen,83000
+Bangkok,Nakhon Ratchasima,100500
+Bangkok,Sukhothai,75600
+Bangkok,Lopburi,61700
+Bangkok,Phetchaburi,106400
+Bangkok,Nong Khai,71100
+Bangkok,Buriram,52500
+Bangkok,Ubon Ratchathani,46200
+Bangkok,Tak,24400
+Bangkok,Chanthaburi,71500
+Bangkok,Mae Hong Son,29700
+Bangkok,Phitsanulok,40600
+Bangkok,Trang,39900
+Chiang Mai,Chiang Rai,478500
+Chiang Mai,Mae Hong Son,172900
+Chiang Mai,Lamphun,161600
+Chiang Mai,Lampang,104200
+Chiang Rai,Nan,51800
+Chiang Mai,Nan,43400
+Lampang,Lamphun,30500
+Chiang Mai,Sukhothai,85300
+Sukhothai,Phitsanulok,59700
+Chiang Mai,Tak,31600
+Phra Nakhon Si Ayutthaya,Lopburi,62200
+Phra Nakhon Si Ayutthaya,Sukhothai,51000
+Nakhon Pathom,Samut Songkhram,87500
+Nakhon Pathom,Kanchanaburi,135100
+Samut Songkhram,Phetchaburi,74600
+Chonburi,Rayong,391600
+Rayong,Chanthaburi,115900
+Chanthaburi,Trat,167200
+Chonburi,Trat,111900
+Chonburi,Phra Nakhon Si Ayutthaya,151500
+Prachuap Khiri Khan,Phetchaburi,229600
+Udon Thani,Nong Khai,296600
+Khon Kaen,Udon Thani,83900
+Nakhon Ratchasima,Buriram,81000
+Udon Thani,Loei,59300
+Khon Kaen,Nakhon Ratchasima,69900
+Nong Khai,Loei,36800
+Nakhon Ratchasima,Ubon Ratchathani,23500
+Chiang Mai,Phuket,197500
+Chiang Mai,Krabi,132700
+Chiang Mai,Surat Thani,89700
+Chonburi,Phuket,189900
+Chonburi,Chiang Mai,111000
+Phuket,Prachuap Khiri Khan,63300
+Krabi,Chonburi,69100
+Songkhla,Phuket,62900
+Chiang Rai,Phuket,42600
+Udon Thani,Chiang Mai,35600
