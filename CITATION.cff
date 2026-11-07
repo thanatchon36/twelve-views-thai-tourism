@@ -1,16 +1,29 @@
 cff-version: 1.2.0
-message: "If you use this software or its synthetic data, please cite it as below."
-title: "Twelve Views of Thai Tourism: code and synthetic data"
+message: "Please cite the paper (preferred-citation); if you use the twelveviews pipeline or its synthetic data, also cite the software."
+title: "twelve-views-thai-tourism: a data-shape-driven framework for the visual analysis of Thai tourism, with code and synthetic data"
+abstract: >-
+  Open, single-command pipeline for a data-shape-driven framework of twelve
+  coordinated views of inbound tourism (unit chart, radial spiral, streamgraph,
+  ridgeline plot, Sankey and chord diagrams, hierarchical edge bundling, circle
+  packing, sunburst, beeswarm, parallel coordinates and a t-SNE embedding map),
+  evaluated by a simulation study in which known structure is planted in ten
+  synthetic datasets and its recovery is measured.
+type: software
 authors:
-  - family-names: "Chongmankhong"
-    given-names: "Thanatchon"
-version: "1.0.0"
-date-released: "2026-11-06"
+  - family-names: Chongmankhong
+    given-names: Thanatchon
+version: 0.1.0
+date-released: 2026-11-07
 license: MIT
-repository-code: "https://github.com/[username]/twelve-views-thai-tourism"
-keywords:
-  - visual analytics
-  - data visualisation
-  - tourism analytics
-  - simulation study
-  - synthetic data
+repository-code: "https://github.com/thanatchon36/twelve-views-thai-tourism"
+url: "https://thanatchon36.github.io/twelve-views-thai-tourism/paper/"
+keywords: [visual-analytics, data-visualisation, tourism-analytics, thailand, simulation-study, synthetic-data, reproducible-research]
+preferred-citation:
+  type: generic
+  title: "Twelve Views of Thai Tourism: A Data-Shape-Driven Framework for Visual Analysis, Evaluated by Planted-Structure Recovery"
+  authors:
+    - family-names: Chongmankhong
+      given-names: Thanatchon
+  year: 2026
+  url: "https://thanatchon36.github.io/twelve-views-thai-tourism/paper/"
+  notes: "Working paper draft; all results are from synthetic data."

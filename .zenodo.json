@@ -1,0 +1,34 @@
+{
+  "title": "twelve-views-thai-tourism",
+  "upload_type": "software",
+  "description": "Open, single-command pipeline for a data-shape-driven framework of twelve coordinated views of inbound tourism to Thailand (unit chart, radial spiral, streamgraph, ridgeline plot, Sankey and chord diagrams, hierarchical edge bundling, circle packing, sunburst, beeswarm, parallel coordinates and a t-SNE embedding map), organised around four research questions and evaluated by a simulation study following the ADEMP structure, in which known structure is planted in ten synthetic datasets and its recovery is measured. All data are synthetic. Companion software to the working paper \"Twelve Views of Thai Tourism: A Data-Shape-Driven Framework for Visual Analysis, Evaluated by Planted-Structure Recovery\".",
+  "creators": [
+    {
+      "name": "Chongmankhong, Thanatchon"
+    }
+  ],
+  "license": "mit",
+  "keywords": [
+    "visual analytics",
+    "data visualisation",
+    "tourism analytics",
+    "Thailand",
+    "simulation study",
+    "synthetic data",
+    "reproducible research"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://thanatchon36.github.io/twelve-views-thai-tourism/paper/",
+      "relation": "isDocumentedBy",
+      "resource_type": "publication-workingpaper",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://huggingface.co/datasets/thanatchon36/twelve-views-thai-tourism",
+      "relation": "isSupplementedBy",
+      "resource_type": "dataset",
+      "scheme": "url"
+    }
+  ]
+}
