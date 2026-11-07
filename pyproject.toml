@@ -1,0 +1,32 @@
+[project]
+name = "twelveviews"
+version = "0.1.0"
+description = "Twelve views of Thai tourism: a data-shape-driven framework for visual analysis, evaluated by planted-structure recovery"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+dependencies = [
+    "numpy>=2.0",
+    "pandas>=2.2",
+    "scipy>=1.13",
+    "scikit-learn>=1.5",
+    "matplotlib>=3.10",
+    "circlify>=0.15",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+hf = ["huggingface_hub>=0.25"]
+
+[project.scripts]
+twelveviews = "twelveviews.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/twelveviews"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

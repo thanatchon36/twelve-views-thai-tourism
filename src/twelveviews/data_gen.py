@@ -5,7 +5,10 @@ inbound tourism to Thailand (a December-January high season, the collapse
 of arrivals in 2020-2021, revenue concentrated in a few destinations), but
 no value is an official statistic and none should be cited as one.
 
-Run:  python -m src.data_gen
+Each table is written to data/raw/synthetic_<name>.csv; the loader reads a real
+data/raw/<name>.csv instead whenever one is present.
+
+Run:  python -m twelveviews.cli synthetic
 """
 import json
 
@@ -16,7 +19,7 @@ from sklearn.manifold import TSNE
 from sklearn.preprocessing import StandardScaler
 
 from . import labels as L
-from .config import DATA, LATEST_YEAR, SEED, YEARS
+from .config import LATEST_YEAR, RAW, SEED, YEARS
 
 
 def rng(offset: int) -> np.random.Generator:
@@ -376,7 +379,7 @@ def traveler_segments() -> pd.DataFrame:
     df.insert(0, "y", xy[:, 1].round(3))
     df.insert(0, "x", xy[:, 0].round(3))
     pd.DataFrame(X, columns=["log_spend", "nights", "age", "group", "beach", "shopping",
-                             "culture", "nightlife"]).round(4).to_csv(DATA / "traveler_features.csv", index=False)
+                             "culture", "nightlife"]).round(4).to_csv(RAW / "synthetic_traveler_features.csv", index=False)
     return df
 
 
@@ -411,10 +414,10 @@ def main() -> None:
     }
     meta = {}
     for name, df in tables.items():
-        df.to_csv(DATA / f"{name}.csv", index=False)
+        df.to_csv(RAW / f"synthetic_{name}.csv", index=False)
         meta[name] = {"rows": len(df), "columns": list(df.columns), "description": DESCRIPTIONS[name]}
         print(f"{name:26s} {len(df):5d} rows")
-    (DATA / "datasets.json").write_text(json.dumps(meta, ensure_ascii=False, indent=2), encoding="utf-8")
+    (RAW / "synthetic_manifest.json").write_text(json.dumps(meta, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
 if __name__ == "__main__":

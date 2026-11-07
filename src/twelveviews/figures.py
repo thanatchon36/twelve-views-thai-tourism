@@ -1,10 +1,10 @@
 """Twelve figures, one per visualization technique.
 
-Each function reads the CSVs in data/, draws one figure with matplotlib
-and writes figures/<name>.pdf (vector, used by the paper) and .png.
+Each function reads its datasets through twelveviews.loaders, draws one figure with
+matplotlib and writes paper/figures/<name>.pdf (vector, used by the paper) and .png.
 
-Run:  python -m src.figures            (all figures)
-      python -m src.figures sankey     (one figure)
+Run:  python -m twelveviews.cli figures            (all figures)
+      python -m twelveviews.cli figures sankey     (one figure)
 """
 import sys
 
@@ -19,16 +19,13 @@ from scipy.interpolate import BSpline, PchipInterpolator
 
 from . import labels as L
 from .analysis import largest_remainder
-from .config import DATA, LATEST_YEAR
+from .config import LATEST_YEAR
+from .loaders import load
 from .style import (AXIS, DEST_COLORS, FULL, GRID, HALF, INK, MUTED, NODE_GRAY, ORIGIN_COLORS,
                     PERSONA_COLORS, SPEND_COLORS, THAI_COLORS, halo, lighten, save, setup)
 
 TAU = 2 * np.pi
 THAI_MARKS = set(range(0x0E31, 0x0E32)) | set(range(0x0E34, 0x0E3B)) | set(range(0x0E47, 0x0E4F))
-
-
-def load(name: str) -> pd.DataFrame:
-    return pd.read_csv(DATA / f"{name}.csv")
 
 
 def short(name: str) -> str:

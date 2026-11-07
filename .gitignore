@@ -1,7 +1,10 @@
+data/raw/*.csv
+!data/raw/synthetic_*.csv
+data/processed/
+.venv/
 __pycache__/
 *.pyc
 .pytest_cache/
-.venv/
 .DS_Store
 fonts/*.ttf
 fonts/OFL.txt
@@ -10,5 +13,6 @@ paper/*.bbl
 paper/*.blg
 paper/*.log
 paper/*.out
-paper/main.pdf
-build/
+paper/arxiv/
+paper/arxiv.tar.gz
+*:Zone.Identifier

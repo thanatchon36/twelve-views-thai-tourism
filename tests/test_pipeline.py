@@ -5,8 +5,9 @@ import numpy as np
 import pandas as pd
 import pytest
 
-from src import analysis, data_gen, labels
-from src.config import DATA, LATEST_YEAR, RESULTS
+from twelveviews import analysis, data_gen, labels
+from twelveviews.config import LATEST_YEAR, PROCESSED
+from twelveviews.loaders import load
 
 
 @pytest.fixture(scope="session", autouse=True)
@@ -16,7 +17,7 @@ def generated():
 
 
 def read(name):
-    return pd.read_csv(DATA / f"{name}.csv")
+    return load(name)
 
 
 def test_monthly_arrivals_sum_to_annual_totals():
@@ -66,7 +67,7 @@ def test_concentration_measures_are_bounded():
 
 
 def test_planted_structure_is_recovered():
-    m = json.loads((RESULTS / "metrics.json").read_text())
+    m = json.loads((PROCESSED / "metrics.json").read_text())
     assert m["rec_season_r"] > 0.99
     assert m["rec_stay_mae"] < 1.0
     assert m["rec_dest_mae"] < 2.0
