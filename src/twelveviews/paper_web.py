@@ -24,7 +24,7 @@ from .config import DATA_URL, DOCS, FIGURES, PAPER, PAPER_URL, PROCESSED, REPO_U
 
 OUT = DOCS / "paper"
 FRAMEWORK_PNG = "fig01_framework.png"
-CONCEPT_DOI = ""  # set to the Zenodo concept DOI once the first release is archived
+CONCEPT_DOI = "10.5281/zenodo.24035604"  # Zenodo concept DOI: resolves to the latest release
 
 # (label, style, finding, detail) with {key} placeholders filled from metrics.json.
 # style: "ref" = recovered on the synthetic data, "null" = pending.

@@ -7,6 +7,7 @@
 <a href="paper/paper.pdf"><img src="https://img.shields.io/badge/paper-PDF-f5a623?style=flat-square&labelColor=0b1020" alt="Paper PDF"></a>
 <a href="docs/data_sources.md"><img src="https://img.shields.io/badge/data-synthetic-b0560f?style=flat-square&labelColor=0b1020" alt="Data: synthetic"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-ffe8a3?style=flat-square&labelColor=0b1020" alt="License MIT"></a>
+<a href="https://zenodo.org/badge/latestdoi/1448135319"><img src="https://zenodo.org/badge/1448135319.svg" alt="DOI"></a>
 <a href="https://huggingface.co/datasets/thanatchon36/twelve-views-thai-tourism"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20dataset-twelve--views--thai--tourism-f5a623?style=flat-square&labelColor=0b1020" alt="Hugging Face dataset"></a>
 </p>
 
@@ -140,7 +141,7 @@ uncertainty in the underlying estimates; and t-SNE depends on its hyperparameter
 coordinates also vary slightly across platforms). See paper §6.4–6.5.
 
 ## Citation
-See [`CITATION.cff`](CITATION.cff). License: MIT (code); the IBM Plex fonts are downloaded separately under the SIL
+See [`CITATION.cff`](CITATION.cff); each release is archived on Zenodo (DOI badge above). License: MIT (code); the IBM Plex fonts are downloaded separately under the SIL
 Open Font License.
 
 The manuscript and code were drafted with the help of a generative AI assistant (Claude, Anthropic). The author is

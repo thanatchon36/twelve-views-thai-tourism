@@ -6,6 +6,10 @@ All notable changes to this project are documented here. The format follows
 
 ## [Unreleased]
 
+### Added
+- Zenodo concept DOI [10.5281/zenodo.24035604](https://doi.org/10.5281/zenodo.24035604) in `CITATION.cff`, the README badge, the web
+  reader and the Hugging Face dataset card.
+
 ## [0.1.0] - 2026-11-07
 
 ### Added
